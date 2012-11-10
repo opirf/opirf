@@ -1,0 +1,70 @@
+<base-form>
+	<dimension width="2480" height="3508" />
+	<top-cross position-x="2204" position-y="473" />
+	<bottom-cross position-x="252" position-y="3235" />
+	<icon-roi width="260" height="200" />
+	<box-dimension width="260" height="260" />
+	
+	<line>
+		<icon position-x="205" position-y="718" />
+		<box position-x="605" position-y="718" />
+		<box position-x="955" position-y="718" />
+		<box position-x="1305" position-y="718" />
+		<box position-x="1655" position-y="718" />
+		<box position-x="2005" position-y="718" />
+	</line>
+	
+	<line>
+		<icon position-x="205" position-y="1063" />
+		<box position-x="605" position-y="1063" />
+		<box position-x="955" position-y="1063" />
+		<box position-x="1305" position-y="1063" />
+		<box position-x="1655" position-y="1063" />
+		<box position-x="2005" position-y="1063" />
+	</line>
+	
+	<line>
+		<icon position-x="205" position-y="1412" />
+		<box position-x="605" position-y="1412" />
+		<box position-x="955" position-y="1412" />
+		<box position-x="1305" position-y="1412" />
+		<box position-x="1655" position-y="1412" />
+		<box position-x="2005" position-y="1412" />
+	</line>
+	
+	<line>
+		<icon position-x="205" position-y="1761" />
+		<box position-x="605" position-y="1761" />
+		<box position-x="955" position-y="1761" />
+		<box position-x="1305" position-y="1761" />
+		<box position-x="1655" position-y="1761" />
+		<box position-x="2005" position-y="1761" />
+	</line>
+	
+	<line>
+		<icon position-x="205" position-y="2106" />
+		<box position-x="605" position-y="2106" />
+		<box position-x="955" position-y="2106" />
+		<box position-x="1305" position-y="2106" />
+		<box position-x="1655" position-y="2106" />
+		<box position-x="2005" position-y="2106" />
+	</line>
+	
+	<line>
+		<icon position-x="205" position-y="2455" />
+		<box position-x="605" position-y="2455" />
+		<box position-x="955" position-y="2455" />
+		<box position-x="1305" position-y="2455" />
+		<box position-x="1655" position-y="2455" />
+		<box position-x="2005" position-y="2455" />
+	</line>
+	
+	<line>
+		<icon position-x="205" position-y="2803" />
+		<box position-x="605" position-y="2803" />
+		<box position-x="955" position-y="2803" />
+		<box position-x="1305" position-y="2803" />
+		<box position-x="1655" position-y="2803" />
+		<box position-x="2005" position-y="2803" />
+	</line>
+</base-form>

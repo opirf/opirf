@@ -43,6 +43,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -62,7 +63,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseFormHandler.cpp" />
+    <ClCompile Include="BaseFormParser.cpp" />
+    <ClCompile Include="FormAnalyser.cpp" />
+    <ClCompile Include="IconListHandler.cpp" />
+    <ClCompile Include="IconListParser.cpp" />
+    <ClCompile Include="Logger.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseForm.h" />
+    <ClInclude Include="BaseFormHandler.h" />
+    <ClInclude Include="BaseFormLine.h" />
+    <ClInclude Include="BaseFormParser.h" />
+    <ClInclude Include="FormAnalyser.h" />
+    <ClInclude Include="Icon.h" />
+    <ClInclude Include="IconListHandler.h" />
+    <ClInclude Include="IconListParser.h" />
+    <ClInclude Include="Logger.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
