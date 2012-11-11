@@ -5,15 +5,14 @@
 #include <math.h>
 #include <algorithm>
 
-FormAnalyser::FormAnalyser(const std::map<std::string, Icon*>& iconList, const BaseForm& baseForm) {
-	m_iconList = iconList;
+FormAnalyser::FormAnalyser(const std::map<std::string, Icon*>& iconList, const std::map<std::string, std::string>& iconSizeList, const std::string& crossTemplate, const BaseForm& baseForm) {
 	m_baseForm = baseForm;
 
-	m_crossTemplate = cv::imread("images/templates/cross.png");
-	cv::cvtColor(m_crossTemplate, m_crossTemplate, CV_RGB2GRAY);
+	// converting RGB templates images into gray image
+	setUpTemplates(iconList, iconSizeList, crossTemplate);
 }
 
-void FormAnalyser::analyse(std::string formPath) {
+void FormAnalyser::analyse(const std::string& formPath) {
 	Logger() << "Analysing " << formPath;
 	clock_t beginTime = clock();
 
@@ -37,9 +36,6 @@ void FormAnalyser::analyse(std::string formPath) {
 
 	// Converting the RGB image into a gray one to increase the process speed
 	cv::cvtColor(m_form, m_workingForm, CV_RGB2GRAY);
-
-	// converting RGB templates images into gray image
-	setUpTemplates();
 	
 	// extracting every lines and icon boxes
 	handleLines();
@@ -80,15 +76,30 @@ void FormAnalyser::getSubCross() {
 }
 
 
-void FormAnalyser::setUpTemplates() {
-	std::map<std::string, Icon*>::iterator it,end;
+void FormAnalyser::setUpTemplates(const std::map<std::string, Icon*>& iconList, const std::map<std::string, std::string>& iconSizeList, const std::string& crossTemplate) {
+	// initializing cross template
+	m_crossTemplate = cv::imread(crossTemplate);
+	cv::cvtColor(m_crossTemplate, m_crossTemplate, CV_RGB2GRAY);
+
+	// initializing icon template
+	std::map<std::string, Icon*>::const_iterator it,end;
 	cv::Mat temp;
 
-	end = m_iconList.end();
-	for(it=m_iconList.begin();it!=end;it++) {
+	end = iconList.end();
+	for(it=iconList.begin();it!=end;it++) {
 		temp = cv::imread(it->second->getTemplatePath());
 		cv::cvtColor(temp, temp, CV_RGB2GRAY);
 		m_iconMatList[it->first] = temp;
+	}
+
+	// initializing icon size template
+	std::map<std::string, std::string>::const_iterator it2,end2;
+
+	end2 = iconSizeList.end();
+	for(it2=iconSizeList.begin();it2!=end2;it2++) {
+		temp = cv::imread(it2->second);
+		cv::cvtColor(temp, temp, CV_RGB2GRAY);
+		m_iconSizeMatList[it2->first] = temp;
 	}
 }
 
@@ -228,7 +239,7 @@ void FormAnalyser::resize() {
 void FormAnalyser::handleLines() {
 	BaseFormLine* line;
 	int numLine, numBox;
-	std::string currentClass;
+	std::string currentClass, displayedName;
 
 	numLine = m_baseForm.getLineNumber();
 	for(int i=0; i<numLine; i++) {
@@ -236,7 +247,7 @@ void FormAnalyser::handleLines() {
 
 		try{
 			currentClass = findIcon(line->getIconPosition());
-			Logger() << "Current line class: " << currentClass;
+			Logger() << "Line "<< i << " - icon class: " << pad(currentClass, displayedName, 12) << " - size: " << findIconSize(line->getIconPosition(), "not_specified");
 
 			numBox = line->getBoxNumber();
 			for(int j=0;j<numBox;j++) {
@@ -246,6 +257,20 @@ void FormAnalyser::handleLines() {
 			Logger() << "Couldn't find the icon class of the line " << i << ". Matching confidence too low: " << e.getConfidence();
 		}
 	}
+}
+
+const std::string& FormAnalyser::pad(const std::string& s, std::string& out, int length)
+{
+	int l = s.length();
+	out = s;
+	out.resize(length);
+
+	while(l<length) {
+		out[l] = ' '; 
+		++l;
+	}
+
+	return out;
 }
 
 void FormAnalyser::saveBoxContent(std::string iconClass, cv::Point position, int i, int j) {
@@ -284,6 +309,36 @@ const std::string& FormAnalyser::findIcon(const cv::Point& roi) {
 	}
 	if(maxVal <= 0.5) {
 		throw IconMatchingException(maxVal);
+	}
+	return res->first;
+}
+
+const std::string& FormAnalyser::findIconSize(const cv::Point& roi, const std::string& notSpecified) {
+	cv::Mat result;
+
+	// Extracting ROI
+	cv::Mat subMat = m_workingForm(cv::Rect(roi.x, roi.y+m_baseForm.getIconROIHeight(), m_baseForm.getIconROIWidth(), 80));
+
+	double currentVal,maxVal;
+	std::map<std::string, cv::Mat>::iterator it, end, res;
+
+	end = m_iconSizeMatList.end();
+	maxVal = -1;
+	res = end;
+
+	// trying to match a icon size
+	for(it=m_iconSizeMatList.begin();it!=end;it++) {
+		matchTemplate(subMat, it->second, result, CV_TM_CCOEFF_NORMED);
+		minMaxLoc (result, NULL, &currentVal, NULL, NULL);
+
+		if(currentVal>maxVal) {
+			maxVal = currentVal;
+			res = it;
+			//if(currentVal>0.9) break;
+		}
+	}
+	if(maxVal <= 0.5) {
+		return notSpecified;
 	}
 	return res->first;
 }

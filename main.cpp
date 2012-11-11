@@ -24,7 +24,7 @@ int main (int argc, char** argv) {
 	formParser = new BaseFormParser();
 	formParser->parse();
 
-	analyser = new FormAnalyser(parser->getIconList(), formParser->getBaseForm());
+	analyser = new FormAnalyser(parser->getIconList(), parser->getIconSizeList(), parser->getCrossTemplate(), formParser->getBaseForm());
 	
 	beginTime = clock();
 	for(int i=0;i<5;++i) {

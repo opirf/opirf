@@ -2,7 +2,7 @@
 	<dimension width="2480" height="3508" />
 	<top-cross position-x="2204" position-y="473" />
 	<bottom-cross position-x="252" position-y="3235" />
-	<icon-roi width="260" height="200" />
+	<icon-roi width="260" height="190" />
 	<box-dimension width="260" height="260" />
 	
 	<line>

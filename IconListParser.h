@@ -15,5 +15,7 @@ class IconListParser
 		~IconListParser();
 		void parse();
 
-		const std::map<std::string, Icon*>& getIconList() {return m_handler->getIconList();}
+		const std::string& getCrossTemplate() const {return m_handler->getCrossTemplate();}
+		const std::map<std::string, Icon*>& getIconList() const {return m_handler->getIconList();}
+		const std::map<std::string, std::string>& getIconSizeList() const {return m_handler->getIconSizeList();}
 };

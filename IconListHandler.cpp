@@ -1,5 +1,4 @@
 #include "IconListHandler.h"
-#include "Logger.h"
 #include <iostream>
 
 #include <xercesc\sax2\Attributes.hpp>
@@ -17,6 +16,20 @@ void IconListHandler::startElement(const XMLCh* const uri, const XMLCh* const lo
 
 		xercesc::XMLString::release(&name);
 		xercesc::XMLString::release(&description);
+		xercesc::XMLString::release(&templatePath);
+	} else if(xercesc::XMLString::equals(tagName, "size")) {
+		char* type = xercesc::XMLString::transcode(attrs.getValue(xercesc::XMLString::transcode("type")));
+		char* templatePath = xercesc::XMLString::transcode(attrs.getValue(xercesc::XMLString::transcode("template-image")));
+
+		m_iconSizeList[type] = templatePath;
+
+		xercesc::XMLString::release(&type);
+		xercesc::XMLString::release(&templatePath);
+	} else if(xercesc::XMLString::equals(tagName, "cross")) {
+		char* templatePath = xercesc::XMLString::transcode(attrs.getValue(xercesc::XMLString::transcode("template-image")));
+
+		m_crossTemplate = templatePath;
+
 		xercesc::XMLString::release(&templatePath);
 	}
 

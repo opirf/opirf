@@ -1,16 +1,24 @@
-<icon-list>
-	<icon name="Accident" description="a triangle with exclamation mark inside" template-image="images/templates/accident.png" />
-	<icon name="Bomb" description="a circle with fuse" template-image="images/templates/bomb.png" />
-	<icon name="Car" description="side-view of a car" template-image="images/templates/car.png" />
-	<icon name="Casualty" description="a circle with an 'X' cross below it" template-image="images/templates/casualty.png" />
-	<icon name="Electricity" description="a 'lightning' arrow with head downwards" template-image="images/templates/electricity.png" />
-	<icon name="Fire" description="a gesture with flames" template-image="images/templates/fire.png" />
-	<icon name="Fire brigade" description="a triangle with character 'F' inside" template-image="images/templates/fire_brigade.png" />
-	<icon name="Flood" description="two horizontal curly lines" template-image="images/templates/flood.png" />
-	<icon name="Gas" description="three vertical curly lines" template-image="images/templates/gas.png" />
-	<icon name="Injury" description="a person laying horizontal" template-image="images/templates/injury.png" />
-	<icon name="Paramedics" description="a square with a '+' cross inside" template-image="images/templates/paramedics.png" />
-	<icon name="Person" description="a vertical (standing) human figure" template-image="images/templates/person.png" />
-	<icon name="Police" description="a diamond with a 'P' inside" template-image="images/templates/police.png" />
-	<icon name="Road block" description="a circle with a '-' sign inside" template-image="images/templates/road_block.png" />
-</icon-list>
+<template-list>
+	<icon-list>
+		<icon name="Accident" description="a triangle with exclamation mark inside" template-image="images/templates/accident.png" />
+		<icon name="Bomb" description="a circle with fuse" template-image="images/templates/bomb.png" />
+		<icon name="Car" description="side-view of a car" template-image="images/templates/car.png" />
+		<icon name="Casualty" description="a circle with an 'X' cross below it" template-image="images/templates/casualty.png" />
+		<icon name="Electricity" description="a 'lightning' arrow with head downwards" template-image="images/templates/electricity.png" />
+		<icon name="Fire" description="a gesture with flames" template-image="images/templates/fire.png" />
+		<icon name="Fire brigade" description="a triangle with character 'F' inside" template-image="images/templates/fire_brigade.png" />
+		<icon name="Flood" description="two horizontal curly lines" template-image="images/templates/flood.png" />
+		<icon name="Gas" description="three vertical curly lines" template-image="images/templates/gas.png" />
+		<icon name="Injury" description="a person laying horizontal" template-image="images/templates/injury.png" />
+		<icon name="Paramedics" description="a square with a '+' cross inside" template-image="images/templates/paramedics.png" />
+		<icon name="Person" description="a vertical (standing) human figure" template-image="images/templates/person.png" />
+		<icon name="Police" description="a diamond with a 'P' inside" template-image="images/templates/police.png" />
+		<icon name="Road block" description="a circle with a '-' sign inside" template-image="images/templates/road_block.png" />
+	</icon-list>
+	<size-list>
+		<size type="small" template-image="images/templates/small.png" />
+		<size type="medium" template-image="images/templates/medium.png" />
+		<size type="large" template-image="images/templates/large.png" />
+	<size-list>
+	<cross template-image="images/templates/cross.png" />
+</template-list>
