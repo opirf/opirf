@@ -24,6 +24,9 @@ class FormAnalyser
 	private:
 		void getSupCross();
 		void getSubCross();
+		void reposition(double ratio);
+		void adjustAngle();
+		double resize();
 		void setUpTemplates();
 		void handleLines();
 		void saveBoxContent(std::string iconClass, cv::Point position, int i, int j);
