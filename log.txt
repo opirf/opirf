@@ -1,6 +1,8 @@
 Analysing  images/database/w000-scans/00000.png 
-Top cross position: ( 2206 , 472 ) 
-Bottom cross position: ( 256 , 3236 ) 
+Crosses position determined 
+Image rotated by  -2.03666  degree 
+Image resized with a ratio of  0.867002 
+Image cropped. 
 Current line class:  Accident 
 Current line class:  Bomb 
 Current line class:  Car 
@@ -8,5 +10,62 @@ Current line class:  Casualty
 Current line class:  Electricity 
 Current line class:  Fire 
 Current line class:  Fire brigade 
-Analysing time:  3435  ms 
-Total Time:  3439 
+Analysing time:  4205  ms
+ 
+Analysing  images/database/w000-scans/00001.png 
+Crosses position determined 
+Image rotated by  -0.0846657  degree 
+Image resized with a ratio of  1 
+Image cropped. 
+Current line class:  Gas 
+Current line class:  Injury 
+Current line class:  Paramedics 
+Current line class:  Person 
+Current line class:  Police 
+Current line class:  Road block 
+Current line class:  Flood 
+Analysing time:  3454  ms
+ 
+Analysing  images/database/w000-scans/00002.png 
+Crosses position determined 
+Image rotated by  0  degree 
+Image resized with a ratio of  1 
+Image cropped. 
+Current line class:  Police 
+Current line class:  Fire 
+Current line class:  Person 
+Current line class:  Police 
+Current line class:  Road block 
+Current line class:  Car 
+Current line class:  Electricity 
+Analysing time:  3268  ms
+ 
+Analysing  images/database/w000-scans/00003.png 
+Crosses position determined 
+Image rotated by  0.0097796  degree 
+Image resized with a ratio of  1.00024 
+Image cropped. 
+Current line class:  Person 
+Current line class:  Casualty 
+Current line class:  Gas 
+Current line class:  Fire brigade 
+Current line class:  Injury 
+Current line class:  Electricity 
+Current line class:  Gas 
+Analysing time:  3431  ms
+ 
+Analysing  images/database/w000-scans/00004.png 
+Crosses position determined 
+Image rotated by  -0.02361  degree 
+Image resized with a ratio of  0.999829 
+Image cropped. 
+Current line class:  Flood 
+Current line class:  Road block 
+Current line class:  Injury 
+Current line class:  Paramedics 
+Current line class:  Bomb 
+Current line class:  Injury 
+Current line class:  Accident 
+Analysing time:  3329  ms
+ 
+Total Time:  17712 

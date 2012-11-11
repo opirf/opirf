@@ -8,6 +8,7 @@
 #include <iostream>
 #include <time.h>
 #include "Logger.h"
+#include <omp.h>
 
 int main (int argc, char** argv) {
 
@@ -15,6 +16,7 @@ int main (int argc, char** argv) {
 	FormAnalyser* analyser;
 	IconListParser* parser;
 	BaseFormParser* formParser;
+	clock_t beginTime;
 
 	parser = new IconListParser();
 	parser->parse();
@@ -24,17 +26,14 @@ int main (int argc, char** argv) {
 
 	analyser = new FormAnalyser(parser->getIconList(), formParser->getBaseForm());
 	
-	clock_t beginTime = clock();
- 
-	for(int i=0;i<1;++i) {
+	beginTime = clock();
+	for(int i=0;i<5;++i) {
 		try{
 			ss.str("");
-			ss << "images/database/w000-scans/0000";
-			ss << i << ".png";
-
+			ss << "images/database/w000-scans/0000" << i << ".png";
 			analyser->analyse(ss.str());
 		} catch(std::exception &e) {
-			std::cout<<e.what();
+			Logger() << e.what();
 		}
 
 	}
