@@ -3,68 +3,68 @@
 	<top-cross position-x="2204" position-y="473" />
 	<bottom-cross position-x="252" position-y="3235" />
 	<icon-roi width="260" height="190" />
-	<box-dimension width="253" height="251" />
+	<box-dimension width="251" height="251" />
 	
 	<line>
 		<icon position-x="205" position-y="718" />
 		<box position-x="608" position-y="723" />
-		<box position-x="959" position-y="722" />
-		<box position-x="1305" position-y="718" />
-		<box position-x="1655" position-y="718" />
-		<box position-x="2005" position-y="718" />
+		<box position-x="959" position-y="723" />
+		<box position-x="1304" position-y="724" />
+		<box position-x="1655" position-y="724" />
+		<box position-x="2005" position-y="724" />
 	</line>
 	
 	<line>
 		<icon position-x="205" position-y="1063" />
-		<box position-x="605" position-y="1063" />
-		<box position-x="955" position-y="1063" />
-		<box position-x="1305" position-y="1063" />
-		<box position-x="1655" position-y="1063" />
-		<box position-x="2005" position-y="1063" />
+		<box position-x="608" position-y="1068" />
+		<box position-x="959" position-y="1068" />
+		<box position-x="1304" position-y="1068" />
+		<box position-x="1655" position-y="1069" />
+		<box position-x="2004" position-y="1070" />
 	</line>
 	
 	<line>
 		<icon position-x="205" position-y="1412" />
-		<box position-x="605" position-y="1412" />
-		<box position-x="955" position-y="1412" />
-		<box position-x="1305" position-y="1412" />
-		<box position-x="1655" position-y="1412" />
-		<box position-x="2005" position-y="1412" />
+		<box position-x="607" position-y="1417" />
+		<box position-x="958" position-y="1417" />
+		<box position-x="1304" position-y="1418" />
+		<box position-x="1654" position-y="1419" />
+		<box position-x="2003" position-y="1419" />
 	</line>
 	
 	<line>
 		<icon position-x="205" position-y="1761" />
-		<box position-x="605" position-y="1761" />
-		<box position-x="955" position-y="1761" />
-		<box position-x="1305" position-y="1761" />
-		<box position-x="1655" position-y="1761" />
-		<box position-x="2005" position-y="1761" />
+		<box position-x="606" position-y="1766" />
+		<box position-x="957" position-y="1766" />
+		<box position-x="1303" position-y="1767" />
+		<box position-x="1653" position-y="1768" />
+		<box position-x="2003" position-y="1768" />
 	</line>
 	
 	<line>
-		<icon position-x="205" position-y="2106" />
-		<box position-x="605" position-y="2106" />
-		<box position-x="955" position-y="2106" />
-		<box position-x="1305" position-y="2106" />
-		<box position-x="1655" position-y="2106" />
-		<box position-x="2005" position-y="2106" />
+		<icon position-x="205" position-y="2107" />
+		<box position-x="605" position-y="2111" />
+		<box position-x="957" position-y="2112" />
+		<box position-x="1302" position-y="2113" />
+		<box position-x="1653" position-y="2114" />
+		<box position-x="2002" position-y="2115" />
 	</line>
 	
 	<line>
 		<icon position-x="205" position-y="2455" />
-		<box position-x="605" position-y="2455" />
-		<box position-x="955" position-y="2455" />
-		<box position-x="1305" position-y="2455" />
-		<box position-x="1655" position-y="2455" />
-		<box position-x="2005" position-y="2455" />
+		<box position-x="605" position-y="2460" />
+		<box position-x="957" position-y="2461" />
+		<box position-x="1302" position-y="2461" />
+		<box position-x="1652" position-y="2461" />
+		<box position-x="2001" position-y="2462" />
 	</line>
 	
 	<line>
 		<icon position-x="205" position-y="2803" />
-		<box position-x="605" position-y="2803" />
-		<box position-x="955" position-y="2803" />
-		<box position-x="1305" position-y="2803" />
-		<box position-x="1655" position-y="2803" />
-		<box position-x="2005" position-y="2803" />
+		<box position-x="605" position-y="2807" />
+		<box position-x="956" position-y="2808" />
+		<box position-x="1301" position-y="2809" />
+		<box position-x="1651" position-y="2810" />
+		<box position-x="2000" position-y="2810" />
 	</line>
 </base-form>
