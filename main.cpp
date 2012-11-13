@@ -2,17 +2,22 @@
 // Module IRF, 5-iNFO
 // Projet
 //////////////////////////////////////////////////////////////////////////
+
+#include <iostream>
+#include <iomanip>
+#include <sstream>
+#include <time.h>
+#include <omp.h>
+
+#include "Logger.h"
 #include "FormAnalyser.h"
 #include "BaseFormParser.h"
 #include "IconListParser.h"
-#include <iostream>
-#include <time.h>
-#include "Logger.h"
-#include <omp.h>
+
+using namespace std;
 
 int main (int argc, char** argv) {
 
-	std::stringstream ss;
 	FormAnalyser* analyser;
 	IconListParser* parser;
 	BaseFormParser* formParser;
@@ -27,15 +32,20 @@ int main (int argc, char** argv) {
 	analyser = new FormAnalyser(parser->getIconList(), parser->getIconSizeList(), parser->getCrossTemplate(), formParser->getBaseForm());
 	
 	beginTime = clock();
-	for(int i=0;i<5;++i) {
-		try{
-			ss.str("");
-			ss << "images/database/w000-scans/0000" << i << ".png";
-			analyser->analyse(ss.str());
-		} catch(std::exception &e) {
-			Logger() << e.what();
-		}
+	string root = "images/database/";
+	for(int j=0;j<1;++j) {
 
+
+		for(int i=0;i<22;++i) {
+			try{
+				std::stringstream ss;
+				ss << root << 'w' << setw(3) << setfill('0') << j << "-scans/" << setw(3) << setfill('0') << j << std::setw(2) << std::setfill('0') << i << ".png";
+				analyser->analyse(ss.str());
+			} catch(std::exception &e) {
+				Logger() << e.what();
+			}
+
+		}
 	}
 
 	clock_t endTime = clock();
