@@ -3,12 +3,12 @@
 	<top-cross position-x="2204" position-y="473" />
 	<bottom-cross position-x="252" position-y="3235" />
 	<icon-roi width="260" height="190" />
-	<box-dimension width="260" height="260" />
+	<box-dimension width="253" height="251" />
 	
 	<line>
 		<icon position-x="205" position-y="718" />
-		<box position-x="605" position-y="718" />
-		<box position-x="955" position-y="718" />
+		<box position-x="608" position-y="723" />
+		<box position-x="959" position-y="722" />
 		<box position-x="1305" position-y="718" />
 		<box position-x="1655" position-y="718" />
 		<box position-x="2005" position-y="718" />

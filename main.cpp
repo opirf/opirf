@@ -45,5 +45,5 @@ int main (int argc, char** argv) {
 	delete formParser;
 	delete analyser;
 
-	system("pause");
+	//system("pause");
 }

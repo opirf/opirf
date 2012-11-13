@@ -9,8 +9,8 @@ Line  2  - icon class:  Car           - size:  not_specified
 Line  3  - icon class:  Casualty      - size:  not_specified 
 Line  4  - icon class:  Electricity   - size:  not_specified 
 Line  5  - icon class:  Fire          - size:  not_specified 
-Line  6  - icon class:  Fire brigade  - size:  not_specified 
-Analysing time:  4165  ms
+Line  6  - icon class:  Fire-brigade  - size:  not_specified 
+Analysing time:  4206  ms
  
 Analysing  images/database/w000-scans/00001.png 
 Crosses position determined 
@@ -22,9 +22,9 @@ Line  1  - icon class:  Injury        - size:  not_specified
 Line  2  - icon class:  Paramedics    - size:  not_specified 
 Line  3  - icon class:  Person        - size:  not_specified 
 Line  4  - icon class:  Police        - size:  not_specified 
-Line  5  - icon class:  Road block    - size:  not_specified 
+Line  5  - icon class:  Road-block    - size:  not_specified 
 Line  6  - icon class:  Flood         - size:  not_specified 
-Analysing time:  3460  ms
+Analysing time:  3227  ms
  
 Analysing  images/database/w000-scans/00002.png 
 Crosses position determined 
@@ -35,10 +35,10 @@ Line  0  - icon class:  Police        - size:  large
 Line  1  - icon class:  Fire          - size:  medium 
 Line  2  - icon class:  Person        - size:  medium 
 Line  3  - icon class:  Police        - size:  small 
-Line  4  - icon class:  Road block    - size:  large 
+Line  4  - icon class:  Road-block    - size:  large 
 Line  5  - icon class:  Car           - size:  small 
 Line  6  - icon class:  Electricity   - size:  medium 
-Analysing time:  3404  ms
+Analysing time:  3238  ms
  
 Analysing  images/database/w000-scans/00003.png 
 Crosses position determined 
@@ -48,11 +48,11 @@ Image cropped.
 Line  0  - icon class:  Person        - size:  medium 
 Line  1  - icon class:  Casualty      - size:  large 
 Line  2  - icon class:  Gas           - size:  small 
-Line  3  - icon class:  Fire brigade  - size:  small 
+Line  3  - icon class:  Fire-brigade  - size:  small 
 Line  4  - icon class:  Injury        - size:  large 
 Line  5  - icon class:  Electricity   - size:  medium 
 Line  6  - icon class:  Gas           - size:  small 
-Analysing time:  3219  ms
+Analysing time:  3254  ms
  
 Analysing  images/database/w000-scans/00004.png 
 Crosses position determined 
@@ -60,12 +60,12 @@ Image rotated by  -0.02361  degree
 Image resized with a ratio of  0.999829 
 Image cropped. 
 Line  0  - icon class:  Flood         - size:  medium 
-Line  1  - icon class:  Road block    - size:  medium 
+Line  1  - icon class:  Road-block    - size:  medium 
 Line  2  - icon class:  Injury        - size:  small 
 Line  3  - icon class:  Paramedics    - size:  medium 
 Line  4  - icon class:  Bomb          - size:  large 
 Line  5  - icon class:  Injury        - size:  large 
 Line  6  - icon class:  Accident      - size:  small 
-Analysing time:  3307  ms
+Analysing time:  3220  ms
  
-Total Time:  17579 
+Total Time:  17176 

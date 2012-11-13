@@ -239,7 +239,7 @@ void FormAnalyser::resize() {
 void FormAnalyser::handleLines() {
 	BaseFormLine* line;
 	int numLine, numBox;
-	std::string currentClass, displayedName;
+	std::string currentClass, currentSize, displayedName;
 
 	numLine = m_baseForm.getLineNumber();
 	for(int i=0; i<numLine; i++) {
@@ -247,11 +247,12 @@ void FormAnalyser::handleLines() {
 
 		try{
 			currentClass = findIcon(line->getIconPosition());
-			Logger() << "Line "<< i << " - icon class: " << pad(currentClass, displayedName, 12) << " - size: " << findIconSize(line->getIconPosition(), "not_specified");
+			currentSize = findIconSize(line->getIconPosition());
+			Logger() << "Line "<< i << " - icon class: " << pad(currentClass, displayedName, 12) << " - size: " << currentSize;
 
 			numBox = line->getBoxNumber();
 			for(int j=0;j<numBox;j++) {
-				saveBoxContent(currentClass, line->getBoxPosition(j), i, j);
+				saveBoxData(currentClass, currentSize, line->getBoxPosition(j), i, j);
 			}
 		} catch(const IconMatchingException& e) {
 			Logger() << "Couldn't find the icon class of the line " << i << ". Matching confidence too low: " << e.getConfidence();
@@ -273,14 +274,29 @@ const std::string& FormAnalyser::pad(const std::string& s, std::string& out, int
 	return out;
 }
 
-void FormAnalyser::saveBoxContent(std::string iconClass, cv::Point position, int i, int j) {
+void FormAnalyser::saveBoxData(const std::string& iconClass, const std::string& iconSize, cv::Point position, int i, int j) {
 	std::vector<int> compression_params;
     compression_params.push_back(CV_IMWRITE_PNG_COMPRESSION);
     compression_params.push_back(4);
 
+	// Saving box into images
 	std::stringstream ss;
-	ss << "images/temp/" << iconClass << "/" << currentImage << "_" << i << "_" << j << ".png";
+	ss << "images/temp/" << iconClass << "_" << currentImage.substr(0,3) << "_" << currentImage.substr(3,2) << "_" << i << "_" << j << ".png";
 	cv::imwrite(ss.str() ,m_form(cv::Rect(position.x, position.y, m_baseForm.getBoxWidth(), m_baseForm.getBoxHeight())), compression_params);
+
+	// saving data into txt file
+	ss.str("");
+	ss << "images/temp/" << iconClass << "_" << currentImage.substr(0,3) << "_" << currentImage.substr(3,2) << "_" << i << "_" << j << ".txt";
+	std::ofstream stream(ss.str());
+	stream << "# GARRY, AVERTY, TS, COLLEONI, 2012\n";
+	stream << "etiquette "<< iconClass << "\n";
+	stream << "formulaire " << currentImage << "\n";
+	stream << "scripteur " << currentImage.substr(0,3) << "\n";
+	stream << "page " << currentImage.substr(3,2) << "\n";
+	stream << "ligne " << i << "\n";
+	stream << "colonne " << j << "\n";
+	stream << "taille " << iconSize;
+	stream.flush();
 }
 
 const std::string& FormAnalyser::findIcon(const cv::Point& roi) {
@@ -313,7 +329,7 @@ const std::string& FormAnalyser::findIcon(const cv::Point& roi) {
 	return res->first;
 }
 
-const std::string& FormAnalyser::findIconSize(const cv::Point& roi, const std::string& notSpecified) {
+std::string FormAnalyser::findIconSize(const cv::Point& roi) {
 	cv::Mat result;
 
 	// Extracting ROI
@@ -338,7 +354,7 @@ const std::string& FormAnalyser::findIconSize(const cv::Point& roi, const std::s
 		}
 	}
 	if(maxVal <= 0.5) {
-		return notSpecified;
+		return "not_specified";
 	}
 	return res->first;
 }

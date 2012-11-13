@@ -29,8 +29,8 @@ class FormAnalyser
 		void resize();
 		void setUpTemplates(const std::map<std::string, Icon*>& iconList, const std::map<std::string, std::string>& iconSizeList, const std::string& crossTemplate);
 		void handleLines();
-		void saveBoxContent(std::string iconClass, cv::Point position, int i, int j);
+		void saveBoxData(const std::string& iconClass, const std::string& iconSize, cv::Point position, int i, int j);
 		const std::string& findIcon(const cv::Point& roi);
-		const std::string& findIconSize(const cv::Point& roi, const std::string& notSpecified);
+		std::string findIconSize(const cv::Point& roi);
 		const std::string& pad(const std::string& s, std::string& out, int length);
 };
