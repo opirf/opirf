@@ -18,23 +18,20 @@ using namespace std;
 
 int main (int argc, char** argv) {
 
-	FormAnalyser* analyser;
-	IconListParser* parser;
-	BaseFormParser* formParser;
-	clock_t beginTime;
-
-	parser = new IconListParser();
+	IconListParser* parser = new IconListParser();
 	parser->parse();
 
-	formParser = new BaseFormParser();
+	BaseFormParser* formParser = new BaseFormParser();
 	formParser->parse();
 
-	analyser = new FormAnalyser(parser->getIconList(), parser->getIconSizeList(), parser->getCrossTemplate(), formParser->getBaseForm());
 	
-	beginTime = clock();
+	clock_t beginTime = clock();
 	string root = "images/database/";
+	
+	#pragma omp parallel for
 	for(int j=0;j<1;++j) {
-
+		
+		FormAnalyser* analyser = new FormAnalyser(parser->getIconList(), parser->getIconSizeList(), parser->getCrossTemplate(), formParser->getBaseForm());
 
 		for(int i=0;i<22;++i) {
 			try{
@@ -46,6 +43,7 @@ int main (int argc, char** argv) {
 			}
 
 		}
+		delete analyser;
 	}
 
 	clock_t endTime = clock();
@@ -53,7 +51,6 @@ int main (int argc, char** argv) {
 
 	delete parser;
 	delete formParser;
-	delete analyser;
 
 	//system("pause");
 }
