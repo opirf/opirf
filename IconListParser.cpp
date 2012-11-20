@@ -1,5 +1,6 @@
 #include "IconListParser.h"
 #include "Logger.h"
+#include <omp.h>
 
 #include <xercesc/sax2/XMLReaderFactory.hpp>
 #include <xercesc/util/PlatformUtils.hpp>
@@ -15,7 +16,7 @@ IconListParser::IconListParser() {
 
 		m_parser->setContentHandler(m_handler);
 	} catch (const xercesc::XMLException& toCatch) {
-		Logger() << toCatch.getMessage();
+		Logger(omp_get_thread_num()) << toCatch.getMessage();
 	}
 }
 
@@ -31,12 +32,12 @@ void IconListParser::parse() {
 		m_parser->parse(ICON_LIST_FILE);
 	}
 	catch (const xercesc::XMLException& toCatch) {
-		Logger() << toCatch.getMessage();
+		Logger(omp_get_thread_num()) << toCatch.getMessage();
 	}
 	catch (const xercesc::SAXParseException& toCatch) {
-		Logger() << toCatch.getMessage();
+		Logger(omp_get_thread_num()) << toCatch.getMessage();
 	}
 	catch (...) {
-		Logger() << "Error while parsing the icon list xml file.";
+		Logger(omp_get_thread_num()) << "Error while parsing the icon list xml file.";
 	}
 }

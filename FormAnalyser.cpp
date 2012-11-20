@@ -4,6 +4,7 @@
 #include "Logger.h"
 #include <math.h>
 #include <algorithm>
+#include <omp.h>
 
 FormAnalyser::FormAnalyser(const std::map<std::string, Icon*>& iconList, const std::map<std::string, std::string>& iconSizeList, const std::string& crossTemplate, const BaseForm& baseForm) {
 	m_baseForm = baseForm;
@@ -13,7 +14,7 @@ FormAnalyser::FormAnalyser(const std::map<std::string, Icon*>& iconList, const s
 }
 
 void FormAnalyser::analyse(const std::string& formPath) {
-	Logger() << "Analysing " << formPath;
+	Logger(omp_get_thread_num()) << "Analysing " << formPath;
 	clock_t beginTime = clock();
 
 	currentImage = formPath.substr(27,5);
@@ -27,7 +28,7 @@ void FormAnalyser::analyse(const std::string& formPath) {
 	// Retrieving the cross position
 	getSupCross();
 	getSubCross();
-	Logger() << "Crosses position determined";
+	Logger(omp_get_thread_num()) << "Crosses position determined";
 	
 	// Rotating, scaling and cropping image
 	adjustAngle();
@@ -40,7 +41,7 @@ void FormAnalyser::analyse(const std::string& formPath) {
 	// extracting every lines and icon boxes
 	handleLines();
 
-	Logger() << "Analysing time: " << (clock() - beginTime)  << " ms\n";
+	Logger(omp_get_thread_num()) << "Analysing time: " << (clock() - beginTime)  << " ms\n";
 }
 
 
@@ -139,7 +140,7 @@ void FormAnalyser::reposition() {
 	temp.copyTo(final(cv::Rect(formX, formY, roiW, roiH)));
     m_form = final;
 
-	Logger() << "Image cropped.";
+	Logger(omp_get_thread_num()) << "Image cropped.";
 }
 
 void FormAnalyser::adjustAngle() {
@@ -211,7 +212,7 @@ void FormAnalyser::adjustAngle() {
 	cv::cvtColor(m_form, m_workingForm, CV_RGB2GRAY);
 	getSubCross();
 
-	Logger() << "Image rotated by " << angle*180/CV_PI << " degree";
+	Logger(omp_get_thread_num()) << "Image rotated by " << angle*180/CV_PI << " degree";
 }
 
 void FormAnalyser::resize() {
@@ -233,7 +234,7 @@ void FormAnalyser::resize() {
 	m_crossSubPosition.x = static_cast<int>(m_crossSubPosition.x*ratio);
 	m_crossSubPosition.y = static_cast<int>(m_crossSubPosition.y*ratio);
 
-	Logger() << "Image resized with a ratio of " << ratio;
+	Logger(omp_get_thread_num()) << "Image resized with a ratio of " << ratio;
 }
 
 void FormAnalyser::handleLines() {
@@ -248,14 +249,14 @@ void FormAnalyser::handleLines() {
 		try{
 			currentClass = findIcon(line->getIconPosition());
 			currentSize = findIconSize(line->getIconPosition());
-			Logger() << "Line "<< i << " - icon class: " << pad(currentClass, displayedName, 12) << " - size: " << currentSize;
+			Logger(omp_get_thread_num()) << "Line "<< i << " - icon class: " << pad(currentClass, displayedName, 12) << " - size: " << currentSize;
 
 			numBox = line->getBoxNumber();
 			for(int j=0;j<numBox;j++) {
 				saveBoxData(currentClass, currentSize, line->getBoxPosition(j), i, j);
 			}
 		} catch(const IconMatchingException& e) {
-			Logger() << "Couldn't find the icon class of the line " << i << ". Matching confidence too low: " << e.getConfidence();
+			Logger(omp_get_thread_num()) << "Couldn't find the icon class of the line " << i << ". Matching confidence too low: " << e.getConfidence();
 		}
 	}
 }
