@@ -26,7 +26,7 @@ int main (int argc, char** argv) {
 
 	
 	clock_t beginTime = clock();
-	string root = "images/database/";
+	string root = "C:/Temp/opirf/";
 	
 	#pragma omp parallel for
 	for(int j=0;j<2;++j) {
