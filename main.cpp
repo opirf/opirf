@@ -29,7 +29,7 @@ int main (int argc, char** argv) {
 	string root = "C:/Temp/opirf/";
 	
 	#pragma omp parallel for
-	for(int j=0;j<2;++j) {
+	for(int j=0;j<35;++j) {
 		
 		FormAnalyser* analyser = new FormAnalyser(parser->getIconList(), parser->getIconSizeList(), parser->getCrossTemplate(), formParser->getBaseForm());
 

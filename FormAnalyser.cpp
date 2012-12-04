@@ -17,7 +17,7 @@ void FormAnalyser::analyse(const std::string& formPath) {
 	Logger(omp_get_thread_num()) << "Analysing " << formPath;
 	clock_t beginTime = clock();
 
-	currentImage = formPath.substr(27,5);
+	currentImage = formPath.substr(formPath.size()-9,5);
 
 	// Extracting the image matrix
 	m_form = cv::imread(formPath);
@@ -256,7 +256,7 @@ void FormAnalyser::handleLines() {
 				saveBoxData(currentClass, currentSize, line->getBoxPosition(j), i, j);
 			}
 		} catch(const IconMatchingException& e) {
-			Logger(omp_get_thread_num()) << "Couldn't find the icon class of the line " << i << ". Matching confidence too low: " << e.getConfidence();
+			Logger(omp_get_thread_num()) << "Couldn't find the icon class of the line " << i << ". Matching confidence or delta too low: (" << e.getConfidence1() << "," << e.getConfidence2() << ")";
 		}
 	}
 }
@@ -280,21 +280,24 @@ void FormAnalyser::saveBoxData(const std::string& iconClass, const std::string& 
     compression_params.push_back(CV_IMWRITE_PNG_COMPRESSION);
     compression_params.push_back(4);
 
+	std::string writer = currentImage.substr(0,3);
+	std::string page = currentImage.substr(3,2);
+
 	// Saving box into images
 	std::stringstream ss;
-	//ss << "images/temp/" << iconClass << "_" << currentImage.substr(0,3) << "_" << currentImage.substr(3,2) << "_" << i << "_" << j << ".png";
-	ss << "C:/Temp/opirf/res/" << iconClass << "_" << currentImage.substr(0,3) << "_" << currentImage.substr(3,2) << "_" << i << "_" << j << ".png";
+	//ss << "images/temp/" << iconClass << "_" << writer << "_" << page << "_" << i << "_" << j << ".png";
+	ss << "C:/Temp/opirf/res/" << iconClass << "_" << writer << "_" << page << "_" << i << "_" << j << ".png";
 	cv::imwrite(ss.str() ,m_form(cv::Rect(position.x, position.y, m_baseForm.getBoxWidth(), m_baseForm.getBoxHeight())), compression_params);
 
 	// saving data into txt file
 	ss.str("");
-	ss << "C:/Temp/opirf/res/" << iconClass << "_" << currentImage.substr(0,3) << "_" << currentImage.substr(3,2) << "_" << i << "_" << j << ".txt";
+	ss << "C:/Temp/opirf/res/" << iconClass << "_" << writer << "_" << page << "_" << i << "_" << j << ".txt";
 	std::ofstream stream(ss.str());
 	stream << "# GARRY, AVERTY, TS, COLLEONI, 2012\n";
 	stream << "etiquette "<< iconClass << "\n";
 	stream << "formulaire " << currentImage << "\n";
-	stream << "scripteur " << currentImage.substr(0,3) << "\n";
-	stream << "page " << currentImage.substr(3,2) << "\n";
+	stream << "scripteur " << writer << "\n";
+	stream << "page " << page << "\n";
 	stream << "ligne " << i << "\n";
 	stream << "colonne " << j << "\n";
 	stream << "taille " << iconSize;
@@ -312,6 +315,7 @@ const std::string& FormAnalyser::findIcon(const cv::Point& roi) {
 
 	end = m_iconMatList.end();
 	maxVal = -1;
+	double maxVal2 = -1;
 	res = end;
 
 	// trying to match a icon class
@@ -319,14 +323,18 @@ const std::string& FormAnalyser::findIcon(const cv::Point& roi) {
 		matchTemplate(subMat, it->second, result, CV_TM_CCOEFF_NORMED);
 		minMaxLoc (result, NULL, &currentVal, NULL, NULL);
 
-		if(currentVal>maxVal) {
+		if(currentVal>maxVal ) {
+			maxVal2 = maxVal;
 			maxVal = currentVal;
 			res = it;
 			//if(currentVal>0.9) break;
 		}
+		else if(currentVal > maxVal2) {
+			maxVal2 = currentVal;
+		}
 	}
-	if(maxVal <= 0.5) {
-		throw IconMatchingException(maxVal);
+	if(maxVal < 0.5 && ((maxVal - maxVal2) < 0.1)) {
+		throw IconMatchingException(maxVal, maxVal2);
 	}
 	return res->first;
 }
