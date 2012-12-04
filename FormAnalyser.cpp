@@ -6,8 +6,9 @@
 #include <algorithm>
 #include <omp.h>
 
-FormAnalyser::FormAnalyser(const std::map<std::string, Icon*>& iconList, const std::map<std::string, std::string>& iconSizeList, const std::string& crossTemplate, const BaseForm& baseForm) {
+FormAnalyser::FormAnalyser(const std::string& outputDirectory, const std::map<std::string, Icon*>& iconList, const std::map<std::string, std::string>& iconSizeList, const std::string& crossTemplate, const BaseForm& baseForm) {
 	m_baseForm = baseForm;
+	_outputDirectory = outputDirectory;
 
 	// converting RGB templates images into gray image
 	setUpTemplates(iconList, iconSizeList, crossTemplate);
@@ -285,13 +286,13 @@ void FormAnalyser::saveBoxData(const std::string& iconClass, const std::string& 
 
 	// Saving box into images
 	std::stringstream ss;
-	//ss << "images/temp/" << iconClass << "_" << writer << "_" << page << "_" << i << "_" << j << ".png";
-	ss << "C:/Temp/opirf/res/" << iconClass << "_" << writer << "_" << page << "_" << i << "_" << j << ".png";
+	//ss << "images/temp/" << iconClass << "_" << currentImage.substr(0,3) << "_" << currentImage.substr(3,2) << "_" << i << "_" << j << ".png";
+	ss << _outputDirectory << iconClass << "_" << currentImage.substr(0,3) << "_" << currentImage.substr(3,2) << "_" << i << "_" << j << ".png";
 	cv::imwrite(ss.str() ,m_form(cv::Rect(position.x, position.y, m_baseForm.getBoxWidth(), m_baseForm.getBoxHeight())), compression_params);
 
 	// saving data into txt file
 	ss.str("");
-	ss << "C:/Temp/opirf/res/" << iconClass << "_" << writer << "_" << page << "_" << i << "_" << j << ".txt";
+	ss << _outputDirectory << iconClass << "_" << currentImage.substr(0,3) << "_" << currentImage.substr(3,2) << "_" << i << "_" << j << ".txt";
 	std::ofstream stream(ss.str());
 	stream << "# GARRY, AVERTY, TS, COLLEONI, 2012\n";
 	stream << "etiquette "<< iconClass << "\n";

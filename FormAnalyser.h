@@ -14,11 +14,11 @@ class FormAnalyser
 		std::map<std::string, cv::Mat> m_iconSizeMatList;
 		cv::Point m_crossSubPosition, m_crossSupPosition;
 		std::map<std::string, cv::Mat> m_iconMatList;
-		std::string currentImage;
+		std::string currentImage, _outputDirectory;
 		BaseForm m_baseForm;
 
 	public:
-		FormAnalyser(const std::map<std::string, Icon*>& iconList, const std::map<std::string, std::string>& iconSizeList, const std::string& crossTemplate, const BaseForm& baseForm);
+		FormAnalyser(const std::string& outputDirectory, const std::map<std::string, Icon*>& iconList, const std::map<std::string, std::string>& iconSizeList, const std::string& crossTemplate, const BaseForm& baseForm);
 		void analyse(const std::string& formPath);
 
 	private:
