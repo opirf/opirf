@@ -27,6 +27,7 @@ int main (int argc, char** argv) {
 	
 	clock_t beginTime = clock();
 	string root = "C:/Temp/opirf/";
+	std::stringstream ss;
 	
 	#pragma omp parallel for
 	for(int j=0;j<35;++j) {
@@ -35,7 +36,7 @@ int main (int argc, char** argv) {
 
 		for(int i=0;i<22;++i) {
 			try{
-				std::stringstream ss;
+				ss.str("");
 				ss << root << 'w' << setw(3) << setfill('0') << j << "-scans/" << setw(3) << setfill('0') << j << std::setw(2) << std::setfill('0') << i << ".png";
 				analyser->analyse(ss.str());
 			} catch(std::exception &e) {
