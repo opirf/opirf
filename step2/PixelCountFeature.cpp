@@ -2,7 +2,5 @@
 
 double featureApply(const cv::Mat& image)
 {
-	std::cout << "coucou" << std::endl;
-
-	return 0.0;
+	return static_cast<double>(image.rows*image.cols - cv::countNonZero(image));
 }
