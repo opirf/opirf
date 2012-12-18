@@ -1,8 +1,8 @@
 #include "PixelCountFeature.h"
 
-std::vector<double> PixelCountFeature::operator()(const cv::Mat& image) const 
+double featureApply(const cv::Mat& image)
 {
 	std::cout << "coucou" << std::endl;
 
-	return std::vector<double>();
+	return 0.0;
 }

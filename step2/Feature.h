@@ -8,10 +8,14 @@
 class Feature
 {
 	public:
-		Feature(unsigned int nZone = 1) : _nZone(nZone) {}
+		Feature(const std::vector<cv::Rect>& zones = std::vector<cv::Rect>()) : _zones(zones) {}
 
-		virtual std::vector<double> operator()(const cv::Mat& image) const = 0;
+		std::vector<double> operator()(const cv::Mat& image);
 
-	private:
-		int _nZone;
+		virtual std::vector<std::string> featureNames() const = 0;
+
+	protected:
+		virtual std::vector<double> featureApply(const cv::Mat& image) = 0;
+
+		std::vector<cv::Rect> _zones;
 };

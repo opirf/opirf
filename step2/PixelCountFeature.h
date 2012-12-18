@@ -9,10 +9,15 @@
 class PixelCountFeature : public Feature
 {
 	public:
-		PixelCountFeature(unsigned int nZone) : Feature(nZone) {}
+		PixelCountFeature(const std::vector<cv::Rect>& zones) : Feature(zones) {}
 
-		std::vector<double> operator()(const cv::Mat& image) const;
+		virtual std::vector<std::string> featureNames() 
+		{ 
+			std::vector<std::string> ret(1, "PixelCount");
+			return ; 
+		}
 
-	private:
-		int _nZone;
+	protected:
+		virtual std::vector<double> featureApply(const cv::Mat& image);
+		virtual size_t nbResult() { return 1; }
 };
