@@ -1,6 +1,6 @@
 #include "Feature.h"
 
-std::vector<double> Feature::operator()(const cv::Mat& img)
+std::vector<double> Feature::execute(const cv::Mat& img)
 {
 	if(_zones.empty())
 	{

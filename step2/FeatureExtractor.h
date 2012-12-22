@@ -8,14 +8,15 @@
 class FeatureExtractor
 {
 	public:
-		FeatureExtractor(const std::string& tnFolder, const std::string& outputFile);
+		FeatureExtractor(const std::string& tnFolder, const std::string& outputFile, const std::string& relationName);
 		~FeatureExtractor();
-		void addFeature(const Feature* feature);
+		void addFeature(Feature* feature);
 		void start();
 
 	private:
-		std::vector<const Feature*> _featureList;
-		std::string _tnFolder;
+		void setARFFHeaders();
+		std::vector<Feature*> _featureList;
+		std::string _tnFolder, _relationName;
 		std::ofstream _outputStream;
 
 };

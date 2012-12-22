@@ -67,6 +67,7 @@
     <ClInclude Include="PixelCountFeature.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Feature.cpp" />
     <ClCompile Include="FeatureExtractor.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PixelCountFeature.cpp" />
