@@ -62,12 +62,13 @@ void FeatureExtractor::extract(const std::string& xmlFileList)
 		for(std::vector<std::string>::iterator fileIt = mapIt->second.begin(); fileIt != mapIt->second.end(); ++fileIt) {
 
 			cv::Mat imageRaw = cv::imread(*fileIt);
-			cv::Mat imageGray;
-			cv::cvtColor(imageRaw, imageGray, CV_RGB2GRAY);
+			cv::Mat imageBin;
+			cv::cvtColor(imageRaw, imageBin, CV_RGB2GRAY);
+			imageBin = imageBin > 200;
 
 			for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it)  {
 
-				std::vector<double> res = (*it)->execute(imageRaw, imageGray);
+				std::vector<double> res = (*it)->execute(imageRaw, imageBin);
 
 				for(std::vector<double>::iterator itValues = res.begin(); itValues!=res.end(); ++itValues) {
 					_outputStream[currentStream] << *itValues << ",";

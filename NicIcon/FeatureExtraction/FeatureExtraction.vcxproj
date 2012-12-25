@@ -66,22 +66,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CenterOfMassFeature.h" />
     <ClInclude Include="Feature.h" />
     <ClInclude Include="FeatureExtractor.h" />
     <ClInclude Include="FeatureMode.h" />
     <ClInclude Include="FileListHandler.h" />
     <ClInclude Include="FileListParser.h" />
     <ClInclude Include="Logger.h" />
-    <ClInclude Include="PixelCountFeature.h" />
+    <ClInclude Include="PixelRatioFeature.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CenterOfMassFeature.cpp" />
     <ClCompile Include="Feature.cpp" />
     <ClCompile Include="FeatureExtractor.cpp" />
     <ClCompile Include="FileListHandler.cpp" />
     <ClCompile Include="FileListParser.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="PixelCountFeature.cpp" />
+    <ClCompile Include="PixelRatioFeature.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
