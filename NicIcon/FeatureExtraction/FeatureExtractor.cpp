@@ -8,9 +8,10 @@
 
 #include "Logger.h"
 
-using namespace std;
+const std::string SINGLE_FILE = "single_file";
 
-FeatureExtractor::FeatureExtractor(const string& tnFolder, const string& outputFolder, const string& relationName, const std::map<std::string, Icon*>& iconList)
+
+FeatureExtractor::FeatureExtractor(const std::string& tnFolder, const std::string& outputFolder, const std::string& relationName, const std::map<std::string, Icon*>& iconList)
 	: _tnFolder(tnFolder), _outputFolder(outputFolder), _relationName(relationName), _iconList(iconList)
 {
 	_seperateFile = false;
@@ -53,10 +54,14 @@ void FeatureExtractor::extract(const std::string& xmlFileList)
 
 	for(std::map<std::string, std::vector<std::string> >::iterator mapIt = fileList.begin(); mapIt != fileList.end(); ++mapIt) {
 
-		if(_mode == ICON) {
-			currentStream = mapIt->first;
+		if(_seperateFile) {
+			if(_mode == ICON) {
+				currentStream = mapIt->first;
+			} else {
+				currentStream = xmlFileList;
+			}
 		} else {
-			currentStream = xmlFileList;
+			currentStream = SINGLE_FILE;
 		}
 
 		for(std::vector<std::string>::iterator fileIt = mapIt->second.begin(); fileIt != mapIt->second.end(); ++fileIt) {
@@ -90,7 +95,7 @@ void FeatureExtractor::initFileStream(const std::string& xmlFile) {
 			std::stringstream ss;
 			ss << _outputFolder << *(++m.begin()) << ".arff";
 			Logger() << "Creating ARFF file: " << ss.str();
-			_outputStream[xmlFile] = std::ofstream(ss.str(), ios_base::out | ios_base::trunc);
+			_outputStream[xmlFile] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
 			setARFFHeaders(_outputStream[xmlFile]);
 		} else if(!_hasStarted){
 			std::stringstream ss;
@@ -98,7 +103,7 @@ void FeatureExtractor::initFileStream(const std::string& xmlFile) {
 				ss.str("");
 				ss << _outputFolder << "features-" << it->first << ".arff";
 				Logger() << "Creating ARFF file: " << ss.str();
-				_outputStream[it->first] = std::ofstream(ss.str(), ios_base::out | ios_base::trunc);
+				_outputStream[it->first] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
 				setARFFHeaders(_outputStream[it->first]);
 			}
 			_hasStarted = true;
@@ -107,8 +112,9 @@ void FeatureExtractor::initFileStream(const std::string& xmlFile) {
 		std::stringstream ss;
 		ss << _outputFolder << "features" << ".arff";
 		Logger() << "Creating ARFF file: " << ss.str();
-		_outputStream["single"] = std::ofstream(ss.str(), ios_base::out | ios_base::trunc);
-		setARFFHeaders(_outputStream["single"]);
+		_outputStream[SINGLE_FILE] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
+		setARFFHeaders(_outputStream[SINGLE_FILE]);
+		_hasStarted = true;
 	}
 }
 
@@ -118,16 +124,16 @@ void FeatureExtractor::setARFFHeaders(std::ofstream& stream) {
 	int nbZone;
 
 	for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it) {
-		std::vector<string> names = (*it)->featureNames();
+		std::vector<std::string> names = (*it)->featureNames();
 
 		nbZone = (*it)->getNbZone();
 		if(nbZone==1) {
-			for(std::vector<string>::iterator itName = names.begin(); itName!=names.end(); ++itName) {
+			for(std::vector<std::string>::iterator itName = names.begin(); itName!=names.end(); ++itName) {
 					stream << "@attribute " << *itName << " NUMERIC\n";
 			}
 		} else {
 			for(int i=0;i<(*it)->getNbZone();++i) {
-				for(std::vector<string>::iterator itName = names.begin(); itName!=names.end(); ++itName) {
+				for(std::vector<std::string>::iterator itName = names.begin(); itName!=names.end(); ++itName) {
 					stream << "@attribute " << *itName << "_" << i << " NUMERIC\n";
 				}
 			}

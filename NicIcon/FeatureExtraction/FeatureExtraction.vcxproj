@@ -72,6 +72,7 @@
     <ClInclude Include="FeatureMode.h" />
     <ClInclude Include="FileListHandler.h" />
     <ClInclude Include="FileListParser.h" />
+    <ClInclude Include="HuMomentsFeature.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="PixelRatioFeature.h" />
   </ItemGroup>
@@ -81,6 +82,7 @@
     <ClCompile Include="FeatureExtractor.cpp" />
     <ClCompile Include="FileListHandler.cpp" />
     <ClCompile Include="FileListParser.cpp" />
+    <ClCompile Include="HuMoments.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PixelRatioFeature.cpp" />

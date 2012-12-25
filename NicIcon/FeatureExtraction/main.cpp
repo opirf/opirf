@@ -3,6 +3,7 @@
 #include "FeatureExtractor.h"
 #include "PixelRatioFeature.h"
 #include "CenterOfMassFeature.h"
+#include "HuMomentsFeature.h"
 #include "IconListParser.h"
 #include "BaseFormParser.h"
 
@@ -17,14 +18,17 @@ int main(int argc, char** argv)
 	FeatureExtractor fe("C:/Temp/opirf/res", "C:/Temp/opirf/", "relation", parser.getIconList());
 
 	std::vector<cv::Rect> zones;
-	zones.push_back(cv::Rect(0,0,baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2));
+	zones.push_back(cv::Rect(0, 0, baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2));
+	zones.push_back(cv::Rect(baseParser.getBaseForm().getBoxWidth()/2, 0, baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2));
 	zones.push_back(cv::Rect(baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2, baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2));
+	zones.push_back(cv::Rect(0, baseParser.getBaseForm().getBoxHeight()/2, baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2));
 
 	fe.addFeature(new PixelRatioFeature(std::vector<cv::Rect>()));
 	fe.addFeature(new PixelRatioFeature(zones));
 	fe.addFeature(new CenterOfMassFeature(std::vector<cv::Rect>()));
 	fe.addFeature(new CenterOfMassFeature(zones));
-	fe.separateFile(true);
+	fe.addFeature(new HuMomentsFeature(std::vector<cv::Rect>()));
+	//fe.separateFile(true);
 	//fe.groupBy(ICON);
 
 	std::stringstream ss;

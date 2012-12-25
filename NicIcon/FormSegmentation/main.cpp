@@ -34,7 +34,7 @@ int main (int argc, char** argv) {
 		ss1 << "C:/Temp/opirf/w" << setw(3) << setfill('0') << j << ".xml";
 		FormAnalyser* analyser = new FormAnalyser("C:/Temp/opirf/res/", ss1.str(), parser->getIconList(), parser->getIconSizeList(), parser->getCrossTemplate(), formParser->getBaseForm());
 
-		for(int i=0;i<1;++i) {
+		for(int i=0;i<22;++i) {
 
 			try{
 				ss.str("");
