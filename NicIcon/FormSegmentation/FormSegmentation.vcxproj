@@ -66,17 +66,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BaseForm.h" />
-    <ClInclude Include="BaseFormHandler.h" />
-    <ClInclude Include="BaseFormLine.h" />
-    <ClInclude Include="BaseFormParser.h" />
     <ClInclude Include="FormAnalyser.h" />
     <ClInclude Include="IconMatchingException.h" />
     <ClInclude Include="Logger.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BaseFormHandler.cpp" />
-    <ClCompile Include="BaseFormParser.cpp" />
     <ClCompile Include="FormAnalyser.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="main.cpp" />

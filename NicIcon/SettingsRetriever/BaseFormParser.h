@@ -4,7 +4,7 @@
 
 #include <xercesc/sax2/SAX2XMLReader.hpp>
 
-class BaseFormParser
+class __declspec(dllexport) BaseFormParser
 {
 	private:
 		xercesc::SAX2XMLReader* m_parser;

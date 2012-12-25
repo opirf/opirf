@@ -1189,3 +1189,59 @@ Line  5  - icon class:  Fire          - size:  not_specified
 Line  6  - icon class:  Fire-brigade  - size:  not_specified 
 Analysing time:  3135  ms
  
+Analysing  C:/Temp/opirf/w000-scans/00000.png 
+Crosses position determined 
+Image rotated by  -2.03666  degree 
+Image resized with a ratio of  0.867002 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  4089  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00100.png 
+Crosses position determined 
+Image rotated by  -0.017902  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3205  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00200.png 
+Crosses position determined 
+Image rotated by  0.00166471  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3160  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00300.png 
+Crosses position determined 
+Image rotated by  0.0766213  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3249  ms
+ 

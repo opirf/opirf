@@ -3,15 +3,23 @@
 #include "FeatureExtractor.h"
 #include "PixelCountFeature.h"
 #include "IconListParser.h"
+#include "BaseFormParser.h"
 
 int main(int argc, char** argv)
 {
 	IconListParser parser;
 	parser.parse("../resources/settings/icons_list.xml");
 
+	BaseFormParser baseParser;
+	baseParser.parse("../resources/settings/base_form.xml");
+
 	FeatureExtractor fe("C:/Temp/opirf/res", "C:/Temp/opirf/", "relation", parser.getIconList());
 
-	fe.addFeature(new PixelCountFeature(std::vector<cv::Rect>()));
+	std::vector<cv::Rect> zones;
+	zones.push_back(cv::Rect(0,0,baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2));
+	zones.push_back(cv::Rect(baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2, baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2));
+
+	fe.addFeature(new PixelCountFeature(zones));
 	fe.separateFile(true);
 	//fe.groupBy(ICON);
 
