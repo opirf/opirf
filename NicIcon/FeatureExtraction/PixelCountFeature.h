@@ -18,6 +18,6 @@ class PixelCountFeature : public Feature
 		}
 
 	protected:
-		virtual std::vector<double> featureApply(const cv::Mat& image);
+		virtual std::vector<double> featureApply(const cv::Mat& imageRaw, const cv::Mat& imageGray);
 		virtual size_t nbResult() { return 1; }
 };

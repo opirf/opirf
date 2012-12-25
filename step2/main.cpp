@@ -3,8 +3,8 @@
 
 int main(int argc, char** argv)
 {
-	FeatureExtractor fe(argv[1], "features.arff", "relation");
-	fe.addFeature(new PixelCountFeature());
+	FeatureExtractor fe("C:/Temp/opirf/res", "features.arff", "relation");
+	fe.addFeature(new PixelCountFeature(std::vector<std::string>()));
 	
 	fe.start();
 

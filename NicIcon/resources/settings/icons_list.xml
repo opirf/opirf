@@ -1,0 +1,24 @@
+<template-list>
+	<icon-list>
+		<icon name="Accident" description="a triangle with exclamation mark inside" template-image="../resources/images/templates/accident.png" />
+		<icon name="Bomb" description="a circle with fuse" template-image="../resources/images/templates/bomb.png" />
+		<icon name="Car" description="side-view of a car" template-image="../resources/images/templates/car.png" />
+		<icon name="Casualty" description="a circle with an 'X' cross below it" template-image="../resources/images/templates/casualty.png" />
+		<icon name="Electricity" description="a 'lightning' arrow with head downwards" template-image="../resources/images/templates/electricity.png" />
+		<icon name="Fire" description="a gesture with flames" template-image="../resources/images/templates/fire.png" />
+		<icon name="Fire_brigade" description="a triangle with character 'F' inside" template-image="../resources/images/templates/fire_brigade.png" />
+		<icon name="Flood" description="two horizontal curly lines" template-image="../resources/images/templates/flood.png" />
+		<icon name="Gas" description="three vertical curly lines" template-image="../resources/images/templates/gas.png" />
+		<icon name="Injury" description="a person laying horizontal" template-image="../resources/images/templates/injury.png" />
+		<icon name="Paramedics" description="a square with a '+' cross inside" template-image="../resources/images/templates/paramedics.png" />
+		<icon name="Person" description="a vertical (standing) human figure" template-image="../resources/images/templates/person.png" />
+		<icon name="Police" description="a diamond with a 'P' inside" template-image="../resources/images/templates/police.png" />
+		<icon name="Road_block" description="a circle with a '-' sign inside" template-image="../resources/images/templates/road_block.png" />
+	</icon-list>
+	<size-list>
+		<size type="small" template-image="../resources/images/templates/small.png" />
+		<size type="medium" template-image="../resources/images/templates/medium.png" />
+		<size type="large" template-image="../resources/images/templates/large.png" />
+	<size-list>
+	<cross template-image="../resources/images/templates/cross.png" />
+</template-list>

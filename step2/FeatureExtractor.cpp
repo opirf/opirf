@@ -19,7 +19,7 @@ FeatureExtractor::~FeatureExtractor()
 	_outputStream.close();
 }
 
-void FeatureExtractor::addFeature(const Feature* feature) 
+void FeatureExtractor::addFeature(Feature* feature) 
 {
 
 }
@@ -35,6 +35,7 @@ void FeatureExtractor::start()
 		for(int i=0;i<5;++i) {
 
 			ss.str("");
+			// path to be changed absolutely
 			ss << _tnFolder << 'w' << setw(3) << setfill('0') << j << "-scans/" << setw(3) << setfill('0') << j << std::setw(2) << std::setfill('0') << i << ".png";
 			cv::Mat image = cv::imread(ss.str());
 
@@ -45,10 +46,13 @@ void FeatureExtractor::start()
 				for(int i=0; i< (*it)->getNbZone() ; ++i) {
 
 					for(std::vector<double>::iterator itValues = res.begin(); itValues!=res.end(); itValues++) {
-						_outputStream << *itValues << ",";
+						_outputStream << *itValues;
+
+						if(itValues!=--(res.end())) {
+							_outputStream << ",";
+						}
 					}
 				}
-				// adding into the arff file
 				_outputStream << "\n";
 			}
 		}
@@ -59,7 +63,7 @@ void FeatureExtractor::start()
 void FeatureExtractor::setARFFHeaders() {
 	_outputStream << "@relation " << _relationName << "\n\n";
 
-	for(std::vector<const Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it) {
+	for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it) {
 		std::vector<string> names = (*it)->featureNames();
 
 		for(int i=0;i<(*it)->getNbZone();++i) {
