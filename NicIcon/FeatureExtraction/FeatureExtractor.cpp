@@ -52,35 +52,40 @@ void FeatureExtractor::extract(const std::string& xmlFileList)
 	std::stringstream ss;
 	std::string currentStream;
 
+	bool isClassListEmpty = _classList.empty();
+
 	for(std::map<std::string, std::vector<std::string> >::iterator mapIt = fileList.begin(); mapIt != fileList.end(); ++mapIt) {
+		
+		if(isClassListEmpty || std::find(_classList.begin(), _classList.end(), mapIt->first)!=_classList.end()) {
 
-		if(_seperateFile) {
-			if(_mode == ICON) {
-				currentStream = mapIt->first;
-			} else {
-				currentStream = xmlFileList;
-			}
-		} else {
-			currentStream = SINGLE_FILE;
-		}
-
-		for(std::vector<std::string>::iterator fileIt = mapIt->second.begin(); fileIt != mapIt->second.end(); ++fileIt) {
-
-			cv::Mat imageRaw = cv::imread(*fileIt);
-			cv::Mat imageBin;
-			cv::cvtColor(imageRaw, imageBin, CV_RGB2GRAY);
-			imageBin = imageBin > 200;
-
-			for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it)  {
-
-				std::vector<double> res = (*it)->execute(imageRaw, imageBin);
-
-				for(std::vector<double>::iterator itValues = res.begin(); itValues!=res.end(); ++itValues) {
-					_outputStream[currentStream] << *itValues << ",";
+			if(_seperateFile) {
+				if(_mode == ICON) {
+					currentStream = mapIt->first;
+				} else {
+					currentStream = xmlFileList;
 				}
+			} else {
+				currentStream = SINGLE_FILE;
 			}
 
-			_outputStream[currentStream] << mapIt->first << "\n";
+			for(std::vector<std::string>::iterator fileIt = mapIt->second.begin(); fileIt != mapIt->second.end(); ++fileIt) {
+
+				cv::Mat imageRaw = cv::imread(*fileIt);
+				cv::Mat imageBin;
+				cv::cvtColor(imageRaw, imageBin, CV_RGB2GRAY);
+				imageBin = imageBin > 200;
+
+				for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it)  {
+
+					std::vector<double> res = (*it)->execute(imageRaw, imageBin);
+
+					for(std::vector<double>::iterator itValues = res.begin(); itValues!=res.end(); ++itValues) {
+						_outputStream[currentStream] << *itValues << ",";
+					}
+				}
+
+				_outputStream[currentStream] << mapIt->first << "\n";
+			}
 		}
 	}
 }
@@ -99,12 +104,22 @@ void FeatureExtractor::initFileStream(const std::string& xmlFile) {
 			setARFFHeaders(_outputStream[xmlFile]);
 		} else if(!_hasStarted){
 			std::stringstream ss;
-			for(std::map<std::string, Icon*>::iterator it = _iconList.begin(); it != _iconList.end(); ++it) {
-				ss.str("");
-				ss << _outputFolder << "features-" << it->first << ".arff";
-				Logger() << "Creating ARFF file: " << ss.str();
-				_outputStream[it->first] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
-				setARFFHeaders(_outputStream[it->first]);
+			if(_classList.empty()) {
+				for(std::map<std::string, Icon*>::iterator it = _iconList.begin(); it != _iconList.end(); ++it) {
+					ss.str("");
+					ss << _outputFolder << "features-" << it->first << ".arff";
+					Logger() << "Creating ARFF file: " << ss.str();
+					_outputStream[it->first] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
+					setARFFHeaders(_outputStream[it->first]);
+				}
+			} else {
+				for(std::vector<std::string>::iterator it = _classList.begin(); it!=_classList.end(); ++it) {
+					ss.str("");
+					ss << _outputFolder << "features-" << *it << ".arff";
+					Logger() << "Creating ARFF file: " << ss.str();
+					_outputStream[*it] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
+					setARFFHeaders(_outputStream[*it]);
+				}
 			}
 			_hasStarted = true;
 		}

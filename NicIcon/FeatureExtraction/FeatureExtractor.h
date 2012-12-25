@@ -18,6 +18,7 @@ class FeatureExtractor
 		void extract(const std::string& xmlFileList);
 		void separateFile(bool val) {_seperateFile = val;}
 		void groupBy(FeatureMode mode) {_mode = mode;}
+		void selectWorkingClass(const std::vector<std::string>& classList) {_classList = classList;}
 
 	private:
 		void initFileStream(const std::string& xmlFile);
@@ -30,5 +31,6 @@ class FeatureExtractor
 		FileListParser _parser;
 		bool _seperateFile, _hasStarted;
 		FeatureMode _mode;
+		std::vector<std::string> _classList;
 
 };

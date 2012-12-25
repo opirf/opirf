@@ -1,11 +1,13 @@
 #include <iomanip>
 
+#include "IconListParser.h"
+#include "BaseFormParser.h"
+
 #include "FeatureExtractor.h"
+
 #include "PixelRatioFeature.h"
 #include "CenterOfMassFeature.h"
 #include "HuMomentsFeature.h"
-#include "IconListParser.h"
-#include "BaseFormParser.h"
 
 int main(int argc, char** argv)
 {
@@ -28,8 +30,13 @@ int main(int argc, char** argv)
 	fe.addFeature(new CenterOfMassFeature(std::vector<cv::Rect>()));
 	fe.addFeature(new CenterOfMassFeature(zones));
 	fe.addFeature(new HuMomentsFeature(std::vector<cv::Rect>()));
-	//fe.separateFile(true);
-	//fe.groupBy(ICON);
+
+	std::vector<std::string> classList;
+	classList.push_back("Accident");
+	classList.push_back("Bomb");
+	fe.selectWorkingClass(classList);
+	fe.separateFile(true);
+	fe.groupBy(ICON);
 
 	std::stringstream ss;
 
