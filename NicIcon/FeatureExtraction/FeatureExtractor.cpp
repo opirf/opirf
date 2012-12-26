@@ -11,8 +11,8 @@
 const std::string SINGLE_FILE = "single_file";
 
 
-FeatureExtractor::FeatureExtractor(const std::string& tnFolder, const std::string& outputFolder, const std::string& relationName, const std::map<std::string, Icon*>& iconList)
-	: _tnFolder(tnFolder), _outputFolder(outputFolder), _relationName(relationName), _iconList(iconList)
+FeatureExtractor::FeatureExtractor(const std::string& outputFolder, const std::string& relationName, const std::map<std::string, Icon*>& iconList)
+	: _outputFolder(outputFolder), _relationName(relationName), _iconList(iconList)
 {
 	_seperateFile = false;
 	_mode = INPUT_FILE;
@@ -40,16 +40,15 @@ void FeatureExtractor::addFeature(Feature* feature)
 	_featureList.push_back(feature);
 }
 
-void FeatureExtractor::extract(const std::string& xmlFileList)
+void FeatureExtractor::extract(const std::string& sourceFolder, const std::string& xmlImageList)
 {
-	Logger() << "Extracting " << xmlFileList;
-	initFileStream(xmlFileList);
+	Logger() << "Extracting imaage list from " << xmlImageList;
+	initFileStream(xmlImageList);
 
-	_parser.parse(xmlFileList.c_str());
+	_parser.parse(xmlImageList.c_str());
 
 	std::map<std::string, std::vector<std::string> > fileList = _parser.getFileList();
 
-	std::stringstream ss;
 	std::string currentStream;
 
 	bool isClassListEmpty = _classList.empty();
@@ -62,7 +61,7 @@ void FeatureExtractor::extract(const std::string& xmlFileList)
 				if(_mode == ICON) {
 					currentStream = mapIt->first;
 				} else {
-					currentStream = xmlFileList;
+					currentStream = xmlImageList;
 				}
 			} else {
 				currentStream = SINGLE_FILE;
@@ -70,7 +69,7 @@ void FeatureExtractor::extract(const std::string& xmlFileList)
 
 			for(std::vector<std::string>::iterator fileIt = mapIt->second.begin(); fileIt != mapIt->second.end(); ++fileIt) {
 
-				cv::Mat imageRaw = cv::imread(*fileIt);
+				cv::Mat imageRaw = cv::imread(sourceFolder+*fileIt);
 				cv::Mat imageBin;
 				cv::cvtColor(imageRaw, imageBin, CV_RGB2GRAY);
 				imageBin = imageBin > 200;
