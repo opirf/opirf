@@ -11,8 +11,8 @@
 const std::string SINGLE_FILE = "single_file";
 
 
-FeatureExtractor::FeatureExtractor(const std::string& outputFolder, const std::string& relationName, const std::map<std::string, Icon*>& iconList)
-	: _outputFolder(outputFolder), _relationName(relationName), _iconList(iconList)
+FeatureExtractor::FeatureExtractor(const std::string& outputFolder, const std::string& relationName, const std::map<std::string, Icon*>& iconList, int normalizedWidth, int normalizedHeight)
+	: _outputFolder(outputFolder), _relationName(relationName), _iconList(iconList), _normalizedWidth(normalizedWidth), _normalizedHeight(normalizedHeight)
 {
 	_seperateFile = false;
 	_mode = INPUT_FILE;
@@ -70,13 +70,14 @@ void FeatureExtractor::extract(const std::string& sourceFolder, const std::strin
 			for(std::vector<std::string>::iterator fileIt = mapIt->second.begin(); fileIt != mapIt->second.end(); ++fileIt) {
 
 				cv::Mat imageRaw = cv::imread(sourceFolder+*fileIt);
-				cv::Mat imageBin;
-				cv::cvtColor(imageRaw, imageBin, CV_RGB2GRAY);
-				imageBin = imageBin > 200;
+				cv::Mat imageNorm;
+				cv::Mat imageNormBin;
+				cv::Rect boundingBox = normalize(imageRaw, imageNorm, _normalizedWidth, _normalizedHeight);
+				binariseImage(imageNorm, imageNormBin);
 
 				for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it)  {
 
-					std::vector<double> res = (*it)->execute(imageRaw, imageBin);
+					std::vector<double> res = (*it)->execute(imageRaw, imageNorm, imageNormBin, boundingBox);
 
 					for(std::vector<double>::iterator itValues = res.begin(); itValues!=res.end(); ++itValues) {
 						_outputStream[currentStream] << *itValues << ",";
@@ -164,4 +165,90 @@ void FeatureExtractor::setARFFHeaders(std::ofstream& stream) {
 	stream << "}\n\n";
 	
 	stream << "@data\n";
+}
+
+cv::Rect FeatureExtractor::normalize(const cv::Mat& src, cv::Mat& dst, int normW, int normH) {
+	cv::Mat bin;
+	binariseImage(src, bin);
+	removeNoise(bin, bin);
+
+	cv::Rect boundingBox = getBoundingBox(bin);
+	dst = src(boundingBox);
+
+	cv::Mat tmp(normH, normW, src.type(), cv::Scalar(255,255,255));
+	if(boundingBox.width > boundingBox.height) {
+		int height = boundingBox.height*normW/boundingBox.width;
+		cv::resize(dst, dst, cv::Size(normW, height));
+		dst.copyTo(tmp(cv::Rect(0, (normH-height)/2, dst.cols, dst.rows)));
+	} else if(boundingBox.width < boundingBox.height){
+		int width = boundingBox.width*normH/boundingBox.height;
+		cv::resize(dst, dst, cv::Size(width, normH));
+		dst.copyTo(tmp(cv::Rect((normW-width)/2, 0, dst.cols, dst.rows)));
+	} else {
+		cv::resize(dst, dst, cv::Size(normW, normH));
+		dst.copyTo(tmp(cv::Rect(0, 0, dst.cols, dst.rows)));
+	}
+	dst = tmp;
+
+	return boundingBox;
+}
+
+void FeatureExtractor::binariseImage(const cv::Mat& src, cv::Mat& dst) {
+	cv::cvtColor(src, dst, CV_RGB2GRAY);
+	dst = dst > 254;
+}
+
+void FeatureExtractor::removeNoise(const cv::Mat& src, cv::Mat& dst) {
+	cv::Mat elt = cv::getStructuringElement(cv::MORPH_ELLIPSE, cv::Size(5, 5), cv::Point(2, 2));
+	cv::dilate(src, dst, elt);
+	cv::erode(src, dst, elt);
+}
+
+cv::Rect FeatureExtractor::getBoundingBox(const cv::Mat& src) {
+	unsigned char *input = (unsigned char*)(src.data);
+
+	bool stop;
+	int topY, bottomY, leftX, rightX;
+	
+	stop = false;
+	for(int i=0; i<src.rows&&!stop; ++i) {
+		for(int j=0; j<src.cols&&!stop; ++j) {
+			if(input[src.step*j+i]==0) {
+				leftX = i;
+				stop = true;
+			}
+		}
+	}
+
+	stop = false;
+	for(int i=0; i<src.cols&&!stop; ++i) {
+		for(int j=0; j<src.rows&&!stop; ++j) {
+			if(input[src.step*i+j]==0) {
+				topY = i;
+				stop = true;
+			}
+		}
+	}
+
+	stop = false;
+	for(int i=src.cols-1;i>=0&&!stop; --i) {
+		for(int j=src.rows-1; j>=0&&!stop; --j) {
+			if(input[src.step*i+j]==0) {
+				bottomY = i;
+				stop = true;
+			}
+		}
+	}
+
+	stop = false;
+	for(int i=src.rows-1;i>=0&&!stop; --i) {
+		for(int j=src.cols-1; j>=0&&!stop; --j) {
+			if(input[src.step*j+i]==0) {
+				rightX = i;
+				stop = true;
+			}
+		}
+	}
+
+	return cv::Rect(leftX, topY, (rightX-leftX), (bottomY-topY));
 }

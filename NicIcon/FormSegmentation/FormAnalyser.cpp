@@ -312,7 +312,7 @@ void FormAnalyser::saveBoxData(const std::string& iconClass, const std::string& 
 	// Saving box into images
 	std::stringstream ss;
 	ss << _outputDirectory << iconClass << "_" << currentImage.substr(0,3) << "_" << currentImage.substr(3,2) << "_" << i << "_" << j << ".png";
-	cv::imwrite(ss.str() ,m_form(cv::Rect(position.x, position.y, m_baseForm.getBoxWidth(), m_baseForm.getBoxHeight())), compression_params);
+	cv::imwrite(ss.str(), m_form(cv::Rect(position.x, position.y, m_baseForm.getBoxWidth(), m_baseForm.getBoxHeight())), compression_params);
 
 	// addding the new file to the file list
 	ss.str("");

@@ -12,7 +12,7 @@
 class FeatureExtractor
 {
 	public:
-		FeatureExtractor(const std::string& outputFolder, const std::string& relationName, const std::map<std::string, Icon*>& iconList);
+		FeatureExtractor(const std::string& outputFolder, const std::string& relationName, const std::map<std::string, Icon*>& iconList, int normalizedWidth, int normalizedHeight);
 		~FeatureExtractor();
 		void addFeature(Feature* feature);
 		void extract(const std::string& sourceFolder, const std::string& xmlImageList);
@@ -23,6 +23,10 @@ class FeatureExtractor
 	private:
 		void initFileStream(const std::string& xmlFile);
 		void setARFFHeaders(std::ofstream& stream);
+		cv::Rect normalize(const cv::Mat& src, cv::Mat& dst, int normW, int normH);
+		void binariseImage(const cv::Mat& src, cv::Mat& dst);
+		void removeNoise(const cv::Mat& src, cv::Mat& dst);
+		cv::Rect getBoundingBox(const cv::Mat& src);
 
 		std::vector<Feature*> _featureList;
 		std::string _outputFolder, _relationName;
@@ -32,5 +36,6 @@ class FeatureExtractor
 		bool _seperateFile, _hasStarted;
 		FeatureMode _mode;
 		std::vector<std::string> _classList;
+		int _normalizedWidth, _normalizedHeight;
 
 };

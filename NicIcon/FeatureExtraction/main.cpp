@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 	BaseFormParser baseParser;
 	baseParser.parse("../resources/settings/base_form.xml");
 
-	FeatureExtractor fe("C:/Temp/opirf/", "relation", parser.getIconList());
+	FeatureExtractor fe("C:/Temp/opirf/", "relation", parser.getIconList(), baseParser.getBaseForm().getBoxWidth(), baseParser.getBaseForm().getBoxHeight());
 
 	std::vector<cv::Rect> zones;
 	zones.push_back(cv::Rect(0, 0, baseParser.getBaseForm().getBoxWidth()/2, baseParser.getBaseForm().getBoxHeight()/2));
