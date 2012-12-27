@@ -17,22 +17,27 @@ FeatureExtractor::FeatureExtractor(const std::string& outputFolder, const std::s
 	_seperateFile = false;
 	_mode = INPUT_FILE;
 	_hasStarted = false;
+	_fileName = "features";
 }
 
 FeatureExtractor::~FeatureExtractor()
 {
+	for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it)  {
+		delete *it;
+	}
+
+	/*for(std::map<std::string, Icon* >::iterator mapIt = _iconList.begin(); mapIt != _iconList.end(); ++mapIt) {
+		delete mapIt->second;
+	}*/
+}
+
+void FeatureExtractor::save() {
 	for(std::map<std::string, std::ofstream>::iterator it = _outputStream.begin(); it != _outputStream.end(); ++it) {
 		it->second.flush();
 		it->second.close();
 	}
 
-	for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it)  {
-		delete *it;
-	}
-
-	for(std::map<std::string, Icon* >::iterator mapIt = _iconList.begin(); mapIt != _iconList.end(); ++mapIt) {
-		delete mapIt->second;
-	}
+	_hasStarted = false;
 }
 
 void FeatureExtractor::addFeature(Feature* feature) 
@@ -125,7 +130,7 @@ void FeatureExtractor::initFileStream(const std::string& xmlFile) {
 		}
 	} else if(!_hasStarted){
 		std::stringstream ss;
-		ss << _outputFolder << "features" << ".arff";
+		ss << _outputFolder << _fileName << ".arff";
 		Logger() << "Creating ARFF file: " << ss.str();
 		_outputStream[SINGLE_FILE] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
 		setARFFHeaders(_outputStream[SINGLE_FILE]);

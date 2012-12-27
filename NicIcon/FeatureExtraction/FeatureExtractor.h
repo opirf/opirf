@@ -19,6 +19,8 @@ class FeatureExtractor
 		void separateFile(bool val) {_seperateFile = val;}
 		void groupBy(FeatureMode mode) {_mode = mode;}
 		void selectWorkingClass(const std::vector<std::string>& classList) {_classList = classList;}
+		void save();
+		void setOutputFileName(const std::string& fileName) {_fileName = fileName;}
 
 	private:
 		void initFileStream(const std::string& xmlFile);
@@ -29,7 +31,7 @@ class FeatureExtractor
 		cv::Rect getBoundingBox(const cv::Mat& src);
 
 		std::vector<Feature*> _featureList;
-		std::string _outputFolder, _relationName;
+		std::string _outputFolder, _relationName, _fileName;
 		std::map<std::string, std::ofstream> _outputStream;
 		std::map<std::string, Icon*> _iconList;
 		FileListParser _parser;
