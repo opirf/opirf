@@ -26,5 +26,4 @@ class HuMomentsFeature : public Feature
 
 	protected:
 		virtual std::vector<double> featureApply(const cv::Mat& imageRaw, const cv::Mat& imageNorm, const cv::Mat& imageNormBin, const cv::Rect& boundingBox);
-		virtual size_t nbResult() { return 7; }
 };

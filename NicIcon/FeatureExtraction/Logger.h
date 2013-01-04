@@ -3,6 +3,7 @@
 #include <fstream>
 #include <iostream> // cout
 #include <sstream>
+#include <time.h>
 
 /*! \class Logger
 *	\brief This class allows to save whatever we want into a file (log.txt) in order to debug the game even without the window command output
@@ -21,6 +22,14 @@ class Logger {
 			filename << "txt";
 
 			stream = std::ofstream(filename.str().c_str(), std::ios_base::app);
+
+			time_t timeT = time(NULL);
+			struct tm newTime;
+			localtime_s(&newTime, &timeT);
+			stream << newTime.tm_hour << ":" << newTime.tm_min << ":" << newTime.tm_sec << " - ";
+			if(out) {
+				std::cout << newTime.tm_hour << ":" << newTime.tm_min << ":" << newTime.tm_sec << " - ";
+			}
 		}
 
         ~Logger();

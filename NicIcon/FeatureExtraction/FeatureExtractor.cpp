@@ -3,6 +3,7 @@
 #include <sstream>
 #include <iomanip>
 #include <regex>
+#include <omp.h>
 
 #include <opencv2\opencv.hpp>
 
@@ -47,7 +48,7 @@ void FeatureExtractor::addFeature(Feature* feature)
 
 void FeatureExtractor::extract(const std::string& sourceFolder, const std::string& xmlImageList)
 {
-	Logger() << "Extracting imaage list from " << xmlImageList;
+	Logger(omp_get_thread_num(),true) << "Extracting image list from " << xmlImageList;
 	initFileStream(xmlImageList);
 
 	_parser.parse(xmlImageList.c_str());
@@ -104,7 +105,7 @@ void FeatureExtractor::initFileStream(const std::string& xmlFile) {
 
 			std::stringstream ss;
 			ss << _outputFolder << *(++m.begin()) << ".arff";
-			Logger() << "Creating ARFF file: " << ss.str();
+			Logger(omp_get_thread_num(),true) << "Creating ARFF file: " << ss.str();
 			_outputStream[xmlFile] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
 			setARFFHeaders(_outputStream[xmlFile]);
 		} else if(!_hasStarted){
@@ -113,7 +114,7 @@ void FeatureExtractor::initFileStream(const std::string& xmlFile) {
 				for(std::map<std::string, Icon*>::iterator it = _iconList.begin(); it != _iconList.end(); ++it) {
 					ss.str("");
 					ss << _outputFolder << "features-" << it->first << ".arff";
-					Logger() << "Creating ARFF file: " << ss.str();
+					Logger(omp_get_thread_num(),true) << "Creating ARFF file: " << ss.str();
 					_outputStream[it->first] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
 					setARFFHeaders(_outputStream[it->first]);
 				}
@@ -121,7 +122,7 @@ void FeatureExtractor::initFileStream(const std::string& xmlFile) {
 				for(std::vector<std::string>::iterator it = _classList.begin(); it!=_classList.end(); ++it) {
 					ss.str("");
 					ss << _outputFolder << "features-" << *it << ".arff";
-					Logger() << "Creating ARFF file: " << ss.str();
+					Logger(omp_get_thread_num(),true) << "Creating ARFF file: " << ss.str();
 					_outputStream[*it] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
 					setARFFHeaders(_outputStream[*it]);
 				}
@@ -131,7 +132,7 @@ void FeatureExtractor::initFileStream(const std::string& xmlFile) {
 	} else if(!_hasStarted){
 		std::stringstream ss;
 		ss << _outputFolder << _fileName << ".arff";
-		Logger() << "Creating ARFF file: " << ss.str();
+		Logger(omp_get_thread_num(),true) << "Creating ARFF file: " << ss.str();
 		_outputStream[SINGLE_FILE] = std::ofstream(ss.str(), std::ios_base::out | std::ios_base::trunc);
 		setARFFHeaders(_outputStream[SINGLE_FILE]);
 		_hasStarted = true;

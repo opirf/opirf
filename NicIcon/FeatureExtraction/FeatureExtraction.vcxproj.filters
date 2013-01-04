@@ -42,6 +42,12 @@
     <ClInclude Include="HuMomentsFeature.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="HistogramPeaksFeature.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureOrientation.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Feature.cpp">
@@ -69,6 +75,9 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="HuMoments.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramPeaksFeature.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
