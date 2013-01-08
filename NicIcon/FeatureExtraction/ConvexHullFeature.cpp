@@ -12,11 +12,11 @@ std::vector<double> ConvexHullFeature::featureApply(const cv::Mat& imageRaw, con
 	//cv::threshold(imageNormBin, imageNormBin, 254, 255, cv::THRESH_BINARY);
 
 	/// Find contours
-	cv::findContours(imageNormBin, contours, hierarchy, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_NONE, cv::Point(0, 0));
+	cv::findContours(imageNormBin, contours, hierarchy, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_TC89_KCOS , cv::Point(0, 0));
 	
 	/// Find the convex hull object for each contour
 	int max,index;
-	std::vector<cv::Point> hull;
+	std::vector<std::vector<cv::Point> > hull(1);
 	max = 0;
 	for(int i=0; i<contours.size(); ++i) {
 		if(contours[i].size()>max) {
@@ -25,7 +25,7 @@ std::vector<double> ConvexHullFeature::featureApply(const cv::Mat& imageRaw, con
 		}
 		//cv::convexHull(cv::Mat(contours[i]), hull[i], false);
 	}
-	cv::convexHull(cv::Mat(contours[index]), hull, false);
+	cv::convexHull(cv::Mat(contours[index]), hull[0], false);
 	//cv::convexHull(cv::Mat(contours[0]), hull[0], false);
 
 	double perimeter = 0;
@@ -52,7 +52,7 @@ std::vector<double> ConvexHullFeature::featureApply(const cv::Mat& imageRaw, con
 	}*/
 	cv::Mat drawing = cv::Mat::zeros( imageNormBin.size(), CV_8UC3 );
 	//drawContours(drawing, contours, i, color, 1, 8, cv::vector<cv::Vec4i>(), 0, cv::Point() );
-	drawContours(drawing, hull, 1, color, 1, 8, cv::vector<cv::Vec4i>(), 0, cv::Point() );
+	drawContours(drawing, hull, 0, color, 1, 8, cv::vector<cv::Vec4i>(), 0, cv::Point() );
 	cv::imshow("dd", drawing);
 	cv::waitKey();
 

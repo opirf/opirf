@@ -215,9 +215,8 @@ void FeatureExtractor::binariseImage(const cv::Mat& src, cv::Mat& dst) {
 }
 
 void FeatureExtractor::removeNoise(const cv::Mat& src, cv::Mat& dst) {
-	cv::Mat elt = cv::getStructuringElement(cv::MORPH_ELLIPSE, cv::Size(5, 5), cv::Point(2, 2));
-	cv::dilate(src, dst, elt);
-	cv::erode(src, dst, elt);
+	cv::Mat elt = cv::getStructuringElement(cv::MORPH_ELLIPSE, cv::Size(7, 7), cv::Point(3, 3));
+	cv::morphologyEx(src, dst, cv::MORPH_CLOSE, elt);
 }
 
 cv::Rect FeatureExtractor::getBoundingBox(const cv::Mat& src) {
