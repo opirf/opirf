@@ -14,6 +14,7 @@ class Feature
 
 		virtual std::vector<std::string> featureNames() const = 0;
 		int getNbZone() const {return _zones.empty()?1:_zones.size();}
+		std::string getName() {}
 
 	protected:
 		virtual std::vector<double> featureApply(const cv::Mat& imageRaw, const cv::Mat& imageNorm, const cv::Mat& imageNormBin, const cv::Rect& boundingBox) = 0;

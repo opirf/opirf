@@ -29,7 +29,7 @@ int main (int argc, char** argv) {
 	std::stringstream ss, ss1;
 	
 	#pragma omp parallel for
-	for(int j=0;j<4;++j) {
+	for(int j=0;j<12;++j) {
 		ss1.str("");
 		ss1 << "C:/Temp/opirf/w" << setw(3) << setfill('0') << j << ".xml";
 		FormAnalyser* analyser = new FormAnalyser("C:/Temp/opirf/res/", ss1.str(), parser->getIconList(), parser->getIconSizeList(), parser->getCrossTemplate(), formParser->getBaseForm());

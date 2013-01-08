@@ -5,10 +5,13 @@ std::vector<double> HuMomentsFeature::featureApply(const cv::Mat& imageRaw, cons
 {
 	std::vector<double> ret;
 	double hu[7];
+
 	cv::HuMoments(cv::moments(imageNormBin), hu);
 	
 	for(int i=0;i<7;++i) {
+		//ret.push_back(static_cast<double>(static_cast<int>(hu[i]*1000000000000000)/1000000000000000));
 		ret.push_back(hu[i]);
 	}
+
 	return ret;
 }

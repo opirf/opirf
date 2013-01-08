@@ -92,6 +92,8 @@ void FeatureExtractor::extract(const std::string& sourceFolder, const std::strin
 
 				_outputStream[currentStream] << mapIt->first << "\n";
 			}
+
+			_outputStream[currentStream].flush();
 		}
 	}
 }
@@ -144,21 +146,28 @@ void FeatureExtractor::setARFFHeaders(std::ofstream& stream) {
 	stream << "@relation " << _relationName << "\n\n";
 	int nbZone;
 
+	std::map<std::string, int> featureList;
+	for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it) {
+		featureList[(*it)->featureNames()[0]] = 0;
+	}
+
 	for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it) {
 		std::vector<std::string> names = (*it)->featureNames();
 
 		nbZone = (*it)->getNbZone();
 		if(nbZone==1) {
 			for(std::vector<std::string>::iterator itName = names.begin(); itName!=names.end(); ++itName) {
-					stream << "@attribute " << *itName << " NUMERIC\n";
+					stream << "@attribute " << *itName << featureList[names[0]] << " REAL\n";
 			}
 		} else {
 			for(int i=0;i<(*it)->getNbZone();++i) {
 				for(std::vector<std::string>::iterator itName = names.begin(); itName!=names.end(); ++itName) {
-					stream << "@attribute " << *itName << "_" << i << " NUMERIC\n";
+					stream << "@attribute " << *itName << featureList[names[0]] << "_" << i << " REAL\n";
 				}
 			}
 		}
+
+		featureList[names[0]]++;
 	}
 
 	stream << "@attribute " << "class {";
@@ -201,6 +210,7 @@ cv::Rect FeatureExtractor::normalize(const cv::Mat& src, cv::Mat& dst, int normW
 
 void FeatureExtractor::binariseImage(const cv::Mat& src, cv::Mat& dst) {
 	cv::cvtColor(src, dst, CV_RGB2GRAY);
+	//cv::blur(dst, dst, cv::Size(3,3));
 	dst = dst > 254;
 }
 
@@ -214,7 +224,7 @@ cv::Rect FeatureExtractor::getBoundingBox(const cv::Mat& src) {
 	unsigned char *input = (unsigned char*)(src.data);
 
 	bool stop;
-	int topY, bottomY, leftX, rightX;
+	int topY = 0, bottomY = _normalizedHeight, leftX = 0, rightX = _normalizedWidth;
 	
 	stop = false;
 	for(int i=0; i<src.rows&&!stop; ++i) {

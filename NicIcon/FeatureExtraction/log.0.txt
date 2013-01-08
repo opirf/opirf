@@ -1,0 +1,206 @@
+19:29:31 - Extracting image list from  C:/Temp/opirf/w001.xml 
+19:30:5 - Extracting image list from  C:/Temp/opirf/w002.xml 
+19:30:34 - Extracting image list from  C:/Temp/opirf/w003.xml 
+20:1:19 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:1:19 - Creating ARFF file:  C:/Temp/opirf/Accident.arff 
+20:1:53 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:1:53 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:2:21 - Extracting image list from  C:/Temp/opirf/w001.xml 
+20:2:52 - Extracting image list from  C:/Temp/opirf/w002.xml 
+20:3:23 - Extracting image list from  C:/Temp/opirf/w003.xml 
+20:11:23 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:11:23 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:12:32 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:12:32 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:19:31 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:19:31 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:19:44 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:19:44 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:19:53 - Extracting image list from  C:/Temp/opirf/w001.xml 
+20:20:4 - Extracting image list from  C:/Temp/opirf/w002.xml 
+20:20:14 - Extracting image list from  C:/Temp/opirf/w003.xml 
+20:23:42 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:23:42 - Creating ARFF file:  C:/Temp/opirf/training-set.arff 
+20:24:11 - Extracting image list from  C:/Temp/opirf/w001.xml 
+20:24:44 - Extracting image list from  C:/Temp/opirf/w002.xml 
+20:25:39 - Extracting image list from  C:/Temp/opirf/w003.xml 
+20:25:39 - Creating ARFF file:  C:/Temp/opirf/test-set.arff 
+20:30:30 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:30:30 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:30:59 - Extracting image list from  C:/Temp/opirf/w001.xml 
+20:31:34 - Extracting image list from  C:/Temp/opirf/w002.xml 
+20:32:5 - Extracting image list from  C:/Temp/opirf/w003.xml 
+20:35:21 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:35:21 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:35:31 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:35:31 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:36:0 - Extracting image list from  C:/Temp/opirf/w001.xml 
+20:36:33 - Extracting image list from  C:/Temp/opirf/w002.xml 
+20:37:6 - Extracting image list from  C:/Temp/opirf/w003.xml 
+20:58:29 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:58:29 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:59:1 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:59:1 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+20:59:17 - Extracting image list from  C:/Temp/opirf/w000.xml 
+20:59:17 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:0:11 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:0:11 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:0:49 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:0:49 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:1:21 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:1:21 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:4:16 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:4:16 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:4:56 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:4:56 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:5:9 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:5:9 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:5:51 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:5:51 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:6:19 - Extracting image list from  C:/Temp/opirf/w001.xml 
+21:6:51 - Extracting image list from  C:/Temp/opirf/w002.xml 
+21:7:22 - Extracting image list from  C:/Temp/opirf/w003.xml 
+21:17:39 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:17:39 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:22:58 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:22:58 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:30:35 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:30:35 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:31:32 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:31:32 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:32:13 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:32:13 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:32:39 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:32:39 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:32:58 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:32:58 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:34:12 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:34:12 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:34:46 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:34:46 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:42:22 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:42:22 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:43:0 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:43:0 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:44:0 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:44:0 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:44:33 - Extracting image list from  C:/Temp/opirf/w001.xml 
+21:45:11 - Extracting image list from  C:/Temp/opirf/w002.xml 
+21:45:48 - Extracting image list from  C:/Temp/opirf/w003.xml 
+21:58:25 - Extracting image list from  C:/Temp/opirf/w000.xml 
+21:58:25 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+21:59:1 - Extracting image list from  C:/Temp/opirf/w001.xml 
+21:59:40 - Extracting image list from  C:/Temp/opirf/w002.xml 
+22:0:18 - Extracting image list from  C:/Temp/opirf/w003.xml 
+22:6:57 - Extracting image list from  C:/Temp/opirf/w000.xml 
+22:6:57 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+22:7:41 - Extracting image list from  C:/Temp/opirf/w001.xml 
+22:8:29 - Extracting image list from  C:/Temp/opirf/w002.xml 
+22:9:17 - Extracting image list from  C:/Temp/opirf/w003.xml 
+22:36:39 - Extracting image list from  C:/Temp/opirf/w000.xml 
+22:36:39 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+22:37:19 - Extracting image list from  C:/Temp/opirf/w001.xml 
+22:38:4 - Extracting image list from  C:/Temp/opirf/w002.xml 
+22:38:49 - Extracting image list from  C:/Temp/opirf/w003.xml 
+22:39:30 - Extracting image list from  C:/Temp/opirf/w004.xml 
+22:40:12 - Extracting image list from  C:/Temp/opirf/w005.xml 
+22:40:53 - Extracting image list from  C:/Temp/opirf/w006.xml 
+22:41:35 - Extracting image list from  C:/Temp/opirf/w007.xml 
+22:42:20 - Extracting image list from  C:/Temp/opirf/w008.xml 
+22:43:2 - Extracting image list from  C:/Temp/opirf/w009.xml 
+22:43:44 - Extracting image list from  C:/Temp/opirf/w010.xml 
+22:44:25 - Extracting image list from  C:/Temp/opirf/w011.xml 
+22:52:13 - Extracting image list from  C:/Temp/opirf/w000.xml 
+22:52:13 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+22:52:58 - Extracting image list from  C:/Temp/opirf/w001.xml 
+22:53:49 - Extracting image list from  C:/Temp/opirf/w002.xml 
+22:54:40 - Extracting image list from  C:/Temp/opirf/w003.xml 
+22:55:27 - Extracting image list from  C:/Temp/opirf/w004.xml 
+22:56:14 - Extracting image list from  C:/Temp/opirf/w005.xml 
+22:57:6 - Extracting image list from  C:/Temp/opirf/w006.xml 
+22:57:53 - Extracting image list from  C:/Temp/opirf/w007.xml 
+22:58:46 - Extracting image list from  C:/Temp/opirf/w008.xml 
+22:59:33 - Extracting image list from  C:/Temp/opirf/w009.xml 
+23:0:20 - Extracting image list from  C:/Temp/opirf/w010.xml 
+23:1:8 - Extracting image list from  C:/Temp/opirf/w011.xml 
+23:16:5 - Extracting image list from  C:/Temp/opirf/w000.xml 
+23:16:5 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+23:19:22 - Extracting image list from  C:/Temp/opirf/w000.xml 
+23:19:22 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+23:19:55 - Extracting image list from  C:/Temp/opirf/w000.xml 
+23:19:55 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+23:20:40 - Extracting image list from  C:/Temp/opirf/w001.xml 
+23:21:31 - Extracting image list from  C:/Temp/opirf/w002.xml 
+23:22:22 - Extracting image list from  C:/Temp/opirf/w003.xml 
+8:58:36 - Extracting image list from  C:/Temp/opirf/w000.xml 
+8:58:36 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+8:59:26 - Extracting image list from  C:/Temp/opirf/w001.xml 
+9:0:29 - Extracting image list from  C:/Temp/opirf/w002.xml 
+9:1:21 - Extracting image list from  C:/Temp/opirf/w003.xml 
+9:5:4 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:5:4 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:5:43 - Extracting image list from  C:/Temp/opirf/w001.xml 
+9:6:26 - Extracting image list from  C:/Temp/opirf/w002.xml 
+9:7:10 - Extracting image list from  C:/Temp/opirf/w003.xml 
+9:34:14 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:34:14 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:37:58 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:37:58 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:38:55 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:38:55 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:39:23 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:39:24 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:42:45 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:42:45 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:43:47 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:43:47 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:51:4 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:51:4 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:51:54 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:51:54 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:52:48 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:52:48 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:53:17 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:53:17 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:55:4 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:55:4 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:56:9 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:56:9 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:56:29 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:56:29 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:58:35 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:58:35 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+9:59:28 - Extracting image list from  C:/Temp/opirf/w000.xml 
+9:59:28 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+13:7:16 - Extracting image list from  C:/Temp/opirf/w000.xml 
+13:7:16 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+13:10:27 - Extracting image list from  C:/Temp/opirf/w000.xml 
+13:10:27 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+13:12:8 - Extracting image list from  C:/Temp/opirf/w000.xml 
+13:12:8 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+13:15:41 - Extracting image list from  C:/Temp/opirf/w000.xml 
+13:15:41 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+13:17:45 - Extracting image list from  C:/Temp/opirf/w000.xml 
+13:17:45 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+13:18:24 - Extracting image list from  C:/Temp/opirf/w000.xml 
+13:18:24 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+13:21:54 - Extracting image list from  C:/Temp/opirf/w000.xml 
+13:21:54 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+13:30:34 - Extracting image list from  C:/Temp/opirf/w000.xml 
+13:30:34 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+16:9:44 - Extracting image list from  C:/Temp/opirf/w000.xml 
+16:9:44 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+16:10:16 - Extracting image list from  C:/Temp/opirf/w000.xml 
+16:10:16 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+16:21:47 - Extracting image list from  C:/Temp/opirf/w000.xml 
+16:21:47 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+16:22:1 - Extracting image list from  C:/Temp/opirf/w000.xml 
+16:22:1 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+16:22:51 - Extracting image list from  C:/Temp/opirf/w000.xml 
+16:22:51 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+16:24:57 - Extracting image list from  C:/Temp/opirf/w000.xml 
+16:24:57 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+16:29:1 - Extracting image list from  C:/Temp/opirf/w000.xml 
+16:29:1 - Creating ARFF file:  C:/Temp/opirf/features.arff 
+16:33:22 - Extracting image list from  C:/Temp/opirf/w000.xml 
+16:33:22 - Creating ARFF file:  C:/Temp/opirf/features.arff 

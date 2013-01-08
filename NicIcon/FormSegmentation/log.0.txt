@@ -1245,3 +1245,3457 @@ Line  5  - icon class:  Fire          - size:  not_specified
 Line  6  - icon class:  Fire_brigade  - size:  not_specified 
 Analysing time:  3249  ms
  
+Analysing  C:/Temp/opirf/w000-scans/00000.png 
+Crosses position determined 
+Image rotated by  -2.03666  degree 
+Image resized with a ratio of  0.867002 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  4562  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00001.png 
+Crosses position determined 
+Image rotated by  -0.0846657  degree 
+Image resized with a ratio of  1 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3169  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00002.png 
+Crosses position determined 
+Image rotated by  0  degree 
+Image resized with a ratio of  1 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  large 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Person        - size:  medium 
+Line  3  - icon class:  Police        - size:  small 
+Line  4  - icon class:  Road_block    - size:  large 
+Line  5  - icon class:  Car           - size:  small 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3131  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00003.png 
+Crosses position determined 
+Image rotated by  0.0097796  degree 
+Image resized with a ratio of  1.00024 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  medium 
+Line  1  - icon class:  Casualty      - size:  large 
+Line  2  - icon class:  Gas           - size:  small 
+Line  3  - icon class:  Fire_brigade  - size:  small 
+Line  4  - icon class:  Injury        - size:  large 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Gas           - size:  small 
+Analysing time:  3186  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00004.png 
+Crosses position determined 
+Image rotated by  -0.02361  degree 
+Image resized with a ratio of  0.999829 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Injury        - size:  small 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Bomb          - size:  large 
+Line  5  - icon class:  Injury        - size:  large 
+Line  6  - icon class:  Accident      - size:  small 
+Analysing time:  3190  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00005.png 
+Crosses position determined 
+Image rotated by  -0.0512943  degree 
+Image resized with a ratio of  1.00017 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  small 
+Line  1  - icon class:  Bomb          - size:  medium 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Car           - size:  small 
+Line  4  - icon class:  Fire          - size:  small 
+Line  5  - icon class:  Bomb          - size:  medium 
+Line  6  - icon class:  Bomb          - size:  medium 
+Analysing time:  3108  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00006.png 
+Crosses position determined 
+Image rotated by  -0.0276782  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Casualty      - size:  large 
+Line  2  - icon class:  Gas           - size:  large 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Injury        - size:  medium 
+Line  5  - icon class:  Electricity   - size:  small 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3190  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00007.png 
+Crosses position determined 
+Image rotated by  0.0333993  degree 
+Image resized with a ratio of  1.00024 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  large 
+Line  2  - icon class:  Flood         - size:  small 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Person        - size:  small 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Person        - size:  large 
+Analysing time:  3122  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00008.png 
+Crosses position determined 
+Image rotated by  0.0236133  degree 
+Image resized with a ratio of  1 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Casualty      - size:  small 
+Line  3  - icon class:  Electricity   - size:  large 
+Line  4  - icon class:  Police        - size:  large 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Accident      - size:  large 
+Analysing time:  3104  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00009.png 
+Crosses position determined 
+Image rotated by  -0.0651435  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  large 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Paramedics    - size:  large 
+Line  5  - icon class:  Road_block    - size:  large 
+Line  6  - icon class:  Electricity   - size:  small 
+Analysing time:  3142  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00010.png 
+Crosses position determined 
+Image rotated by  0.0236133  degree 
+Image resized with a ratio of  1 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  small 
+Line  1  - icon class:  Accident      - size:  large 
+Line  2  - icon class:  Fire_brigade  - size:  large 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3103  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00011.png 
+Crosses position determined 
+Image rotated by  0.0236133  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Gas           - size:  large 
+Line  3  - icon class:  Fire          - size:  large 
+Line  4  - icon class:  Person        - size:  small 
+Line  5  - icon class:  Fire_brigade  - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3186  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00012.png 
+Crosses position determined 
+Image rotated by  0.04723  degree 
+Image resized with a ratio of  1.00024 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  medium 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Fire          - size:  medium 
+Line  3  - icon class:  Flood         - size:  medium 
+Line  4  - icon class:  Road_block    - size:  small 
+Line  5  - icon class:  Paramedics    - size:  small 
+Line  6  - icon class:  Casualty      - size:  medium 
+Analysing time:  3105  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00013.png 
+Crosses position determined 
+Image rotated by  0  degree 
+Image resized with a ratio of  1 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  medium 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Electricity   - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3104  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00014.png 
+Crosses position determined 
+Image rotated by  -0.017902  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Electricity   - size:  large 
+Line  2  - icon class:  Car           - size:  large 
+Line  3  - icon class:  Road_block    - size:  small 
+Line  4  - icon class:  Electricity   - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  small 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3101  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00015.png 
+Crosses position determined 
+Image rotated by  0  degree 
+Image resized with a ratio of  1 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  medium 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Fire          - size:  medium 
+Line  4  - icon class:  Road_block    - size:  medium 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3082  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00016.png 
+Crosses position determined 
+Image rotated by  -0.017902  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  small 
+Line  1  - icon class:  Police        - size:  medium 
+Line  2  - icon class:  Fire          - size:  large 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Flood         - size:  large 
+Line  5  - icon class:  Police        - size:  small 
+Line  6  - icon class:  Bomb          - size:  large 
+Analysing time:  3110  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00017.png 
+Crosses position determined 
+Image rotated by  -0.017902  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  large 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Electricity   - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Car           - size:  medium 
+Analysing time:  3193  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00018.png 
+Crosses position determined 
+Image rotated by  0.0097796  degree 
+Image resized with a ratio of  1.00017 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Bomb          - size:  small 
+Line  2  - icon class:  Bomb          - size:  small 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Fire          - size:  small 
+Line  6  - icon class:  Accident      - size:  medium 
+Analysing time:  3068  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00019.png 
+Crosses position determined 
+Image rotated by  -0.0138368  degree 
+Image resized with a ratio of  1.00024 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  small 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Bomb          - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Paramedics    - size:  large 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3085  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00020.png 
+Crosses position determined 
+Image rotated by  0.04723  degree 
+Image resized with a ratio of  1 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Car           - size:  large 
+Line  5  - icon class:  Car           - size:  medium 
+Line  6  - icon class:  Gas           - size:  medium 
+Analysing time:  3116  ms
+ 
+Analysing  C:/Temp/opirf/w000-scans/00021.png 
+Crosses position determined 
+Image rotated by  -0.126232  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  medium 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Person        - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Fire_brigade  - size:  small 
+Line  6  - icon class:  Injury        - size:  medium 
+Analysing time:  3389  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00100.png 
+Crosses position determined 
+Image rotated by  -0.017902  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3174  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00101.png 
+Crosses position determined 
+Image rotated by  -0.0138368  degree 
+Image resized with a ratio of  1.00024 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3087  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00102.png 
+Crosses position determined 
+Image rotated by  0.0195639  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  large 
+Line  1  - icon class:  Bomb          - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Injury        - size:  small 
+Analysing time:  3225  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00103.png 
+Crosses position determined 
+Image rotated by  0.0195639  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  small 
+Line  1  - icon class:  Accident      - size:  small 
+Line  2  - icon class:  Car           - size:  medium 
+Line  3  - icon class:  Flood         - size:  medium 
+Line  4  - icon class:  Casualty      - size:  small 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Bomb          - size:  medium 
+Analysing time:  3095  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00104.png 
+Crosses position determined 
+Image rotated by  0.029353  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Accident      - size:  large 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Bomb          - size:  large 
+Line  4  - icon class:  Accident      - size:  medium 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Injury        - size:  medium 
+Analysing time:  3197  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00105.png 
+Crosses position determined 
+Image rotated by  -0.0317499  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Car           - size:  large 
+Line  2  - icon class:  Fire          - size:  large 
+Line  3  - icon class:  Road_block    - size:  small 
+Line  4  - icon class:  Police        - size:  large 
+Line  5  - icon class:  Fire          - size:  large 
+Line  6  - icon class:  Gas           - size:  medium 
+Analysing time:  3154  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00106.png 
+Crosses position determined 
+Image rotated by  0.04723  degree 
+Image resized with a ratio of  1.00024 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  large 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  small 
+Line  3  - icon class:  Bomb          - size:  small 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Person        - size:  medium 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3186  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00107.png 
+Crosses position determined 
+Image rotated by  -0.017902  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  large 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Road_block    - size:  small 
+Line  3  - icon class:  Person        - size:  large 
+Line  4  - icon class:  Injury        - size:  medium 
+Line  5  - icon class:  Accident      - size:  medium 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3093  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00108.png 
+Crosses position determined 
+Image rotated by  0.029353  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Flood         - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  large 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3125  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00109.png 
+Crosses position determined 
+Image rotated by  0.0195639  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Injury        - size:  small 
+Line  2  - icon class:  Fire_brigade  - size:  small 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Police        - size:  large 
+Line  6  - icon class:  Bomb          - size:  medium 
+Analysing time:  3218  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00110.png 
+Crosses position determined 
+Image rotated by  -0.130344  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  medium 
+Line  1  - icon class:  Casualty      - size:  small 
+Line  2  - icon class:  Gas           - size:  small 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Paramedics    - size:  small 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3135  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00111.png 
+Crosses position determined 
+Image rotated by  0.0195639  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  medium 
+Line  1  - icon class:  Bomb          - size:  small 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Injury        - size:  large 
+Line  5  - icon class:  Fire_brigade  - size:  medium 
+Line  6  - icon class:  Flood         - size:  large 
+Analysing time:  3213  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00112.png 
+Crosses position determined 
+Image rotated by  -0.017902  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  medium 
+Line  3  - icon class:  Bomb          - size:  large 
+Line  4  - icon class:  Fire          - size:  medium 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3152  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00113.png 
+Crosses position determined 
+Image rotated by  -0.0456025  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Electricity   - size:  small 
+Line  2  - icon class:  Police        - size:  small 
+Line  3  - icon class:  Fire          - size:  medium 
+Line  4  - icon class:  Accident      - size:  small 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Gas           - size:  large 
+Analysing time:  3179  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00114.png 
+Crosses position determined 
+Image rotated by  0.00572383  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  medium 
+Line  1  - icon class:  Car           - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  large 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  large 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3358  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00115.png 
+Crosses position determined 
+Image rotated by  0.00572383  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  small 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Fire          - size:  medium 
+Line  4  - icon class:  Paramedics    - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Injury        - size:  medium 
+Analysing time:  3271  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00116.png 
+Crosses position determined 
+Image rotated by  0.0333993  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  large 
+Line  1  - icon class:  Car           - size:  large 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Electricity   - size:  small 
+Line  6  - icon class:  Person        - size:  large 
+Analysing time:  3168  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00117.png 
+Crosses position determined 
+Image rotated by  -0.0219706  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Flood         - size:  small 
+Line  2  - icon class:  Paramedics    - size:  medium 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Car           - size:  small 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Accident      - size:  medium 
+Analysing time:  3179  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00118.png 
+Crosses position determined 
+Image rotated by  0.00572383  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  large 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Person        - size:  medium 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Fire_brigade  - size:  medium 
+Analysing time:  3217  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00119.png 
+Crosses position determined 
+Image rotated by  -0.017902  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  small 
+Line  1  - icon class:  Police        - size:  medium 
+Line  2  - icon class:  Casualty      - size:  medium 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Casualty      - size:  large 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Bomb          - size:  medium 
+Analysing time:  3197  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00120.png 
+Crosses position determined 
+Image rotated by  -0.0219706  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  small 
+Line  1  - icon class:  Accident      - size:  large 
+Line  2  - icon class:  Road_block    - size:  large 
+Line  3  - icon class:  Fire          - size:  small 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Fire_brigade  - size:  small 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3491  ms
+ 
+Analysing  C:/Temp/opirf/w001-scans/00121.png 
+Crosses position determined 
+Image rotated by  -0.008121  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  large 
+Line  1  - icon class:  Person        - size:  small 
+Line  2  - icon class:  Fire_brigade  - size:  large 
+Line  3  - icon class:  Accident      - size:  medium 
+Line  4  - icon class:  Police        - size:  small 
+Line  5  - icon class:  Electricity   - size:  large 
+Line  6  - icon class:  Fire          - size:  small 
+Analysing time:  3192  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00200.png 
+Crosses position determined 
+Image rotated by  0.00166471  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3202  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00201.png 
+Crosses position determined 
+Image rotated by  -0.0651435  degree 
+Image resized with a ratio of  1.00024 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3194  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00202.png 
+Crosses position determined 
+Image rotated by  -0.0830914  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  small 
+Line  1  - icon class:  Road_block    - size:  large 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Car           - size:  small 
+Line  6  - icon class:  Casualty      - size:  large 
+Analysing time:  3375  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00203.png 
+Crosses position determined 
+Image rotated by  -0.069231  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  small 
+Line  2  - icon class:  Fire_brigade  - size:  large 
+Line  3  - icon class:  Police        - size:  small 
+Line  4  - icon class:  Fire_brigade  - size:  large 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Car           - size:  medium 
+Analysing time:  3203  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00204.png 
+Crosses position determined 
+Image rotated by  -0.0887593  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  medium 
+Line  1  - icon class:  Person        - size:  medium 
+Line  2  - icon class:  Bomb          - size:  large 
+Line  3  - icon class:  Injury        - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3166  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00205.png 
+Crosses position determined 
+Image rotated by  0.00572383  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Bomb          - size:  small 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3162  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00206.png 
+Crosses position determined 
+Image rotated by  -0.0456025  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  large 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Injury        - size:  large 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Police        - size:  small 
+Line  5  - icon class:  Fire_brigade  - size:  medium 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3243  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00207.png 
+Crosses position determined 
+Image rotated by  -0.008121  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Paramedics    - size:  small 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Accident      - size:  large 
+Line  6  - icon class:  Bomb          - size:  small 
+Analysing time:  3242  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00208.png 
+Crosses position determined 
+Image rotated by  -0.0317499  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  large 
+Line  1  - icon class:  Fire          - size:  small 
+Line  2  - icon class:  Electricity   - size:  medium 
+Line  3  - icon class:  Electricity   - size:  large 
+Line  4  - icon class:  Accident      - size:  medium 
+Line  5  - icon class:  Fire_brigade  - size:  medium 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3161  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00209.png 
+Crosses position determined 
+Image rotated by  0.04319  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  small 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Gas           - size:  large 
+Line  5  - icon class:  Car           - size:  medium 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3277  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00210.png 
+Crosses position determined 
+Image rotated by  -0.008121  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Gas           - size:  medium 
+Line  2  - icon class:  Car           - size:  medium 
+Line  3  - icon class:  Injury        - size:  medium 
+Line  4  - icon class:  Fire          - size:  medium 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Fire          - size:  medium 
+Analysing time:  3258  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00211.png 
+Crosses position determined 
+Image rotated by  0.0195639  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  small 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Person        - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Flood         - size:  medium 
+Line  5  - icon class:  Electricity   - size:  small 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3158  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00212.png 
+Crosses position determined 
+Image rotated by  0.0627857  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  large 
+Line  1  - icon class:  Fire          - size:  large 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Bomb          - size:  medium 
+Analysing time:  3245  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00213.png 
+Crosses position determined 
+Image rotated by  0.0668195  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  medium 
+Line  1  - icon class:  Person        - size:  large 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Flood         - size:  medium 
+Line  5  - icon class:  Person        - size:  small 
+Line  6  - icon class:  Car           - size:  large 
+Analysing time:  3228  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00214.png 
+Crosses position determined 
+Image rotated by  0.0570223  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  small 
+Line  1  - icon class:  Road_block    - size:  large 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Fire          - size:  medium 
+Line  5  - icon class:  Electricity   - size:  large 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3143  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00215.png 
+Crosses position determined 
+Image rotated by  0.0904522  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Bomb          - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Accident      - size:  medium 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Police        - size:  large 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3274  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00216.png 
+Crosses position determined 
+Image rotated by  0.04319  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Car           - size:  large 
+Line  2  - icon class:  Injury        - size:  small 
+Line  3  - icon class:  Injury        - size:  large 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Fire          - size:  large 
+Analysing time:  3244  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00217.png 
+Crosses position determined 
+Image rotated by  0.0529855  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  small 
+Line  1  - icon class:  Flood         - size:  medium 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Car           - size:  small 
+Line  4  - icon class:  Paramedics    - size:  large 
+Line  5  - icon class:  Gas           - size:  large 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3160  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00218.png 
+Crosses position determined 
+Image rotated by  0.029353  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Casualty      - size:  large 
+Line  2  - icon class:  Flood         - size:  medium 
+Line  3  - icon class:  Accident      - size:  large 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Flood         - size:  small 
+Line  6  - icon class:  Car           - size:  medium 
+Analysing time:  3275  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00219.png 
+Crosses position determined 
+Image rotated by  0.04319  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  small 
+Line  1  - icon class:  Casualty      - size:  small 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Fire          - size:  medium 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Fire          - size:  small 
+Analysing time:  3271  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00220.png 
+Crosses position determined 
+Image rotated by  -0.0317499  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  small 
+Line  1  - icon class:  Person        - size:  small 
+Line  2  - icon class:  Accident      - size:  small 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Police        - size:  large 
+Line  5  - icon class:  Person        - size:  medium 
+Line  6  - icon class:  Flood         - size:  small 
+Analysing time:  3143  ms
+ 
+Analysing  C:/Temp/opirf/w002-scans/00221.png 
+Crosses position determined 
+Image rotated by  0.0570223  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  medium 
+Line  1  - icon class:  Car           - size:  medium 
+Line  2  - icon class:  Accident      - size:  small 
+Line  3  - icon class:  Person        - size:  large 
+Line  4  - icon class:  Fire_brigade  - size:  small 
+Line  5  - icon class:  Flood         - size:  large 
+Line  6  - icon class:  Injury        - size:  small 
+Analysing time:  3221  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00300.png 
+Crosses position determined 
+Image rotated by  0.0766213  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3168  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00301.png 
+Crosses position determined 
+Image rotated by  0.0351002  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3156  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00302.png 
+Crosses position determined 
+Image rotated by  0.0725906  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  medium 
+Line  1  - icon class:  Car           - size:  large 
+Line  2  - icon class:  Fire          - size:  small 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  large 
+Line  5  - icon class:  Casualty      - size:  large 
+Line  6  - icon class:  Fire          - size:  medium 
+Analysing time:  3191  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00303.png 
+Crosses position determined 
+Image rotated by  0.0904522  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  small 
+Line  1  - icon class:  Car           - size:  medium 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Accident      - size:  small 
+Line  4  - icon class:  Fire          - size:  medium 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Electricity   - size:  large 
+Analysing time:  3087  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00304.png 
+Crosses position determined 
+Image rotated by  0.0351002  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  small 
+Line  1  - icon class:  Casualty      - size:  small 
+Line  2  - icon class:  Paramedics    - size:  medium 
+Line  3  - icon class:  Injury        - size:  small 
+Line  4  - icon class:  Flood         - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Police        - size:  small 
+Analysing time:  3091  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00305.png 
+Crosses position determined 
+Image rotated by  0.0587485  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  small 
+Line  1  - icon class:  Electricity   - size:  small 
+Line  2  - icon class:  Paramedics    - size:  small 
+Line  3  - icon class:  Accident      - size:  medium 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Road_block    - size:  small 
+Line  6  - icon class:  Injury        - size:  large 
+Analysing time:  3103  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00306.png 
+Crosses position determined 
+Image rotated by  0.0351002  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  medium 
+Line  1  - icon class:  Gas           - size:  small 
+Line  2  - icon class:  Fire          - size:  large 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  small 
+Analysing time:  3271  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00307.png 
+Crosses position determined 
+Image rotated by  0.0904522  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  medium 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Injury        - size:  small 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3134  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00308.png 
+Crosses position determined 
+Image rotated by  0.0725906  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  medium 
+Line  1  - icon class:  Accident      - size:  large 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3145  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00309.png 
+Crosses position determined 
+Image rotated by  0.0489453  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Person        - size:  large 
+Line  3  - icon class:  Road_block    - size:  medium 
+Line  4  - icon class:  Paramedics    - size:  large 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3176  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00310.png 
+Crosses position determined 
+Image rotated by  0.0725906  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Car           - size:  small 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Road_block    - size:  large 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Flood         - size:  large 
+Line  6  - icon class:  Car           - size:  small 
+Analysing time:  3170  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00311.png 
+Crosses position determined 
+Image rotated by  0.110073  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Person        - size:  medium 
+Line  2  - icon class:  Road_block    - size:  small 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Police        - size:  medium 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Casualty      - size:  medium 
+Analysing time:  3164  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00312.png 
+Crosses position determined 
+Image rotated by  0.157374  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Gas           - size:  large 
+Line  2  - icon class:  Flood         - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Flood         - size:  small 
+Line  6  - icon class:  Police        - size:  medium 
+Analysing time:  3208  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00313.png 
+Crosses position determined 
+Image rotated by  0.106055  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Gas           - size:  medium 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Flood         - size:  medium 
+Line  4  - icon class:  Road_block    - size:  large 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Police        - size:  medium 
+Analysing time:  3187  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00314.png 
+Crosses position determined 
+Image rotated by  0.0725906  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  small 
+Line  1  - icon class:  Gas           - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  large 
+Line  3  - icon class:  Person        - size:  large 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Car           - size:  large 
+Line  6  - icon class:  Fire_brigade  - size:  medium 
+Analysing time:  3218  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00315.png 
+Crosses position determined 
+Image rotated by  0.0725906  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Bomb          - size:  medium 
+Line  2  - icon class:  Police        - size:  small 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Road_block    - size:  medium 
+Line  5  - icon class:  Fire_brigade  - size:  medium 
+Line  6  - icon class:  Casualty      - size:  medium 
+Analysing time:  3306  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00316.png 
+Crosses position determined 
+Image rotated by  0.0824002  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  small 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Fire_brigade  - size:  large 
+Line  3  - icon class:  Fire          - size:  small 
+Line  4  - icon class:  Bomb          - size:  small 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Accident      - size:  small 
+Analysing time:  3212  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00317.png 
+Crosses position determined 
+Image rotated by  0.0489453  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Electricity   - size:  small 
+Line  2  - icon class:  Police        - size:  large 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Electricity   - size:  large 
+Analysing time:  3141  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00318.png 
+Crosses position determined 
+Image rotated by  -0.0121865  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  large 
+Line  1  - icon class:  Police        - size:  large 
+Line  2  - icon class:  Casualty      - size:  small 
+Line  3  - icon class:  Injury        - size:  large 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Bomb          - size:  medium 
+Line  6  - icon class:  Casualty      - size:  large 
+Analysing time:  3190  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00319.png 
+Crosses position determined 
+Image rotated by  -0.0537686  degree 
+Image resized with a ratio of  1.00172 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  large 
+Line  1  - icon class:  Fire          - size:  large 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Injury        - size:  medium 
+Line  5  - icon class:  Flood         - size:  small 
+Line  6  - icon class:  Gas           - size:  large 
+Analysing time:  3204  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00320.png 
+Crosses position determined 
+Image rotated by  -0.0635476  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Flood         - size:  medium 
+Line  3  - icon class:  Accident      - size:  medium 
+Line  4  - icon class:  Bomb          - size:  large 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Injury        - size:  medium 
+Analysing time:  3152  ms
+ 
+Analysing  C:/Temp/opirf/w003-scans/00321.png 
+Crosses position determined 
+Image rotated by  -0.0774161  degree 
+Image resized with a ratio of  1.00189 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  small 
+Line  1  - icon class:  Bomb          - size:  medium 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Flood         - size:  large 
+Line  4  - icon class:  Road_block    - size:  medium 
+Line  5  - icon class:  Bomb          - size:  medium 
+Line  6  - icon class:  Car           - size:  medium 
+Analysing time:  3167  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00400.png 
+Crosses position determined 
+Image rotated by  -0.0774161  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3080  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00401.png 
+Crosses position determined 
+Image rotated by  -0.0399032  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3089  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00402.png 
+Crosses position determined 
+Image rotated by  -0.0496839  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Flood         - size:  medium 
+Line  2  - icon class:  Flood         - size:  small 
+Line  3  - icon class:  Road_block    - size:  medium 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Gas           - size:  large 
+Analysing time:  3104  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00403.png 
+Crosses position determined 
+Image rotated by  -0.0496839  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Flood         - size:  large 
+Line  3  - icon class:  Fire_brigade  - size:  large 
+Line  4  - icon class:  Road_block    - size:  small 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Car           - size:  medium 
+Analysing time:  3117  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00404.png 
+Crosses position determined 
+Image rotated by  -0.0358249  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Person        - size:  medium 
+Line  2  - icon class:  Person        - size:  large 
+Line  3  - icon class:  Road_block    - size:  medium 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Person        - size:  medium 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3119  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00405.png 
+Crosses position determined 
+Image rotated by  -0.0260425  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  large 
+Line  1  - icon class:  Fire          - size:  large 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Injury        - size:  medium 
+Line  5  - icon class:  Car           - size:  small 
+Line  6  - icon class:  Fire_brigade  - size:  medium 
+Analysing time:  3134  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00406.png 
+Crosses position determined 
+Image rotated by  -0.0496839  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  small 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Injury        - size:  small 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Bomb          - size:  small 
+Analysing time:  3086  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00407.png 
+Crosses position determined 
+Image rotated by  -0.0260425  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  medium 
+Line  1  - icon class:  Car           - size:  large 
+Line  2  - icon class:  Injury        - size:  large 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Paramedics    - size:  large 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Accident      - size:  medium 
+Analysing time:  3173  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00408.png 
+Crosses position determined 
+Image rotated by  -0.0399032  degree 
+Image resized with a ratio of  1.00165 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  small 
+Line  1  - icon class:  Gas           - size:  medium 
+Line  2  - icon class:  Casualty      - size:  medium 
+Line  3  - icon class:  Accident      - size:  small 
+Line  4  - icon class:  Electricity   - size:  medium 
+Line  5  - icon class:  Accident      - size:  medium 
+Line  6  - icon class:  Road_block    - size:  large 
+Analysing time:  3217  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00409.png 
+Crosses position determined 
+Image rotated by  -0.0121865  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Person        - size:  large 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Road_block    - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Fire          - size:  small 
+Line  6  - icon class:  Fire_brigade  - size:  small 
+Analysing time:  3251  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00410.png 
+Crosses position determined 
+Image rotated by  -0.0399032  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  medium 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Flood         - size:  large 
+Line  3  - icon class:  Bomb          - size:  small 
+Line  4  - icon class:  Casualty      - size:  small 
+Line  5  - icon class:  Police        - size:  small 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3299  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00411.png 
+Crosses position determined 
+Image rotated by  -0.00239777  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  medium 
+Line  1  - icon class:  Paramedics    - size:  large 
+Line  2  - icon class:  Fire          - size:  large 
+Line  3  - icon class:  Casualty      - size:  large 
+Line  4  - icon class:  Flood         - size:  medium 
+Line  5  - icon class:  Bomb          - size:  large 
+Line  6  - icon class:  Police        - size:  large 
+Analysing time:  3531  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00412.png 
+Crosses position determined 
+Image rotated by  -0.0399032  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Paramedics    - size:  medium 
+Line  2  - icon class:  Road_block    - size:  large 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Bomb          - size:  medium 
+Line  6  - icon class:  Car           - size:  medium 
+Analysing time:  3218  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00413.png 
+Crosses position determined 
+Image rotated by  0.0155112  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  large 
+Line  1  - icon class:  Bomb          - size:  large 
+Line  2  - icon class:  Bomb          - size:  medium 
+Line  3  - icon class:  Casualty      - size:  small 
+Line  4  - icon class:  Road_block    - size:  medium 
+Line  5  - icon class:  Accident      - size:  large 
+Line  6  - icon class:  Car           - size:  small 
+Analysing time:  3201  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00414.png 
+Crosses position determined 
+Image rotated by  0.119891  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  small 
+Line  3  - icon class:  Police        - size:  large 
+Line  4  - icon class:  Accident      - size:  medium 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Accident      - size:  large 
+Analysing time:  3178  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00415.png 
+Crosses position determined 
+Image rotated by  -0.0733219  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  large 
+Line  2  - icon class:  Fire          - size:  medium 
+Line  3  - icon class:  Electricity   - size:  small 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Road_block    - size:  small 
+Line  6  - icon class:  Gas           - size:  large 
+Analysing time:  3171  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00416.png 
+Crosses position determined 
+Image rotated by  -0.0260425  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  medium 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Fire_brigade  - size:  small 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Person        - size:  small 
+Line  5  - icon class:  Fire          - size:  small 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3089  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00417.png 
+Crosses position determined 
+Image rotated by  0.00166471  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  small 
+Line  1  - icon class:  Gas           - size:  medium 
+Line  2  - icon class:  Casualty      - size:  large 
+Line  3  - icon class:  Paramedics    - size:  small 
+Line  4  - icon class:  Paramedics    - size:  medium 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Police        - size:  medium 
+Analysing time:  3117  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00418.png 
+Crosses position determined 
+Image rotated by  -0.0358249  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  medium 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Person        - size:  small 
+Line  4  - icon class:  Police        - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3212  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00419.png 
+Crosses position determined 
+Image rotated by  0.0351002  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  medium 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Car           - size:  large 
+Line  6  - icon class:  Fire_brigade  - size:  medium 
+Analysing time:  3135  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00420.png 
+Crosses position determined 
+Image rotated by  0.0114551  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  medium 
+Line  1  - icon class:  Car           - size:  medium 
+Line  2  - icon class:  Car           - size:  medium 
+Line  3  - icon class:  Fire          - size:  medium 
+Line  4  - icon class:  Electricity   - size:  large 
+Line  5  - icon class:  Injury        - size:  small 
+Line  6  - icon class:  Bomb          - size:  medium 
+Analysing time:  3111  ms
+ 
+Analysing  C:/Temp/opirf/w004-scans/00421.png 
+Crosses position determined 
+Image rotated by  0.00166471  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Flood         - size:  small 
+Line  2  - icon class:  Fire          - size:  medium 
+Line  3  - icon class:  Police        - size:  small 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Gas           - size:  small 
+Analysing time:  3145  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00500.png 
+Crosses position determined 
+Image rotated by  -0.00239777  degree 
+Image resized with a ratio of  1.00172 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3093  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00501.png 
+Crosses position determined 
+Image rotated by  0.0114551  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3091  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00502.png 
+Crosses position determined 
+Image rotated by  -0.0358249  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Injury        - size:  large 
+Line  2  - icon class:  Fire_brigade  - size:  small 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Road_block    - size:  medium 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Injury        - size:  small 
+Analysing time:  3131  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00503.png 
+Crosses position determined 
+Image rotated by  -0.0496839  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  large 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Casualty      - size:  small 
+Line  3  - icon class:  Injury        - size:  medium 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Accident      - size:  large 
+Line  6  - icon class:  Flood         - size:  small 
+Analysing time:  3117  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00504.png 
+Crosses position determined 
+Image rotated by  -0.162221  degree 
+Image resized with a ratio of  1.00165 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  large 
+Line  1  - icon class:  Car           - size:  large 
+Line  2  - icon class:  Gas           - size:  small 
+Line  3  - icon class:  Fire          - size:  medium 
+Line  4  - icon class:  Electricity   - size:  large 
+Line  5  - icon class:  Paramedics    - size:  large 
+Line  6  - icon class:  Paramedics    - size:  large 
+Analysing time:  3122  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00505.png 
+Crosses position determined 
+Image rotated by  -0.0871887  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Person        - size:  small 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Car           - size:  small 
+Line  5  - icon class:  Person        - size:  medium 
+Line  6  - icon class:  Casualty      - size:  medium 
+Analysing time:  3188  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00506.png 
+Crosses position determined 
+Image rotated by  -0.0774161  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  medium 
+Line  1  - icon class:  Accident      - size:  small 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Road_block    - size:  small 
+Line  4  - icon class:  Injury        - size:  medium 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3112  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00507.png 
+Crosses position determined 
+Image rotated by  -0.0635476  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  large 
+Line  1  - icon class:  Road_block    - size:  large 
+Line  2  - icon class:  Casualty      - size:  small 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Accident      - size:  medium 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Road_block    - size:  large 
+Analysing time:  3111  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00508.png 
+Crosses position determined 
+Image rotated by  -0.0594598  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  small 
+Line  1  - icon class:  Gas           - size:  medium 
+Line  2  - icon class:  Police        - size:  small 
+Line  3  - icon class:  Flood         - size:  small 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Electricity   - size:  small 
+Line  6  - icon class:  Fire          - size:  medium 
+Analysing time:  3095  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00509.png 
+Crosses position determined 
+Image rotated by  -0.0121865  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  medium 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Electricity   - size:  medium 
+Line  5  - icon class:  Person        - size:  medium 
+Line  6  - icon class:  Police        - size:  large 
+Analysing time:  3129  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00510.png 
+Crosses position determined 
+Image rotated by  -0.00239777  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  large 
+Line  2  - icon class:  Bomb          - size:  large 
+Line  3  - icon class:  Car           - size:  large 
+Line  4  - icon class:  Fire_brigade  - size:  large 
+Line  5  - icon class:  Flood         - size:  large 
+Line  6  - icon class:  Accident      - size:  medium 
+Analysing time:  3174  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00511.png 
+Crosses position determined 
+Image rotated by  -0.0871887  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  medium 
+Line  1  - icon class:  Casualty      - size:  large 
+Line  2  - icon class:  Person        - size:  small 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Flood         - size:  large 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3181  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00512.png 
+Crosses position determined 
+Image rotated by  -0.0219706  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  small 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Police        - size:  large 
+Line  4  - icon class:  Accident      - size:  medium 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Person        - size:  large 
+Analysing time:  3162  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00513.png 
+Crosses position determined 
+Image rotated by  -0.0260425  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  medium 
+Line  1  - icon class:  Flood         - size:  medium 
+Line  2  - icon class:  Bomb          - size:  small 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Flood         - size:  medium 
+Line  5  - icon class:  Bomb          - size:  large 
+Line  6  - icon class:  Electricity   - size:  small 
+Analysing time:  3152  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00514.png 
+Crosses position determined 
+Image rotated by  -0.0260425  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  medium 
+Line  1  - icon class:  Police        - size:  medium 
+Line  2  - icon class:  Bomb          - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Electricity   - size:  medium 
+Line  5  - icon class:  Car           - size:  medium 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3146  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00515.png 
+Crosses position determined 
+Image rotated by  0.0391468  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  medium 
+Line  1  - icon class:  Bomb          - size:  medium 
+Line  2  - icon class:  Flood         - size:  medium 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Fire          - size:  medium 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Fire          - size:  medium 
+Analysing time:  3149  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00516.png 
+Crosses position determined 
+Image rotated by  0.0253033  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Electricity   - size:  medium 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Bomb          - size:  small 
+Line  6  - icon class:  Fire          - size:  small 
+Analysing time:  3112  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00517.png 
+Crosses position determined 
+Image rotated by  -0.0635476  degree 
+Image resized with a ratio of  1.00172 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Paramedics    - size:  medium 
+Line  2  - icon class:  Car           - size:  medium 
+Line  3  - icon class:  Road_block    - size:  small 
+Line  4  - icon class:  Injury        - size:  medium 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3161  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00518.png 
+Crosses position determined 
+Image rotated by  -0.0358249  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  small 
+Line  1  - icon class:  Fire          - size:  large 
+Line  2  - icon class:  Flood         - size:  medium 
+Line  3  - icon class:  Police        - size:  small 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Accident      - size:  small 
+Line  6  - icon class:  Gas           - size:  large 
+Analysing time:  3139  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00519.png 
+Crosses position determined 
+Image rotated by  0.0114551  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  small 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Fire_brigade  - size:  medium 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Fire          - size:  large 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Accident      - size:  large 
+Analysing time:  3112  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00520.png 
+Crosses position determined 
+Image rotated by  -0.0219706  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Casualty      - size:  large 
+Line  2  - icon class:  Paramedics    - size:  small 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Road_block    - size:  medium 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3143  ms
+ 
+Analysing  C:/Temp/opirf/w005-scans/00521.png 
+Crosses position determined 
+Image rotated by  -0.0121865  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Fire          - size:  small 
+Line  3  - icon class:  Fire          - size:  medium 
+Line  4  - icon class:  Injury        - size:  large 
+Line  5  - icon class:  Fire_brigade  - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  small 
+Analysing time:  3140  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00600.png 
+Crosses position determined 
+Image rotated by  0.0253033  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3098  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00601.png 
+Crosses position determined 
+Image rotated by  0.029353  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3100  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00602.png 
+Crosses position determined 
+Image rotated by  -0.008121  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  medium 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Paramedics    - size:  medium 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Fire          - size:  small 
+Analysing time:  3093  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00603.png 
+Crosses position determined 
+Image rotated by  0.029353  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  small 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Police        - size:  medium 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Fire          - size:  small 
+Analysing time:  3120  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00604.png 
+Crosses position determined 
+Image rotated by  0.0391468  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  large 
+Line  1  - icon class:  Police        - size:  medium 
+Line  2  - icon class:  Fire          - size:  medium 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Flood         - size:  small 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Police        - size:  medium 
+Analysing time:  3152  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00605.png 
+Crosses position determined 
+Image rotated by  0.00166471  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  large 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Fire_brigade  - size:  medium 
+Line  3  - icon class:  Injury        - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Gas           - size:  small 
+Line  6  - icon class:  Paramedics    - size:  large 
+Analysing time:  3132  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00606.png 
+Crosses position determined 
+Image rotated by  0.0391468  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  medium 
+Line  1  - icon class:  Person        - size:  medium 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Car           - size:  medium 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3104  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00607.png 
+Crosses position determined 
+Image rotated by  0.0904522  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  small 
+Line  1  - icon class:  Person        - size:  small 
+Line  2  - icon class:  Car           - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  small 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Bomb          - size:  small 
+Line  6  - icon class:  Road_block    - size:  small 
+Analysing time:  3114  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00608.png 
+Crosses position determined 
+Image rotated by  0.110073  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  large 
+Line  2  - icon class:  Casualty      - size:  medium 
+Line  3  - icon class:  Car           - size:  large 
+Line  4  - icon class:  Electricity   - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3159  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00609.png 
+Crosses position determined 
+Image rotated by  0.0253033  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  small 
+Line  1  - icon class:  Fire_brigade  - size:  large 
+Line  2  - icon class:  Police        - size:  small 
+Line  3  - icon class:  Flood         - size:  medium 
+Line  4  - icon class:  Bomb          - size:  large 
+Line  5  - icon class:  Electricity   - size:  small 
+Line  6  - icon class:  Gas           - size:  medium 
+Analysing time:  3147  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00610.png 
+Crosses position determined 
+Image rotated by  0.0253033  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Casualty      - size:  large 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Injury        - size:  large 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Police        - size:  medium 
+Analysing time:  3155  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00611.png 
+Crosses position determined 
+Image rotated by  0.0155112  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  small 
+Line  1  - icon class:  Accident      - size:  large 
+Line  2  - icon class:  Gas           - size:  large 
+Line  3  - icon class:  Gas           - size:  large 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Person        - size:  large 
+Line  6  - icon class:  Casualty      - size:  small 
+Analysing time:  3140  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00612.png 
+Crosses position determined 
+Image rotated by  0.0627857  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  large 
+Line  1  - icon class:  Road_block    - size:  large 
+Line  2  - icon class:  Car           - size:  small 
+Line  3  - icon class:  Car           - size:  large 
+Line  4  - icon class:  Electricity   - size:  small 
+Line  5  - icon class:  Fire          - size:  large 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3144  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00613.png 
+Crosses position determined 
+Image rotated by  0.0962392  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  small 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Electricity   - size:  medium 
+Line  3  - icon class:  Road_block    - size:  medium 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Bomb          - size:  medium 
+Line  6  - icon class:  Police        - size:  large 
+Analysing time:  3189  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00614.png 
+Crosses position determined 
+Image rotated by  0.10026  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  medium 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Electricity   - size:  medium 
+Line  3  - icon class:  Fire          - size:  large 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Accident      - size:  medium 
+Analysing time:  3128  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00615.png 
+Crosses position determined 
+Image rotated by  0.0489453  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Flood         - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Fire_brigade  - size:  small 
+Line  6  - icon class:  Casualty      - size:  medium 
+Analysing time:  3150  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00616.png 
+Crosses position determined 
+Image rotated by  0.0725906  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  small 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Injury        - size:  small 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Accident      - size:  medium 
+Line  5  - icon class:  Police        - size:  large 
+Line  6  - icon class:  Fire_brigade  - size:  small 
+Analysing time:  3175  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00617.png 
+Crosses position determined 
+Image rotated by  0.0627857  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Car           - size:  medium 
+Line  2  - icon class:  Flood         - size:  large 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Electricity   - size:  medium 
+Line  5  - icon class:  Car           - size:  medium 
+Line  6  - icon class:  Accident      - size:  medium 
+Analysing time:  3138  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00618.png 
+Crosses position determined 
+Image rotated by  0.0351002  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  large 
+Line  1  - icon class:  Electricity   - size:  large 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Person        - size:  large 
+Line  5  - icon class:  Car           - size:  medium 
+Line  6  - icon class:  Accident      - size:  small 
+Analysing time:  3196  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00619.png 
+Crosses position determined 
+Image rotated by  0.0391468  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Bomb          - size:  small 
+Line  3  - icon class:  Road_block    - size:  medium 
+Line  4  - icon class:  Electricity   - size:  large 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Gas           - size:  small 
+Analysing time:  3173  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00620.png 
+Crosses position determined 
+Image rotated by  0.110073  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  medium 
+Line  2  - icon class:  Person        - size:  medium 
+Line  3  - icon class:  Road_block    - size:  large 
+Line  4  - icon class:  Injury        - size:  large 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Accident      - size:  small 
+Analysing time:  3143  ms
+ 
+Analysing  C:/Temp/opirf/w006-scans/00621.png 
+Crosses position determined 
+Image rotated by  0.250084  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  small 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Fire          - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Flood         - size:  small 
+Line  6  - icon class:  Casualty      - size:  large 
+Analysing time:  3200  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00700.png 
+Crosses position determined 
+Image rotated by  -0.313704  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3086  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00701.png 
+Crosses position determined 
+Image rotated by  -0.256748  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3084  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00702.png 
+Crosses position determined 
+Image rotated by  -0.242853  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Person        - size:  medium 
+Line  2  - icon class:  Fire_brigade  - size:  medium 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Accident      - size:  medium 
+Line  5  - icon class:  Casualty      - size:  large 
+Line  6  - icon class:  Car           - size:  small 
+Analysing time:  3322  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00703.png 
+Crosses position determined 
+Image rotated by  -0.215079  degree 
+Image resized with a ratio of  1.0009 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  small 
+Line  2  - icon class:  Casualty      - size:  large 
+Line  3  - icon class:  Paramedics    - size:  large 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Gas           - size:  medium 
+Analysing time:  3147  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00704.png 
+Crosses position determined 
+Image rotated by  -0.256748  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Electricity   - size:  large 
+Line  2  - icon class:  Accident      - size:  large 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Police        - size:  small 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3096  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00705.png 
+Crosses position determined 
+Image rotated by  -0.215079  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  small 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Car           - size:  medium 
+Line  3  - icon class:  Fire          - size:  large 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Road_block    - size:  small 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3119  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00706.png 
+Crosses position determined 
+Image rotated by  -0.130344  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  large 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Bomb          - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  large 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Injury        - size:  large 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3233  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00707.png 
+Crosses position determined 
+Image rotated by  -0.331806  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  medium 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Car           - size:  large 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Electricity   - size:  medium 
+Line  5  - icon class:  Fire          - size:  large 
+Line  6  - icon class:  Fire_brigade  - size:  medium 
+Analysing time:  3231  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00708.png 
+Crosses position determined 
+Image rotated by  -0.303991  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Person        - size:  large 
+Line  2  - icon class:  Flood         - size:  small 
+Line  3  - icon class:  Flood         - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Accident      - size:  large 
+Line  6  - icon class:  Accident      - size:  small 
+Analysing time:  3105  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00709.png 
+Crosses position determined 
+Image rotated by  -0.30818  degree 
+Image resized with a ratio of  1.00172 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  small 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3166  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00710.png 
+Crosses position determined 
+Image rotated by  -0.317896  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  medium 
+Line  1  - icon class:  Bomb          - size:  large 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Gas           - size:  small 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Police        - size:  medium 
+Analysing time:  3211  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00711.png 
+Crosses position determined 
+Image rotated by  -0.185857  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Casualty      - size:  small 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  small 
+Line  4  - icon class:  Bomb          - size:  small 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Fire_brigade  - size:  medium 
+Analysing time:  3168  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00712.png 
+Crosses position determined 
+Image rotated by  -0.0789975  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  small 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Flood         - size:  medium 
+Line  3  - icon class:  Road_block    - size:  medium 
+Line  4  - icon class:  Bomb          - size:  large 
+Line  5  - icon class:  Road_block    - size:  large 
+Line  6  - icon class:  Police        - size:  medium 
+Analysing time:  3151  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00713.png 
+Crosses position determined 
+Image rotated by  0.283578  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Road_block    - size:  large 
+Line  3  - icon class:  Bomb          - size:  small 
+Line  4  - icon class:  Person        - size:  small 
+Line  5  - icon class:  Flood         - size:  large 
+Line  6  - icon class:  Gas           - size:  medium 
+Analysing time:  3183  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00714.png 
+Crosses position determined 
+Image rotated by  0.0195639  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  small 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Electricity   - size:  large 
+Line  3  - icon class:  Injury        - size:  small 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Person        - size:  large 
+Line  6  - icon class:  Accident      - size:  medium 
+Analysing time:  3161  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00715.png 
+Crosses position determined 
+Image rotated by  1.14138  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  large 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Police        - size:  small 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Flood         - size:  large 
+Analysing time:  3254  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00716.png 
+Crosses position determined 
+Image rotated by  -0.171972  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Fire          - size:  small 
+Line  3  - icon class:  Accident      - size:  medium 
+Line  4  - icon class:  Flood         - size:  medium 
+Line  5  - icon class:  Electricity   - size:  small 
+Line  6  - icon class:  Police        - size:  large 
+Analysing time:  3233  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00717.png 
+Crosses position determined 
+Image rotated by  -0.0830914  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Casualty      - size:  small 
+Line  2  - icon class:  Person        - size:  medium 
+Line  3  - icon class:  Electricity   - size:  small 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Fire          - size:  medium 
+Analysing time:  3143  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00718.png 
+Crosses position determined 
+Image rotated by  0.0155112  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  medium 
+Line  1  - icon class:  Paramedics    - size:  medium 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Accident      - size:  medium 
+Line  4  - icon class:  Police        - size:  medium 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Injury        - size:  large 
+Analysing time:  3113  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00719.png 
+Crosses position determined 
+Image rotated by  0.1181  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  large 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Injury        - size:  small 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Electricity   - size:  medium 
+Line  5  - icon class:  Gas           - size:  large 
+Line  6  - icon class:  Car           - size:  medium 
+Analysing time:  3292  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00720.png 
+Crosses position determined 
+Image rotated by  -0.256748  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  medium 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Car           - size:  small 
+Line  3  - icon class:  Fire_brigade  - size:  large 
+Line  4  - icon class:  Person        - size:  medium 
+Line  5  - icon class:  Gas           - size:  large 
+Line  6  - icon class:  Fire_brigade  - size:  small 
+Analysing time:  3119  ms
+ 
+Analysing  C:/Temp/opirf/w007-scans/00721.png 
+Crosses position determined 
+Image rotated by  -0.228964  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  small 
+Line  1  - icon class:  Flood         - size:  small 
+Line  2  - icon class:  Fire          - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  small 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Gas           - size:  medium 
+Analysing time:  3163  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00800.png 
+Crosses position determined 
+Image rotated by  -0.256748  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3124  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00801.png 
+Crosses position determined 
+Image rotated by  -0.242853  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3114  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00802.png 
+Crosses position determined 
+Image rotated by  -0.280371  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Road_block    - size:  medium 
+Line  2  - icon class:  Injury        - size:  large 
+Line  3  - icon class:  Fire          - size:  small 
+Line  4  - icon class:  Injury        - size:  medium 
+Line  5  - icon class:  Gas           - size:  small 
+Line  6  - icon class:  Fire          - size:  large 
+Analysing time:  3112  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00803.png 
+Crosses position determined 
+Image rotated by  -0.21923  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Paramedics    - size:  medium 
+Line  2  - icon class:  Accident      - size:  large 
+Line  3  - icon class:  Paramedics    - size:  large 
+Line  4  - icon class:  Injury        - size:  small 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Gas           - size:  large 
+Analysing time:  3135  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00804.png 
+Crosses position determined 
+Image rotated by  -0.21923  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  medium 
+Line  1  - icon class:  Casualty      - size:  small 
+Line  2  - icon class:  Paramedics    - size:  medium 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  small 
+Line  5  - icon class:  Police        - size:  large 
+Line  6  - icon class:  Car           - size:  large 
+Analysing time:  3119  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00805.png 
+Crosses position determined 
+Image rotated by  -0.21923  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  small 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Casualty      - size:  large 
+Line  5  - icon class:  Accident      - size:  medium 
+Line  6  - icon class:  Bomb          - size:  large 
+Analysing time:  3105  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00806.png 
+Crosses position determined 
+Image rotated by  -0.205343  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Car           - size:  medium 
+Line  2  - icon class:  Fire          - size:  medium 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Bomb          - size:  small 
+Line  5  - icon class:  Accident      - size:  small 
+Line  6  - icon class:  Car           - size:  medium 
+Analysing time:  3215  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00807.png 
+Crosses position determined 
+Image rotated by  -0.209491  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  medium 
+Line  1  - icon class:  Gas           - size:  large 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Casualty      - size:  small 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3123  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00808.png 
+Crosses position determined 
+Image rotated by  -0.252581  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  small 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Fire_brigade  - size:  large 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  large 
+Line  5  - icon class:  Bomb          - size:  small 
+Line  6  - icon class:  Fire_brigade  - size:  small 
+Analysing time:  3247  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00809.png 
+Crosses position determined 
+Image rotated by  -0.270647  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Road_block    - size:  small 
+Line  2  - icon class:  Paramedics    - size:  medium 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Car           - size:  large 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Fire_brigade  - size:  medium 
+Analysing time:  3155  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00810.png 
+Crosses position determined 
+Image rotated by  -0.181719  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  medium 
+Line  3  - icon class:  Road_block    - size:  medium 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Flood         - size:  large 
+Line  6  - icon class:  Paramedics    - size:  large 
+Analysing time:  3212  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00811.png 
+Crosses position determined 
+Image rotated by  -0.270647  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  small 
+Line  1  - icon class:  Flood         - size:  medium 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Gas           - size:  medium 
+Line  5  - icon class:  Electricity   - size:  large 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3202  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00812.png 
+Crosses position determined 
+Image rotated by  -0.266474  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  large 
+Line  1  - icon class:  Road_block    - size:  large 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Injury        - size:  large 
+Line  4  - icon class:  Accident      - size:  medium 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Casualty      - size:  large 
+Analysing time:  3252  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00813.png 
+Crosses position determined 
+Image rotated by  -0.247017  degree 
+Image resized with a ratio of  1.00172 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  small 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Police        - size:  small 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Flood         - size:  small 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Police        - size:  small 
+Analysing time:  3148  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00814.png 
+Crosses position determined 
+Image rotated by  -0.256748  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  medium 
+Line  1  - icon class:  Person        - size:  large 
+Line  2  - icon class:  Car           - size:  medium 
+Line  3  - icon class:  Injury        - size:  medium 
+Line  4  - icon class:  Accident      - size:  medium 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Fire          - size:  large 
+Analysing time:  3273  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00815.png 
+Crosses position determined 
+Image rotated by  -0.205343  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Police        - size:  medium 
+Line  2  - icon class:  Bomb          - size:  large 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Police        - size:  medium 
+Line  5  - icon class:  Flood         - size:  large 
+Line  6  - icon class:  Gas           - size:  medium 
+Analysing time:  3214  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00816.png 
+Crosses position determined 
+Image rotated by  -0.233121  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  medium 
+Line  1  - icon class:  Car           - size:  small 
+Line  2  - icon class:  Bomb          - size:  medium 
+Line  3  - icon class:  Accident      - size:  small 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Person        - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  small 
+Analysing time:  3147  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00817.png 
+Crosses position determined 
+Image rotated by  -0.29009  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Person        - size:  medium 
+Line  2  - icon class:  Flood         - size:  small 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Person        - size:  small 
+Line  5  - icon class:  Person        - size:  medium 
+Line  6  - icon class:  Casualty      - size:  medium 
+Analysing time:  3177  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00818.png 
+Crosses position determined 
+Image rotated by  -0.242853  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Bomb          - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Road_block    - size:  medium 
+Line  4  - icon class:  Road_block    - size:  large 
+Line  5  - icon class:  Electricity   - size:  small 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3209  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00819.png 
+Crosses position determined 
+Image rotated by  -0.228964  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Bomb          - size:  medium 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Fire          - size:  medium 
+Line  4  - icon class:  Flood         - size:  medium 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Fire          - size:  medium 
+Analysing time:  3146  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00820.png 
+Crosses position determined 
+Image rotated by  -0.242853  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  small 
+Line  1  - icon class:  Person        - size:  small 
+Line  2  - icon class:  Accident      - size:  large 
+Line  3  - icon class:  Accident      - size:  medium 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Car           - size:  small 
+Analysing time:  3142  ms
+ 
+Analysing  C:/Temp/opirf/w008-scans/00821.png 
+Crosses position determined 
+Image rotated by  -0.21923  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  large 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Police        - size:  large 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Fire          - size:  small 
+Analysing time:  3199  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00900.png 
+Crosses position determined 
+Image rotated by  -0.256748  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3119  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00901.png 
+Crosses position determined 
+Image rotated by  -0.228964  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3121  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00902.png 
+Crosses position determined 
+Image rotated by  -0.223384  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Injury        - size:  small 
+Line  3  - icon class:  Bomb          - size:  small 
+Line  4  - icon class:  Fire_brigade  - size:  small 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Road_block    - size:  small 
+Analysing time:  3091  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00903.png 
+Crosses position determined 
+Image rotated by  -0.191461  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  medium 
+Line  1  - icon class:  Flood         - size:  medium 
+Line  2  - icon class:  Casualty      - size:  medium 
+Line  3  - icon class:  Car           - size:  small 
+Line  4  - icon class:  Bomb          - size:  large 
+Line  5  - icon class:  Bomb          - size:  medium 
+Line  6  - icon class:  Injury        - size:  medium 
+Analysing time:  3213  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00904.png 
+Crosses position determined 
+Image rotated by  -0.209491  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  large 
+Line  1  - icon class:  Bomb          - size:  large 
+Line  2  - icon class:  Car           - size:  large 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Flood         - size:  large 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3103  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00905.png 
+Crosses position determined 
+Image rotated by  -0.195603  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Injury        - size:  medium 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Fire          - size:  medium 
+Line  4  - icon class:  Injury        - size:  small 
+Line  5  - icon class:  Fire_brigade  - size:  medium 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3110  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00906.png 
+Crosses position determined 
+Image rotated by  -0.266474  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  small 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Car           - size:  medium 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Fire          - size:  large 
+Line  5  - icon class:  Person        - size:  medium 
+Line  6  - icon class:  Police        - size:  large 
+Analysing time:  3315  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00907.png 
+Crosses position determined 
+Image rotated by  -0.120588  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Fire          - size:  small 
+Line  2  - icon class:  Paramedics    - size:  large 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Fire          - size:  medium 
+Line  5  - icon class:  Flood         - size:  small 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3133  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00908.png 
+Crosses position determined 
+Image rotated by  -0.171972  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  medium 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Road_block    - size:  medium 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Accident      - size:  medium 
+Line  6  - icon class:  Fire          - size:  small 
+Analysing time:  3132  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00909.png 
+Crosses position determined 
+Image rotated by  -0.140096  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Bomb          - size:  medium 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Bomb          - size:  small 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Road_block    - size:  small 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3118  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00910.png 
+Crosses position determined 
+Image rotated by  -0.148338  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  large 
+Line  1  - icon class:  Fire          - size:  large 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Police        - size:  large 
+Line  4  - icon class:  Fire_brigade  - size:  large 
+Line  5  - icon class:  Person        - size:  small 
+Line  6  - icon class:  Gas           - size:  medium 
+Analysing time:  3197  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00911.png 
+Crosses position determined 
+Image rotated by  -0.171972  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Person        - size:  small 
+Line  1  - icon class:  Fire_brigade  - size:  large 
+Line  2  - icon class:  Fire          - size:  medium 
+Line  3  - icon class:  Injury        - size:  medium 
+Line  4  - icon class:  Road_block    - size:  medium 
+Line  5  - icon class:  Accident      - size:  small 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3177  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00912.png 
+Crosses position determined 
+Image rotated by  -0.144216  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  large 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Accident      - size:  medium 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Electricity   - size:  large 
+Analysing time:  3180  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00913.png 
+Crosses position determined 
+Image rotated by  -0.130344  degree 
+Image resized with a ratio of  1.0009 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  medium 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  large 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Injury        - size:  large 
+Analysing time:  3189  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00914.png 
+Crosses position determined 
+Image rotated by  -0.130344  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  large 
+Line  1  - icon class:  Paramedics    - size:  small 
+Line  2  - icon class:  Casualty      - size:  medium 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Accident      - size:  small 
+Line  5  - icon class:  Police        - size:  medium 
+Line  6  - icon class:  Gas           - size:  large 
+Analysing time:  3350  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00915.png 
+Crosses position determined 
+Image rotated by  -0.16784  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire_brigade  - size:  medium 
+Line  1  - icon class:  Gas           - size:  medium 
+Line  2  - icon class:  Car           - size:  small 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Flood         - size:  medium 
+Line  5  - icon class:  Gas           - size:  medium 
+Line  6  - icon class:  Person        - size:  large 
+Analysing time:  3251  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00916.png 
+Crosses position determined 
+Image rotated by  -0.171972  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  medium 
+Line  1  - icon class:  Injury        - size:  large 
+Line  2  - icon class:  Fire_brigade  - size:  small 
+Line  3  - icon class:  Flood         - size:  medium 
+Line  4  - icon class:  Injury        - size:  medium 
+Line  5  - icon class:  Fire_brigade  - size:  medium 
+Line  6  - icon class:  Person        - size:  large 
+Analysing time:  3275  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00917.png 
+Crosses position determined 
+Image rotated by  -0.171972  degree 
+Image resized with a ratio of  1.00131 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  medium 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Accident      - size:  large 
+Line  3  - icon class:  Police        - size:  small 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Bomb          - size:  medium 
+Analysing time:  3184  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00918.png 
+Crosses position determined 
+Image rotated by  -0.209491  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  medium 
+Line  1  - icon class:  Electricity   - size:  medium 
+Line  2  - icon class:  Injury        - size:  medium 
+Line  3  - icon class:  Car           - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Road_block    - size:  large 
+Analysing time:  3140  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00919.png 
+Crosses position determined 
+Image rotated by  -0.153966  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  large 
+Line  1  - icon class:  Gas           - size:  small 
+Line  2  - icon class:  Electricity   - size:  large 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Gas           - size:  small 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3113  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00920.png 
+Crosses position determined 
+Image rotated by  -0.209491  degree 
+Image resized with a ratio of  1.00148 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  small 
+Line  1  - icon class:  Flood         - size:  large 
+Line  2  - icon class:  Casualty      - size:  medium 
+Line  3  - icon class:  Police        - size:  small 
+Line  4  - icon class:  Electricity   - size:  small 
+Line  5  - icon class:  Paramedics    - size:  medium 
+Line  6  - icon class:  Road_block    - size:  large 
+Analysing time:  3139  ms
+ 
+Analysing  C:/Temp/opirf/w009-scans/00921.png 
+Crosses position determined 
+Image rotated by  -0.181719  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Casualty      - size:  small 
+Line  2  - icon class:  Fire          - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  small 
+Line  4  - icon class:  Casualty      - size:  small 
+Line  5  - icon class:  Casualty      - size:  medium 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3127  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01000.png 
+Crosses position determined 
+Image rotated by  -0.153966  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  not_specified 
+Line  1  - icon class:  Bomb          - size:  not_specified 
+Line  2  - icon class:  Car           - size:  not_specified 
+Line  3  - icon class:  Casualty      - size:  not_specified 
+Line  4  - icon class:  Electricity   - size:  not_specified 
+Line  5  - icon class:  Fire          - size:  not_specified 
+Line  6  - icon class:  Fire_brigade  - size:  not_specified 
+Analysing time:  3128  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01001.png 
+Crosses position determined 
+Image rotated by  -0.153966  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  not_specified 
+Line  1  - icon class:  Injury        - size:  not_specified 
+Line  2  - icon class:  Paramedics    - size:  not_specified 
+Line  3  - icon class:  Person        - size:  not_specified 
+Line  4  - icon class:  Police        - size:  not_specified 
+Line  5  - icon class:  Road_block    - size:  not_specified 
+Line  6  - icon class:  Flood         - size:  not_specified 
+Analysing time:  3220  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01002.png 
+Crosses position determined 
+Image rotated by  -0.201199  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  large 
+Line  1  - icon class:  Bomb          - size:  large 
+Line  2  - icon class:  Electricity   - size:  small 
+Line  3  - icon class:  Person        - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  small 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Police        - size:  small 
+Analysing time:  3097  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01003.png 
+Crosses position determined 
+Image rotated by  -0.116478  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  medium 
+Line  1  - icon class:  Injury        - size:  large 
+Line  2  - icon class:  Injury        - size:  large 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Flood         - size:  small 
+Analysing time:  3138  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01004.png 
+Crosses position determined 
+Image rotated by  -0.126232  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  small 
+Line  1  - icon class:  Electricity   - size:  small 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Person        - size:  medium 
+Line  6  - icon class:  Police        - size:  medium 
+Analysing time:  3132  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01005.png 
+Crosses position determined 
+Image rotated by  -0.116478  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Injury        - size:  medium 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Gas           - size:  medium 
+Line  3  - icon class:  Gas           - size:  medium 
+Line  4  - icon class:  Gas           - size:  small 
+Line  5  - icon class:  Flood         - size:  medium 
+Line  6  - icon class:  Accident      - size:  small 
+Analysing time:  3088  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01006.png 
+Crosses position determined 
+Image rotated by  -0.130344  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Accident      - size:  medium 
+Line  1  - icon class:  Fire          - size:  large 
+Line  2  - icon class:  Electricity   - size:  medium 
+Line  3  - icon class:  Flood         - size:  medium 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3147  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01007.png 
+Crosses position determined 
+Image rotated by  -0.126232  degree 
+Image resized with a ratio of  1.00041 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Fire_brigade  - size:  small 
+Line  2  - icon class:  Fire_brigade  - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Bomb          - size:  small 
+Line  6  - icon class:  Accident      - size:  medium 
+Analysing time:  3126  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01008.png 
+Crosses position determined 
+Image rotated by  -0.116478  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  large 
+Line  1  - icon class:  Accident      - size:  large 
+Line  2  - icon class:  Accident      - size:  large 
+Line  3  - icon class:  Fire_brigade  - size:  medium 
+Line  4  - icon class:  Fire          - size:  large 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Paramedics    - size:  medium 
+Analysing time:  3176  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01009.png 
+Crosses position determined 
+Image rotated by  -0.153966  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  medium 
+Line  1  - icon class:  Electricity   - size:  large 
+Line  2  - icon class:  Fire_brigade  - size:  large 
+Line  3  - icon class:  Casualty      - size:  small 
+Line  4  - icon class:  Police        - size:  medium 
+Line  5  - icon class:  Accident      - size:  medium 
+Line  6  - icon class:  Person        - size:  medium 
+Analysing time:  3249  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01010.png 
+Crosses position determined 
+Image rotated by  -0.163711  degree 
+Image resized with a ratio of  1.00058 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  medium 
+Line  1  - icon class:  Accident      - size:  medium 
+Line  2  - icon class:  Police        - size:  large 
+Line  3  - icon class:  Electricity   - size:  medium 
+Line  4  - icon class:  Gas           - size:  large 
+Line  5  - icon class:  Car           - size:  large 
+Line  6  - icon class:  Electricity   - size:  medium 
+Analysing time:  3248  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01011.png 
+Crosses position determined 
+Image rotated by  -0.171972  degree 
+Image resized with a ratio of  1.00124 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  large 
+Line  1  - icon class:  Person        - size:  large 
+Line  2  - icon class:  Bomb          - size:  medium 
+Line  3  - icon class:  Flood         - size:  medium 
+Line  4  - icon class:  Casualty      - size:  medium 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Gas           - size:  large 
+Analysing time:  3188  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01012.png 
+Crosses position determined 
+Image rotated by  -0.158091  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Electricity   - size:  medium 
+Line  1  - icon class:  Person        - size:  large 
+Line  2  - icon class:  Injury        - size:  small 
+Line  3  - icon class:  Paramedics    - size:  medium 
+Line  4  - icon class:  Police        - size:  medium 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Bomb          - size:  large 
+Analysing time:  3213  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01013.png 
+Crosses position determined 
+Image rotated by  -0.153966  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  medium 
+Line  1  - icon class:  Car           - size:  medium 
+Line  2  - icon class:  Person        - size:  small 
+Line  3  - icon class:  Police        - size:  large 
+Line  4  - icon class:  Fire_brigade  - size:  medium 
+Line  5  - icon class:  Casualty      - size:  large 
+Line  6  - icon class:  Flood         - size:  medium 
+Analysing time:  3189  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01014.png 
+Crosses position determined 
+Image rotated by  -0.153966  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Casualty      - size:  small 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Person        - size:  medium 
+Line  3  - icon class:  Paramedics    - size:  large 
+Line  4  - icon class:  Electricity   - size:  large 
+Line  5  - icon class:  Injury        - size:  medium 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3161  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01015.png 
+Crosses position determined 
+Image rotated by  -0.181719  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Police        - size:  small 
+Line  1  - icon class:  Paramedics    - size:  medium 
+Line  2  - icon class:  Casualty      - size:  medium 
+Line  3  - icon class:  Police        - size:  medium 
+Line  4  - icon class:  Fire          - size:  small 
+Line  5  - icon class:  Electricity   - size:  medium 
+Line  6  - icon class:  Police        - size:  medium 
+Analysing time:  3152  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01016.png 
+Crosses position determined 
+Image rotated by  -0.16784  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Paramedics    - size:  large 
+Line  1  - icon class:  Road_block    - size:  small 
+Line  2  - icon class:  Car           - size:  medium 
+Line  3  - icon class:  Accident      - size:  medium 
+Line  4  - icon class:  Paramedics    - size:  small 
+Line  5  - icon class:  Road_block    - size:  large 
+Line  6  - icon class:  Injury        - size:  small 
+Analysing time:  3195  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01017.png 
+Crosses position determined 
+Image rotated by  -0.16784  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Fire          - size:  medium 
+Line  1  - icon class:  Fire          - size:  small 
+Line  2  - icon class:  Person        - size:  medium 
+Line  3  - icon class:  Fire_brigade  - size:  large 
+Line  4  - icon class:  Fire          - size:  medium 
+Line  5  - icon class:  Fire          - size:  medium 
+Line  6  - icon class:  Car           - size:  medium 
+Analysing time:  3186  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01018.png 
+Crosses position determined 
+Image rotated by  -0.144216  degree 
+Image resized with a ratio of  1.00107 
+Image cropped. 
+Line  0  - icon class:  Flood         - size:  medium 
+Line  1  - icon class:  Paramedics    - size:  medium 
+Line  2  - icon class:  Bomb          - size:  medium 
+Line  3  - icon class:  Car           - size:  small 
+Line  4  - icon class:  Road_block    - size:  large 
+Line  5  - icon class:  Road_block    - size:  medium 
+Line  6  - icon class:  Road_block    - size:  small 
+Analysing time:  3139  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01019.png 
+Crosses position determined 
+Image rotated by  -0.0928562  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Car           - size:  large 
+Line  1  - icon class:  Fire          - size:  medium 
+Line  2  - icon class:  Person        - size:  small 
+Line  3  - icon class:  Accident      - size:  small 
+Line  4  - icon class:  Bomb          - size:  medium 
+Line  5  - icon class:  Accident      - size:  medium 
+Line  6  - icon class:  Road_block    - size:  medium 
+Analysing time:  3125  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01020.png 
+Crosses position determined 
+Image rotated by  -0.126232  degree 
+Image resized with a ratio of  1.00065 
+Image cropped. 
+Line  0  - icon class:  Gas           - size:  medium 
+Line  1  - icon class:  Casualty      - size:  medium 
+Line  2  - icon class:  Paramedics    - size:  medium 
+Line  3  - icon class:  Casualty      - size:  medium 
+Line  4  - icon class:  Car           - size:  medium 
+Line  5  - icon class:  Flood         - size:  small 
+Line  6  - icon class:  Fire          - size:  medium 
+Analysing time:  3172  ms
+ 
+Analysing  C:/Temp/opirf/w010-scans/01021.png 
+Crosses position determined 
+Image rotated by  -0.0928562  degree 
+Image resized with a ratio of  1.00082 
+Image cropped. 
+Line  0  - icon class:  Road_block    - size:  medium 
+Line  1  - icon class:  Paramedics    - size:  small 
+Line  2  - icon class:  Police        - size:  medium 
+Line  3  - icon class:  Bomb          - size:  medium 
+Line  4  - icon class:  Bomb          - size:  small 
+Line  5  - icon class:  Gas           - size:  small 
+Line  6  - icon class:  Fire_brigade  - size:  medium 
+Analysing time:  3157  ms
+ 
+Analysing  C:/Temp/opirf/w011-scans/01100.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01101.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01102.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01103.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01104.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01105.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01106.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01107.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01108.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01109.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01110.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01111.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01112.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01113.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01114.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01115.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01116.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01117.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01118.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01119.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01120.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
+Analysing  C:/Temp/opirf/w011-scans/01121.png 
+C:\slave\WinInstallerMegaPack\src\opencv\modules\imgproc\src\color.cpp:3205: error: (-215) scn == 3 || scn == 4
+ 
