@@ -74,12 +74,12 @@ void FeatureExtractor::extract(const std::string& sourceFolder, const std::strin
 			}
 
 			for(std::vector<std::string>::iterator fileIt = mapIt->second.begin(); fileIt != mapIt->second.end(); ++fileIt) {
-
 				cv::Mat imageRaw = cv::imread(sourceFolder+*fileIt);
 				cv::Mat imageNorm;
 				cv::Mat imageNormBin;
 				cv::Rect boundingBox = normalize(imageRaw, imageNorm, _normalizedWidth, _normalizedHeight);
 				binariseImage(imageNorm, imageNormBin);
+				removeNoise(imageNormBin, imageNormBin);
 
 				for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it)  {
 
@@ -217,6 +217,7 @@ void FeatureExtractor::binariseImage(const cv::Mat& src, cv::Mat& dst) {
 void FeatureExtractor::removeNoise(const cv::Mat& src, cv::Mat& dst) {
 	cv::Mat elt = cv::getStructuringElement(cv::MORPH_ELLIPSE, cv::Size(7, 7), cv::Point(3, 3));
 	cv::morphologyEx(src, dst, cv::MORPH_CLOSE, elt);
+	//cv::morphologyEx(dst, dst, cv::MORPH_OPEN, elt);
 }
 
 cv::Rect FeatureExtractor::getBoundingBox(const cv::Mat& src) {

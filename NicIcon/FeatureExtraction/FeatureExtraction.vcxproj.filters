@@ -60,6 +60,9 @@
     <ClInclude Include="ConvexHullFeature.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="HoughLinesFeature.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Feature.cpp">
@@ -102,6 +105,9 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="ConvexHullFeature.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HoughLinesFeature.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

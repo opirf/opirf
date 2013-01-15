@@ -76,6 +76,7 @@
     <ClInclude Include="FileListHandler.h" />
     <ClInclude Include="FileListParser.h" />
     <ClInclude Include="HistogramPeaksFeature.h" />
+    <ClInclude Include="HoughLinesFeature.h" />
     <ClInclude Include="HuMomentsFeature.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="MaxDistanceFeature.h" />
@@ -91,6 +92,7 @@
     <ClCompile Include="FileListHandler.cpp" />
     <ClCompile Include="FileListParser.cpp" />
     <ClCompile Include="HistogramPeaksFeature.cpp" />
+    <ClCompile Include="HoughLinesFeature.cpp" />
     <ClCompile Include="HuMomentsFeature.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="main.cpp" />

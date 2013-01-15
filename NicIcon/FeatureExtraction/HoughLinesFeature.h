@@ -10,7 +10,7 @@ public:
 	virtual std::vector<std::string> featureNames() const
 		{ 
 			std::vector<std::string> ret;
-			ret.push_back("HoughLines");
+			ret.push_back("Hough-lines");
 			return ret; 
 		}
 

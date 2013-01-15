@@ -14,6 +14,7 @@
 #include "BoudingBoxFeature.h"
 #include "MaxDistanceFeature.h"
 #include "ConvexHullFeature.h"
+#include "HoughLinesFeature.h"
 
 int main(int argc, char** argv)
 {
@@ -59,7 +60,7 @@ int main(int argc, char** argv)
 	fe.addFeature(new CenterOfMassFeature(empty));
 	fe.addFeature(new CenterOfMassFeature(zonesFour));
 	//fe.addFeature(new CenterOfMassFeature(zonesFour));
-	fe.addFeature(new HuMomentsFeature(empty));
+	//fe.addFeature(new HuMomentsFeature(empty));
 	fe.addFeature(new HistogramPeaksFeature(empty, HORIZONTAL, 5, 0.5, 5));
 	fe.addFeature(new HistogramPeaksFeature(zonesSixH, HORIZONTAL, 5, 0.5, 5));
 	//fe.addFeature(new HistogramPeaksFeature(zonesSixV, HORIZONTAL, 5, 0.5, 5));
@@ -71,8 +72,8 @@ int main(int argc, char** argv)
 	//fe.addFeature(new MomentsFeature(zonesSixV));
 	fe.addFeature(new BoudingBoxFeature());
 	fe.addFeature(new MaxDistanceFeature(empty));
-	//fe.addFeature(new ConvexHullFeature(empty));
-
+	//fe.addFeature(new ConvexHullFeature(empty));*/
+	fe.addFeature(new HoughLinesFeature(empty));
 
 	// ------------------------------------------------------
 
@@ -92,6 +93,8 @@ int main(int argc, char** argv)
 		ss << "C:/Temp/opirf/w" << std::setw(3) << std::setfill('0') << i << ".xml";
 		fe.extract("C:/Temp/opirf/res/", ss.str());
 	}
+
+	//fe.extract("C:/Temp/opirf/res/", "C:/Temp/opirf/w000_2.xml");
 
 	fe.save();
 
