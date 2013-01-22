@@ -19,7 +19,7 @@ std::vector<double> HistogramPeaksFeature::featureApply(const cv::Mat& imageRaw,
 		for(int i=0; i<imageNormBin.cols; ++i) {
 			rangeIndice = (int)(i/_pixelRange);
 			for(int j=0; j<imageNormBin.rows; ++j) {
-				if(input[imageNormBin.step*i+j]==0) {
+				if(input[imageNormBin.step*i+j]!=0) {
 					(*histo)[rangeIndice]++;
 				}
 			}
@@ -31,7 +31,7 @@ std::vector<double> HistogramPeaksFeature::featureApply(const cv::Mat& imageRaw,
 		for(int i=0; i<imageNormBin.rows; ++i) {
 			rangeIndice = (int)(i/_pixelRange);
 			for(int j=0; j<imageNormBin.cols; ++j) {
-				if(input[imageNormBin.step*j+i]==0) {
+				if(input[imageNormBin.step*j+i]!=0) {
 					(*histo)[rangeIndice]++;
 				}
 			}

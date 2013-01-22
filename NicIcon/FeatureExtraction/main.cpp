@@ -72,8 +72,9 @@ int main(int argc, char** argv)
 	//fe.addFeature(new MomentsFeature(zonesSixV));
 	fe.addFeature(new BoudingBoxFeature());
 	fe.addFeature(new MaxDistanceFeature(empty));
-	//fe.addFeature(new ConvexHullFeature(empty));*/
-	fe.addFeature(new HoughLinesFeature(empty));
+	fe.addFeature(new MaxDistanceFeature(zonesSixV));
+	fe.addFeature(new ConvexHullFeature(empty));
+	//fe.addFeature(new HoughLinesFeature(empty));
 
 	// ------------------------------------------------------
 

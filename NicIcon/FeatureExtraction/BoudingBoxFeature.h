@@ -17,6 +17,7 @@ class BoudingBoxFeature : public Feature
 			ret.push_back("BoudingBox-WidthHeightRatio");
 			ret.push_back("BoudingBox-Perimeter");
 			ret.push_back("BoudingBox-Area");
+			ret.push_back("BoudingBox-Diagonal");
 			return ret; 
 		}
 

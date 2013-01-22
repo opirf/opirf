@@ -7,54 +7,34 @@ std::vector<double> ConvexHullFeature::featureApply(const cv::Mat& imageRaw, con
 	std::vector<std::vector<cv::Point> > contours;
 	std::vector<cv::Vec4i> hierarchy;
 
-	//cv::cvtColor(imageNorm, imageNormBin, CV_RGB2GRAY);
-	//cv::blur(imageNormBin, imageNormBin, cv::Size(3,3));
-	//cv::threshold(imageNormBin, imageNormBin, 254, 255, cv::THRESH_BINARY);
-
 	/// Find contours
-	cv::findContours(imageNormBin, contours, hierarchy, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_TC89_KCOS , cv::Point(0, 0));
-	
-	/// Find the convex hull object for each contour
-	int max,index;
-	std::vector<std::vector<cv::Point> > hull(1);
-	max = 0;
-	for(int i=0; i<contours.size(); ++i) {
-		if(contours[i].size()>max) {
-			max = contours[i].size();
-			index = i;
-		}
-		//cv::convexHull(cv::Mat(contours[i]), hull[i], false);
+	cv::findContours(imageNormBin, contours, hierarchy, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_SIMPLE, cv::Point(0, 0));
+	std::vector<std::vector<cv::Point> >hull(contours.size());
+	for( int i = 0; i < contours.size(); i++ ) {
+		convexHull(cv::Mat(contours[i]), hull[i], false);
 	}
-	cv::convexHull(cv::Mat(contours[index]), hull[0], false);
-	//cv::convexHull(cv::Mat(contours[0]), hull[0], false);
 
-	double perimeter = 0;
-	/*for(int i=0; i<contours.size(); ++i) {
-		for(int j=0; j<hull[i].size()-1; ++j) {
-			perimeter += distance(hull[i][j], hull[i][j+1]);
-		}
-	}*/
-
-	ret.push_back(perimeter);
-
-	std::cout << perimeter << std::endl;
-	
 	cv::RNG rng(12345);
-	cv::Scalar color = cv::Scalar( rng.uniform(0, 255), rng.uniform(0,255), rng.uniform(0,255) );
+	cv::Scalar color = cv::Scalar(rng.uniform(0, 255), rng.uniform(0,255), rng.uniform(0,255) );
 
-	//cv::Mat drawing = cv::Mat::zeros( imageNormBin.size(), CV_8UC3 );
-	/*for( int i = 0; i< contours.size(); i++ ) {
-		cv::Mat drawing = cv::Mat::zeros( imageNormBin.size(), CV_8UC3 );
-		//drawContours(drawing, contours, i, color, 1, 8, cv::vector<cv::Vec4i>(), 0, cv::Point() );
-		drawContours(drawing, hull, i, color, 1, 8, cv::vector<cv::Vec4i>(), 0, cv::Point() );
-		cv::imshow("dd", drawing);
-		cv::waitKey();
-	}*/
-	cv::Mat drawing = cv::Mat::zeros( imageNormBin.size(), CV_8UC3 );
-	//drawContours(drawing, contours, i, color, 1, 8, cv::vector<cv::Vec4i>(), 0, cv::Point() );
-	drawContours(drawing, hull, 0, color, 1, 8, cv::vector<cv::Vec4i>(), 0, cv::Point() );
-	cv::imshow("dd", drawing);
-	cv::waitKey();
+	int area = 0;
+	int length = 0;
+	int currentArea, currentArcLength;
+	for( int i = 0; i< contours.size(); i++) {
+		currentArea = contourArea(hull[i], false);
+		if(currentArea > area) {
+			area = currentArea;
+		}
+		currentArcLength = arcLength(hull[i], true);
+		if(currentArcLength > length) {
+			length = currentArcLength;
+		}
+	}
+
+    //std::cout << fabs(cv::contourArea(cv::Mat(contour)));
+
+	ret.push_back(area);
+	ret.push_back(length);
 
 	return ret;
 }

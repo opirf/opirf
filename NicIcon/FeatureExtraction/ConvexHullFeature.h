@@ -15,6 +15,7 @@ class ConvexHullFeature : public Feature
 		virtual std::vector<std::string> featureNames() const
 		{ 
 			std::vector<std::string> ret;
+			ret.push_back("ConvexHullFeature-Area");
 			ret.push_back("ConvexHullFeature-Perimeter");
 			return ret; 
 		}

@@ -14,7 +14,7 @@ std::vector<double> CenterOfMassFeature::featureApply(const cv::Mat& imageRaw, c
 	
 	for(int i=0; i<imageNormBin.rows; ++i) {
 		for(int j=0; j<imageNormBin.cols; ++j) {
-			if(input[imageNormBin.step*j+i]==0) {
+			if(input[imageNormBin.step*j+i]!=0) {
 				++nbPixel;
 				x += j;
 				y += i;
