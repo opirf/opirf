@@ -81,11 +81,6 @@ void FeatureExtractor::extract(const std::string& sourceFolder, const std::strin
 				binariseImage(imageNorm, imageNormBin);
 				removeNoise(imageNormBin, imageNormBin);
 
-				/*cv::imshow("cxc", imageNormBin);
-				cv::imshow("cxcd", imageNorm);
-				cv::imshow("cxcdd", imageRaw);
-				cv::waitKey();*/
-
 				for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it)  {
 
 					std::vector<double> res = (*it)->execute(imageRaw, imageNorm, imageNormBin, boundingBox);
@@ -189,8 +184,12 @@ void FeatureExtractor::setARFFHeaders(std::ofstream& stream) {
 
 cv::Rect FeatureExtractor::normalize(const cv::Mat& src, cv::Mat& dst, int normW, int normH) {
 	cv::Mat bin;
+
+	//cv::imshow("Start", src);
 	binariseImage(src, bin);
+	//cv::imshow("binariseImage", bin);	
 	removeNoise(bin, bin);
+	//cv::imshow("removeNoise", bin);	
 
 	/*cv::imshow("caca", bin);
 	cv::waitKey();*/
@@ -199,27 +198,37 @@ cv::Rect FeatureExtractor::normalize(const cv::Mat& src, cv::Mat& dst, int normW
 	//cv::Rect boundingBox = cv::boundingRect(bin);
 	dst = src(boundingBox);
 
-	const int space = 0;
+	//cv::imshow("normalised", src);	
+	//cv::waitKey();
+
 
 	cv::Mat tmp(normH, normW, src.type(), cv::Scalar(255,255,255));
-	if(boundingBox.width > boundingBox.height) {
 
-		int height = boundingBox.height*(normW-2*space)/boundingBox.width;
-		cv::resize(dst, dst, cv::Size(normW-2*space, height));
-		dst.copyTo(tmp(cv::Rect(space, (normH-height)/2+space, dst.cols, dst.rows)));
+	double ratioBounding = (double)(boundingBox.width)/(double)(boundingBox.height);
+	double ratioNorm = (double)(normW)/(double)(normH);
 
-	} else if(boundingBox.width < boundingBox.height){
+	if(ratioBounding > ratioNorm) {
 
-		int width = boundingBox.width*(normH-2*space)/boundingBox.height;
-		cv::resize(dst, dst, cv::Size(width, normH-2*space));
-		dst.copyTo(tmp(cv::Rect((normW-width)/2+space, space, dst.cols, dst.rows)));
+		int height = boundingBox.height*normW/boundingBox.width;
+		cv::resize(dst, dst, cv::Size(normW, height));
+		dst.copyTo(tmp(cv::Rect(0, (int)((normH-height)/2), dst.cols, dst.rows)));
 
 	} else {
 
-		cv::resize(dst, dst, cv::Size(normW-2*space, normH-2*space));
-		dst.copyTo(tmp(cv::Rect(space, space, dst.cols, dst.rows)));
-	}
+		int width = boundingBox.width*normH/boundingBox.height;
+		cv::resize(dst, dst, cv::Size(width, normH));
+		dst.copyTo(tmp(cv::Rect((normW-width)/2, 0, dst.cols, dst.rows)));
+
+	} 
+/*else {
+
+		cv::resize(dst, dst, cv::Size(normW, normH));
+		dst.copyTo(tmp(cv::Rect(0, 0, dst.cols, dst.rows)));
+	}*/
 	dst = tmp;
+
+	/*cv::imshow("normalised", dst);	
+	cv::waitKey();*/
 
 	return boundingBox;
 }
@@ -227,11 +236,12 @@ cv::Rect FeatureExtractor::normalize(const cv::Mat& src, cv::Mat& dst, int normW
 void FeatureExtractor::binariseImage(const cv::Mat& src, cv::Mat& dst) {
 	cv::cvtColor(src, dst, CV_RGB2GRAY);
 	//cv::blur(dst, dst, cv::Size(3,3));
-	cv::threshold(dst, dst, 0, 256, cv::THRESH_OTSU|cv::THRESH_BINARY_INV);
+	//cv::threshold(dst, dst, 0, 256, cv::THRESH_OTSU|cv::THRESH_BINARY_INV);
+	cv::threshold(dst, dst, 240, 255, cv::THRESH_BINARY_INV);
 }
 
 void FeatureExtractor::removeNoise(const cv::Mat& src, cv::Mat& dst) {
-	cv::Mat elt = cv::getStructuringElement(cv::MORPH_ELLIPSE, cv::Size(5, 5), cv::Point(2, 2));
+	cv::Mat elt = cv::getStructuringElement(cv::MORPH_ELLIPSE, cv::Size(5, 5), cv::Point(3, 3));
 	//cv::morphologyEx(src, dst, cv::MORPH_CLOSE, elt);
 	cv::morphologyEx(dst, dst, cv::MORPH_OPEN, elt);
 }
@@ -243,18 +253,18 @@ cv::Rect FeatureExtractor::getBoundingBox(const cv::Mat& src) {
 	int topY = 0, bottomY = _normalizedHeight, leftX = 0, rightX = _normalizedWidth;
 	
 	stop = false;
-	for(int i=0; i<src.rows&&!stop; ++i) {
-		for(int j=0; j<src.cols&&!stop; ++j) {
-			if(input[src.step*j+i]!=0) {
-				leftX = i;
+	for(int j=0; j<src.cols&&!stop; ++j) {
+		for(int i=0; i<src.rows&&!stop; ++i) {
+			if(input[src.step*i+j]!=0) {
+				leftX = j;
 				stop = true;
 			}
 		}
 	}
 
 	stop = false;
-	for(int i=0; i<src.cols&&!stop; ++i) {
-		for(int j=0; j<src.rows&&!stop; ++j) {
+	for(int i=0; i<src.rows&&!stop; ++i) {
+		for(int j=0; j<src.cols&&!stop; ++j) {
 			if(input[src.step*i+j]!=0) {
 				topY = i;
 				stop = true;
@@ -263,8 +273,8 @@ cv::Rect FeatureExtractor::getBoundingBox(const cv::Mat& src) {
 	}
 
 	stop = false;
-	for(int i=src.cols-1;i>=0&&!stop; --i) {
-		for(int j=src.rows-1; j>=0&&!stop; --j) {
+	for(int i=src.rows-1;i>=0&&!stop; --i) {
+		for(int j=src.cols-1; j>=0&&!stop; --j) {
 			if(input[src.step*i+j]!=0) {
 				bottomY = i;
 				stop = true;
@@ -273,10 +283,10 @@ cv::Rect FeatureExtractor::getBoundingBox(const cv::Mat& src) {
 	}
 
 	stop = false;
-	for(int i=src.rows-1;i>=0&&!stop; --i) {
-		for(int j=src.cols-1; j>=0&&!stop; --j) {
-			if(input[src.step*j+i]!=0) {
-				rightX = i;
+	for(int j=src.cols-1;j>=0&&!stop; --j) {
+		for(int i=src.rows-1; i>=0&&!stop; --i) {
+			if(input[src.step*i+j]!=0) {
+				rightX = j;
 				stop = true;
 			}
 		}

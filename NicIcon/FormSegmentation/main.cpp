@@ -27,8 +27,10 @@ int main (int argc, char** argv) {
 	clock_t beginTime = clock();
 	string root = "C:/Temp/opirf/";
 	std::stringstream ss, ss1;
-	
-	#pragma omp parallel for
+
+	// ------------------------- TRAINING SET -------------------------
+
+	/*#pragma omp parallel for
 	for(int j=17;j<35;++j) {
 		ss1.str("");
 		ss1 << "C:/Temp/opirf/w" << setw(3) << setfill('0') << j << ".xml";
@@ -39,6 +41,27 @@ int main (int argc, char** argv) {
 			try{
 				ss.str("");
 				ss << root << 'w' << setw(3) << setfill('0') << j << "-scans/" << setw(3) << setfill('0') << j << std::setw(2) << std::setfill('0') << i << ".png";
+				analyser->analyse(ss.str());
+			} catch(std::exception &e) {
+				Logger(omp_get_thread_num(), true) << e.what();
+			}
+		}
+		delete analyser;
+	}*/
+
+
+	// ------------------------- TEST SET -------------------------
+
+	for(int j=1;j<7;++j) {
+		ss1.str("");
+		ss1 << "C:/Temp/opirf/test-w" << setw(3) << setfill('0') << j << ".xml";
+		FormAnalyser* analyser = new FormAnalyser("C:/Temp/opirf/test/", ss1.str(), parser->getIconList(), parser->getIconSizeList(), parser->getCrossTemplate(), formParser->getBaseForm());
+
+		for(int i=1;i<3;++i) {
+
+			try{
+				ss.str("");
+				ss << root << "tofigureout/s" << setw(2) << setfill('0') << j << "_" << std::setw(4) << std::setfill('0') << i << ".png";
 				analyser->analyse(ss.str());
 			} catch(std::exception &e) {
 				Logger(omp_get_thread_num(), true) << e.what();

@@ -11,7 +11,7 @@
 #include "HuMomentsFeature.h"
 #include "HistogramPeaksFeature.h"
 #include "MomentsFeature.h"
-#include "BoudingBoxFeature.h"
+#include "BoundingBoxFeature.h"
 #include "MaxDistanceFeature.h"
 #include "ConvexHullFeature.h"
 #include "HoughLinesFeature.h"
@@ -70,7 +70,7 @@ int main(int argc, char** argv)
 	fe.addFeature(new MomentsFeature(empty));
 	fe.addFeature(new MomentsFeature(zonesSixH));
 	//fe.addFeature(new MomentsFeature(zonesSixV));
-	fe.addFeature(new BoudingBoxFeature());
+	fe.addFeature(new BoundingBoxFeature());
 	fe.addFeature(new MaxDistanceFeature(empty));
 	fe.addFeature(new MaxDistanceFeature(zonesSixV));
 	fe.addFeature(new ConvexHullFeature(empty));
@@ -86,36 +86,35 @@ int main(int argc, char** argv)
 	//fe.separateFile(true);
 	//fe.groupBy(ICON);
 
-	//fe.setOutputFileName("test-set");
+	// ------------------------------- TRAINING SET -------------------------------
+
+	/*fe.setOutputFileName("training-set");
 
 	#pragma omp parallel for
-	for(int i=0;i<4;++i) {
+	for(int i=0;i<10;++i) {
 		ss.str("");
 		ss << "C:/Temp/opirf/w" << std::setw(3) << std::setfill('0') << i << ".xml";
 		fe.extract("C:/Temp/opirf/res/", ss.str());
 	}
 
-	//fe.extract("C:/Temp/opirf/res/", "C:/Temp/opirf/w000_2.xml");
+	fe.save();*/
+
+	// ------------------------------- TEST SET -------------------------------
+
+	fe.setOutputFileName("test-set");
+
+	#pragma omp parallel for
+	for(int i=1;i<7;++i) {
+		ss.str("");
+		ss << "C:/Temp/opirf/test-w" << std::setw(3) << std::setfill('0') << i << ".xml";
+		fe.extract("C:/Temp/opirf/test/", ss.str());
+	}
 
 	fe.save();
 
 	// ------------------------------------------------------
 
-	/*classList.clear();
-	classList.push_back("Accident");
-	classList.push_back("Car");
-	fe.selectWorkingClass(classList);
-	fe.setOutputFileName("Accident-Car");
-	//fe.separateFile(true);
-	//fe.groupBy(ICON);
 
-	for(int i=0;i<4;++i) {
-		ss.str("");
-		ss << "C:/Temp/opirf/w" << std::setw(3) << std::setfill('0') << i << ".xml";
-		fe.extract("C:/Temp/opirf/res/", ss.str());
-	}
-
-	fe.save();/*/
 
 	clock_t endTime = clock();
 	Logger(-1, true) << "Total Time: " << (endTime - beginTime);
