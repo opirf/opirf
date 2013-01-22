@@ -67,7 +67,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BoudingBoxFeature.h" />
+    <ClInclude Include="BoundingBoxFeature.h" />
     <ClInclude Include="CenterOfMassFeature.h" />
     <ClInclude Include="ConvexHullFeature.h" />
     <ClInclude Include="Feature.h" />

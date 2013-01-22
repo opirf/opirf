@@ -81,6 +81,11 @@ void FeatureExtractor::extract(const std::string& sourceFolder, const std::strin
 				binariseImage(imageNorm, imageNormBin);
 				removeNoise(imageNormBin, imageNormBin);
 
+				/*cv::imshow("cxc", imageNormBin);
+				cv::imshow("cxcd", imageNorm);
+				cv::imshow("cxcdd", imageRaw);
+				cv::waitKey();*/
+
 				for(std::vector<Feature*>::iterator it = _featureList.begin(); it!=_featureList.end(); ++it)  {
 
 					std::vector<double> res = (*it)->execute(imageRaw, imageNorm, imageNormBin, boundingBox);
@@ -187,7 +192,11 @@ cv::Rect FeatureExtractor::normalize(const cv::Mat& src, cv::Mat& dst, int normW
 	binariseImage(src, bin);
 	removeNoise(bin, bin);
 
+	/*cv::imshow("caca", bin);
+	cv::waitKey();*/
+
 	cv::Rect boundingBox = getBoundingBox(bin);
+	//cv::Rect boundingBox = cv::boundingRect(bin);
 	dst = src(boundingBox);
 
 	const int space = 0;
@@ -218,7 +227,7 @@ cv::Rect FeatureExtractor::normalize(const cv::Mat& src, cv::Mat& dst, int normW
 void FeatureExtractor::binariseImage(const cv::Mat& src, cv::Mat& dst) {
 	cv::cvtColor(src, dst, CV_RGB2GRAY);
 	//cv::blur(dst, dst, cv::Size(3,3));
-	dst = dst < 254;
+	cv::threshold(dst, dst, 0, 256, cv::THRESH_OTSU|cv::THRESH_BINARY_INV);
 }
 
 void FeatureExtractor::removeNoise(const cv::Mat& src, cv::Mat& dst) {

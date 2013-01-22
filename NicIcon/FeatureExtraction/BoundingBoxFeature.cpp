@@ -1,8 +1,8 @@
-#include "BoudingBoxFeature.h"
+#include "BoundingBoxFeature.h"
 
 #include <cmath>
 
-std::vector<double> BoudingBoxFeature::featureApply(const cv::Mat& imageRaw, const cv::Mat& imageNorm, const cv::Mat& imageNormBin, const cv::Rect& boundingBox) {
+std::vector<double> BoundingBoxFeature::featureApply(const cv::Mat& imageRaw, const cv::Mat& imageNorm, const cv::Mat& imageNormBin, const cv::Rect& boundingBox) {
 	std::vector<double> ret;
 
 	double w = boundingBox.width;

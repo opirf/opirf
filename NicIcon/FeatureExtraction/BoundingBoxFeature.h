@@ -6,10 +6,10 @@
 #include "Feature.h"
 
 
-class BoudingBoxFeature : public Feature
+class BoundingBoxFeature : public Feature
 {
 	public:
-		BoudingBoxFeature() : Feature(std::vector<cv::Rect>()) {}
+		BoundingBoxFeature() : Feature(std::vector<cv::Rect>()) {}
 
 		virtual std::vector<std::string> featureNames() const
 		{ 

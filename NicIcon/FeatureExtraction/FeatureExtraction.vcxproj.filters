@@ -51,9 +51,6 @@
     <ClInclude Include="MomentsFeature.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="BoudingBoxFeature.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="MaxDistanceFeature.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
@@ -61,6 +58,9 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="HoughLinesFeature.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBoxFeature.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

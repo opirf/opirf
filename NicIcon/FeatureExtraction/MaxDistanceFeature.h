@@ -17,8 +17,6 @@ class MaxDistanceFeature : public Feature
 			std::vector<std::string> ret;
 			ret.push_back("MaxDistance-Horizontal");
 			ret.push_back("MaxDistance-Vertical");
-			ret.push_back("MaxDistance-Horizontal2");
-			ret.push_back("MaxDistance-Vertical2");
 			return ret; 
 		}
 

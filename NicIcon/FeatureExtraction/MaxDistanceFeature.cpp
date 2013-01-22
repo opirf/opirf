@@ -17,7 +17,7 @@ std::vector<double> MaxDistanceFeature::featureApply(const cv::Mat& imageRaw, co
 		j=0;
 		while(j<imageNormBin.cols) {
 			currentDistance = 0;
-			while(input[imageNormBin.step*j+i]==0 && j<imageNormBin.cols) {
+			while(input[imageNormBin.step*i+j]==0 && j<imageNormBin.cols) {
 				++currentDistance;
 				++j;
 			}
@@ -36,7 +36,7 @@ std::vector<double> MaxDistanceFeature::featureApply(const cv::Mat& imageRaw, co
 		j=0;
 		while(j<imageNormBin.rows) {
 			currentDistance = 0;
-			while(input[imageNormBin.step*i+j]==0 && j<imageNormBin.cols) {
+			while(input[imageNormBin.step*j+i]==0 && j<imageNormBin.cols) {
 				++currentDistance;
 				++j;
 			}
@@ -45,51 +45,6 @@ std::vector<double> MaxDistanceFeature::featureApply(const cv::Mat& imageRaw, co
 				maxDistance = currentDistance;
 			}
 		}
-	}
-
-	ret.push_back(maxDistance);
-
-	
-	// HORIZONTAL
-	maxDistance = 0;
-	for(int i=0; i<imageNormBin.rows; ++i) {
-
-		firstPart = false;
-		currentFirst = false;
-
-		for(int j=0; j<imageNormBin.cols; ++j) {
-			if(!firstPart && input[imageNormBin.step*j+i]!=0) {
-				currentFirst = true;
-				firstPart = true;
-			} else if(firstPart && currentFirst && input[imageNormBin.step*j+i]==0) {currentFirst=false;firstIndex = j;}
-			else if(firstPart && !currentFirst && input[imageNormBin.step*j+i]!=0) {
-				if(j-firstIndex>maxDistance) {
-					maxDistance = j-firstIndex;
-				}
-			}
-		} 
-	}
-
-	ret.push_back(maxDistance);
-
-	// VERTICAL
-	maxDistance = 0;
-	for(int j=0; j<imageNormBin.cols; ++j) {
-
-		firstPart = false;
-		currentFirst = false;
-
-		for(int i=0; i<imageNormBin.rows; ++i) {
-			if(!firstPart && input[imageNormBin.step*j+i]!=0) {
-				currentFirst = true;
-				firstPart = true;
-			} else if(firstPart && currentFirst && input[imageNormBin.step*j+i]==0) {currentFirst=false;firstIndex = j;}
-			else if(firstPart && !currentFirst && input[imageNormBin.step*j+i]!=0) {
-				if(i-firstIndex>maxDistance) {
-					maxDistance = i-firstIndex;
-				}
-			}
-		} 
 	}
 
 	ret.push_back(maxDistance);
