@@ -18,9 +18,9 @@ class HuMomentsFeature : public Feature
 			ret.push_back("HuMoment-2");
 			ret.push_back("HuMoment-3");
 			ret.push_back("HuMoment-4");
-			ret.push_back("HuMoment-5");
-			ret.push_back("HuMoment-6");
-			ret.push_back("HuMoment-7");
+			//ret.push_back("HuMoment-5");
+			//ret.push_back("HuMoment-6");
+			//ret.push_back("HuMoment-7");
 			return ret; 
 		}
 
