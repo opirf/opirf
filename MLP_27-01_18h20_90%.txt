@@ -1,0 +1,87 @@
+zonesSixH.push_back(cv::Rect(0, 0, width/3, height/2));
+zonesSixH.push_back(cv::Rect(0, height/2, width/3, height/2));
+zonesSixH.push_back(cv::Rect(width/3, 0, width/3, height/2));
+zonesSixH.push_back(cv::Rect(width/3, height/2, width/3, height/2));
+zonesSixH.push_back(cv::Rect(2*width/3, 0, width/3, height/2));
+zonesSixH.push_back(cv::Rect(2*width/3, height/2, width/3, height/2));
+
+zonesSixV.push_back(cv::Rect(0, 0, width/2, height/3));
+zonesSixV.push_back(cv::Rect(width/2, 0, width/2, height/3));
+zonesSixV.push_back(cv::Rect(0, height/3, width/2, height/3));
+zonesSixV.push_back(cv::Rect(width/2, height/3, width/2, height/3));
+zonesSixV.push_back(cv::Rect(0, 2*height/3, width/2, height/3));
+zonesSixV.push_back(cv::Rect(width/2, 2*height/3, width/2, height/3));
+
+zonesFour.push_back(cv::Rect(0, 0, width/2, height/2));
+zonesFour.push_back(cv::Rect(width/2, 0, width/2, height/2));
+zonesFour.push_back(cv::Rect(width/2, height/2, width/2, height/2));
+zonesFour.push_back(cv::Rect(0, height/2, width/2, height/2));
+
+zonesCenter.push_back(cv::Rect(width/4, height/4, width/4, height/4));
+
+
+fe.addFeature(new PixelRatioFeature(empty));
+fe.addFeature(new PixelRatioFeature(zonesFour));
+fe.addFeature(new PixelRatioFeature(zonesCenter));
+fe.addFeature(new CenterOfMassFeature(empty));
+fe.addFeature(new CenterOfMassFeature(zonesFour));
+fe.addFeature(new HuMomentsFeature(empty));
+fe.addFeature(new HistogramPeaksFeature(empty, HORIZONTAL, 5, 0.5, 5));
+fe.addFeature(new HistogramPeaksFeature(zonesSixH, HORIZONTAL, 5, 0.5, 5));
+fe.addFeature(new HistogramPeaksFeature(empty, VERTICAL, 5, 0.5, 5));
+fe.addFeature(new HistogramPeaksFeature(zonesSixH, VERTICAL, 5, 0.5, 5));
+fe.addFeature(new MomentsFeature(empty));
+fe.addFeature(new BoundingBoxFeature());
+fe.addFeature(new MaxDistanceFeature(empty));
+fe.addFeature(new ConvexHullFeature(empty));
+
+Time taken to build model: 2320.68 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances         379               90.2381 %
+Incorrectly Classified Instances        41                9.7619 %
+Kappa statistic                          0.8948
+Mean absolute error                      0.0178
+Root mean squared error                  0.1199
+Relative absolute error                 13.3844 %
+Root relative squared error             46.5732 %
+Total Number of Instances              420     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0.003      0.972     1         0.986      0.999    Accident
+                 1         0.005      0.946     1         0.972      0.999    Bomb
+                 1         0          1         1         1          1        Car
+                 0.829     0.003      0.967     0.829     0.892      0.995    Casualty
+                 0.714     0          1         0.714     0.833      0.999    Electricity
+                 0.457     0.013      0.762     0.457     0.571      0.9      Fire
+                 1         0.016      0.854     1         0.921      0.999    Fire_brigade
+                 1         0          1         1         1          1        Flood
+                 1         0          1         1         1          1        Gas
+                 1         0          1         1         1          1        Injury
+                 0.96      0          1         0.96      0.98       0.999    Paramedics
+                 1         0          1         1         1          1        Person
+                 1         0.066      0.49      1         0.658      0.969    Police
+                 0.8       0          1         0.8       0.889      0.996    Road_block
+Weighted Avg.    0.902     0.007      0.928     0.902     0.903      0.989
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n   <-- classified as
+ 35  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = Accident
+  0 35  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Bomb
+  0  0 35  0  0  0  0  0  0  0  0  0  0  0 |  c = Car
+  0  0  0 29  0  0  0  0  0  0  0  0  6  0 |  d = Casualty
+  1  2  0  1 25  0  6  0  0  0  0  0  0  0 |  e = Electricity
+  0  0  0  0  0 16  0  0  0  0  0  0 19  0 |  f = Fire
+  0  0  0  0  0  0 35  0  0  0  0  0  0  0 |  g = Fire_brigade
+  0  0  0  0  0  0  0 25  0  0  0  0  0  0 |  h = Flood
+  0  0  0  0  0  0  0  0 25  0  0  0  0  0 |  i = Gas
+  0  0  0  0  0  0  0  0  0 25  0  0  0  0 |  j = Injury
+  0  0  0  0  0  0  0  0  0  0 24  0  1  0 |  k = Paramedics
+  0  0  0  0  0  0  0  0  0  0  0 25  0  0 |  l = Person
+  0  0  0  0  0  0  0  0  0  0  0  0 25  0 |  m = Police
+  0  0  0  0  0  5  0  0  0  0  0  0  0 20 |  n = Road_block
